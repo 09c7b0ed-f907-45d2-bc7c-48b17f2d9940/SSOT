@@ -1,0 +1,16 @@
+sexTypes:
+  - canonical: MALE
+    synonyms: [man, m]
+    description: Description for MALE
+
+  - canonical: FEMALE
+    synonyms: [woman, f]
+    description: Description for FEMALE
+
+  - canonical: OTHER
+    synonyms: [non-binary, genderqueer, agender, genderfluid]
+    description: Description for OTHER
+
+  - canonical: UNKNOWN
+    synonyms: [unspecified, not provided, n/a, na]
+    description: Description for UNKNOWN

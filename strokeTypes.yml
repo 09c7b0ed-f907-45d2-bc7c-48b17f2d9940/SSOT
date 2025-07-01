@@ -1,0 +1,28 @@
+strokeTypes:
+  - canonical: ISCHEMIC
+    synonyms: [ischemic stroke, clot stroke, blockage stroke]
+    description: Description for ISCHEMIC
+
+  - canonical: INTRACEREBRAL_HEMORRHAGE
+    synonyms: [ich, brain bleed, intracerebral bleeding, intraparenchymal hemorrhage]
+    description: Description for INTRACEREBRAL_HEMORRHAGE
+
+  - canonical: TRANSIENT_ISCHEMIC
+    synonyms: [tia, mini stroke, transient ischemic attack]
+    description: Description for TRANSIENT_ISCHEMIC
+
+  - canonical: SUBARACHNOID_HEMORRHAGE
+    synonyms: [sah, aneurysm rupture, subarachnoid bleed]
+    description: Description for SUBARACHNOID_HEMORRHAGE
+
+  - canonical: CEREBRAL_VENOUS_THROMBOSIS
+    synonyms: [cvt, venous stroke, cerebral vein clot]
+    description: Description for CEREBRAL_VENOUS_THROMBOSIS
+
+  - canonical: STROKE_MIMICS
+    synonyms: [mimics, stroke-like symptoms, not a real stroke, conversion disorder]
+    description: Description for STROKE_MIMICS
+
+  - canonical: UNDETERMINED
+    synonyms: [unknown stroke type, unspecified, unclear diagnosis]
+    description: Description for UNDETERMINED

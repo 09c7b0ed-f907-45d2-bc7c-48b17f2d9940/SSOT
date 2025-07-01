@@ -8,7 +8,7 @@ sexTypes:
     description: Description for FEMALE
 
   - canonical: OTHER
-    synonyms: [non-binary, genderqueer, agender, genderfluid]
+    synonyms: [OTHER]
     description: Description for OTHER
 
   - canonical: UNKNOWN

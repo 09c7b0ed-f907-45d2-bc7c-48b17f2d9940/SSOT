@@ -24,5 +24,5 @@ strokeTypes:
     description: Description for STROKE_MIMICS
 
   - canonical: UNDETERMINED
-    synonyms: [unknown stroke type, unspecified, unclear diagnosis]
+    synonyms: [unknown stroke type, unspecified stroke, unclear diagnosis, undetermined stroke type]
     description: Description for UNDETERMINED

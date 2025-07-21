@@ -1,4 +1,4 @@
-kpis:
+kpi:
   - canonical: AA_DTN_LE60
     synonyms: [AaDtnLe60]
     description: Description for AA_DTN_LE60

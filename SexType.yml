@@ -1,0 +1,15 @@
+- canonical: MALE
+  synonyms: [man, men, m]
+  description: Description for MALE
+
+- canonical: FEMALE
+  synonyms: [woman, women, f]
+  description: Description for FEMALE
+
+- canonical: OTHER
+  synonyms: [non-binary]
+  description: Description for OTHER
+
+- canonical: UNKNOWN
+  synonyms: [not provided, n/a, na, sex unknown, gender unknown]
+  description: Description for UNKNOWN

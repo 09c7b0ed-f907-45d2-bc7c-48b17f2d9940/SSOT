@@ -1,0 +1,15 @@
+- canonical: EMS_PRENOTIFICATION
+  synonyms: [ems prenotification, ems notified, emergency pre-alert, ambulance notified]
+  description: Description for EMS_PRENOTIFICATION
+
+- canonical: FIRST_CONTACT_PLACE
+  synonyms: [first contact place, place of first contact, initial point of contact, first seen]
+  description: Description for FIRST_CONTACT_PLACE
+
+- canonical: IVT_APPLICATION_DEPARTMENT
+  synonyms: [ivt department, thrombolysis department, tpa department, treatment department]
+  description: Description for IVT_APPLICATION_DEPARTMENT
+
+- canonical: INR_MODE
+  synonyms: [inr measurement method, coagulation mode, how inr was measured, inr method]
+  description: Description for INR_MODE

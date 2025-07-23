@@ -1,0 +1,471 @@
+- canonical: AA_DTN_LE60
+  synonyms: [AaDtnLe60]
+  description: Description for AA_DTN_LE60
+
+- canonical: AA_DTN_LE45
+  synonyms: [AaDtnLe45]
+  description: Description for AA_DTN_LE45
+
+- canonical: AA_DTG_LE120
+  synonyms: [AaDtgLe120]
+  description: Description for AA_DTG_LE120
+
+- canonical: AA_DTG_LE90
+  synonyms: [AaDtgLe90]
+  description: Description for AA_DTG_LE90
+
+- canonical: AA_RECANALIZATION
+  synonyms: [AaRecanalization]
+  description: Description for AA_RECANALIZATION
+
+- canonical: AA_IMAGING
+  synonyms: [AaImaging]
+  description: Description for AA_IMAGING
+
+- canonical: AA_SWALLOWING_SCREENING
+  synonyms: [AaSwallowingScreening]
+  description: Description for AA_SWALLOWING_SCREENING
+
+- canonical: AA_ANTICOAGULANTS
+  synonyms: [AaAnticoagulants]
+  description: Description for AA_ANTICOAGULANTS
+
+- canonical: AA_ANTITHROMBOTICS
+  synonyms: [AaAntithrombotics]
+  description: Description for AA_ANTITHROMBOTICS
+
+- canonical: AA_STROKE_UNIT
+  synonyms: [AaStrokeUnit]
+  description: Description for AA_STROKE_UNIT
+
+- canonical: AGE
+  synonyms: [Age, patient age, years, age of patient]
+  description: Description for AGE
+
+- canonical: WAKEUP_STROKE
+  synonyms: [WakeupStroke]
+  description: Description for WAKEUP_STROKE
+
+- canonical: INHOSPITAL_STROKE
+  synonyms: [InhospitalStroke]
+  description: Description for INHOSPITAL_STROKE
+
+- canonical: ARRIVAL_MODE
+  synonyms: [ArrivalMode]
+  description: Description for ARRIVAL_MODE
+
+- canonical: EMS_PRENOTIFICATION
+  synonyms: [EmsPrenotification]
+  description: Description for EMS_PRENOTIFICATION
+
+- canonical: ADMISSION_DEPARTMENT
+  synonyms: [AdmissionDepartment]
+  description: Description for ADMISSION_DEPARTMENT
+
+- canonical: FIRST_CONTACT_PLACE
+  synonyms: [FirstContactPlace]
+  description: Description for FIRST_CONTACT_PLACE
+
+- canonical: HOSPITALIZED_IN
+  synonyms: [HospitalizedIn]
+  description: Description for HOSPITALIZED_IN
+
+- canonical: SEX
+  synonyms: [Sex]
+  description: Description for SEX
+
+- canonical: RISK_FACTORS_TYPE
+  synonyms: [RiskFactorsType]
+  description: Description for RISK_FACTORS_TYPE
+
+- canonical: BEFORE_ONSET_MEDICATION
+  synonyms: [BeforeOnsetMedication]
+  description: Description for BEFORE_ONSET_MEDICATION
+
+- canonical: BEFORE_ONSET_MEDICATION_AIS_TIA
+  synonyms: [BeforeOnsetMedicationAisTia]
+  description: Description for BEFORE_ONSET_MEDICATION_AIS_TIA
+
+- canonical: BEFORE_ONSET_MEDICATION_ICH
+  synonyms: [BeforeOnsetMedicationIch]
+  description: Description for BEFORE_ONSET_MEDICATION_ICH
+
+- canonical: BEFORE_ONSET_ANTIPLATELET_TYPE
+  synonyms: [BeforeOnsetAntiplateletType]
+  description: Description for BEFORE_ONSET_ANTIPLATELET_TYPE
+
+- canonical: BEFORE_ONSET_ANTICOAGULANT_TYPE
+  synonyms: [BeforeOnsetAnticoagulantType]
+  description: Description for BEFORE_ONSET_ANTICOAGULANT_TYPE
+
+- canonical: ADMISSION_NIHSS
+  synonyms: [AdmissionNihss, stroke severity, nihss, initial nihss, admission score]
+  description: Description for ADMISSION_NIHSS
+
+- canonical: PRESTROKE_MRS
+  synonyms: [PrestrokeMrs]
+  description: Description for PRESTROKE_MRS
+
+- canonical: GLUCOSE
+  synonyms: [Glucose]
+  description: Description for GLUCOSE
+
+- canonical: CHOLESTEROL
+  synonyms: [Cholesterol]
+  description: Description for CHOLESTEROL
+
+- canonical: SYSTOLIC_PRESSURE
+  synonyms: [SystolicPressure]
+  description: Description for SYSTOLIC_PRESSURE
+
+- canonical: DIASTOLIC_PRESSURE
+  synonyms: [DiastolicPressure]
+  description: Description for DIASTOLIC_PRESSURE
+
+- canonical: INR_MODE
+  synonyms: [InrMode]
+  description: Description for INR_MODE
+
+- canonical: IMAGING_DONE
+  synonyms: [ImagingDone]
+  description: Description for IMAGING_DONE
+
+- canonical: IMAGING_TYPE
+  synonyms: [ImagingType]
+  description: Description for IMAGING_TYPE
+
+- canonical: OCCLUSION_FOUND
+  synonyms: [OcclusionFound]
+  description: Description for OCCLUSION_FOUND
+
+- canonical: OCCLUSION_SITE
+  synonyms: [OcclusionSite]
+  description: Description for OCCLUSION_SITE
+
+- canonical: OLD_INFARCTS_SEEN
+  synonyms: [OldInfarctsSeen]
+  description: Description for OLD_INFARCTS_SEEN
+
+- canonical: OLD_INFARCTS_TYPE
+  synonyms: [OldInfarctsType]
+  description: Description for OLD_INFARCTS_TYPE
+
+- canonical: PERFUSION_DEFICIT_TYPE
+  synonyms: [PerfusionDeficitType]
+  description: Description for PERFUSION_DEFICIT_TYPE
+
+- canonical: PERFUSION_CORE
+  synonyms: [PerfusionCore]
+  description: Description for PERFUSION_CORE
+
+- canonical: HYPOPERFUSION
+  synonyms: [Hypoperfusion]
+  description: Description for HYPOPERFUSION
+
+- canonical: stroke subtype
+  synonyms: [StrokeType, type of stroke, stroke classification]
+  description: Description for stroke subtype
+
+- canonical: STROKE_MIMICS_DIAGNOSIS
+  synonyms: [StrokeMimicsDiagnosis]
+  description: Description for STROKE_MIMICS_DIAGNOSIS
+
+- canonical: THROMBOLYSIS
+  synonyms: [Thrombolysis]
+  description: Description for THROMBOLYSIS
+
+- canonical: THROMBECTOMY
+  synonyms: [Thrombectomy]
+  description: Description for THROMBECTOMY
+
+- canonical: THROMBOLYSIS_ONLY
+  synonyms: [ThrombolysisOnly]
+  description: Description for THROMBOLYSIS_ONLY
+
+- canonical: THROMBOLYSIS_AND_THROMBECTOMY
+  synonyms: [ThrombolysisAndThrombectomy]
+  description: Description for THROMBOLYSIS_AND_THROMBECTOMY
+
+- canonical: RECANALIZATION
+  synonyms: [Recanalization]
+  description: Description for RECANALIZATION
+
+- canonical: DTN
+  synonyms: [Dtn, door to needle, door to needle time, time to thrombolysis, time until thrombolytic treatment, time to iv tpa, time to treatment, treatment delay]
+  description: Description for DTN
+
+- canonical: DTG_PRIMARY
+  synonyms: [DtgPrimary]
+  description: Description for DTG_PRIMARY
+
+- canonical: DTG_SECONDARY
+  synonyms: [DtgSecondary]
+  description: Description for DTG_SECONDARY
+
+- canonical: DIDO
+  synonyms: [Dido, door in door out, transfer delay, time before transfer, time spent before transfer, time at initial hospital, duration at referring hospital, initial hospital stay time, primary site delay, door-to-door time]
+  description: Description for DIDO
+
+- canonical: DOOR_TO_REPERFUSION
+  synonyms: [DoorToReperfusion]
+  description: Description for DOOR_TO_REPERFUSION
+
+- canonical: MTICI_SCORE
+  synonyms: [MticiScore]
+  description: Description for MTICI_SCORE
+
+- canonical: NO_THROMBOLYSIS_REASON
+  synonyms: [NoThrombolysisReason]
+  description: Description for NO_THROMBOLYSIS_REASON
+
+- canonical: NO_THROMBECTOMY_REASON
+  synonyms: [NoThrombectomyReason]
+  description: Description for NO_THROMBECTOMY_REASON
+
+- canonical: MT_COMPLICATIONS_TYPE
+  synonyms: [MtComplicationsType]
+  description: Description for MT_COMPLICATIONS_TYPE
+
+- canonical: MT_COMPLICATIONS
+  synonyms: [MtComplications]
+  description: Description for MT_COMPLICATIONS
+
+- canonical: THROMBOLYSIS_DRUGS
+  synonyms: [ThrombolysisDrugs]
+  description: Description for THROMBOLYSIS_DRUGS
+
+- canonical: THROMBOLYSIS_DRUG_DOSE
+  synonyms: [ThrombolysisDrugDose]
+  description: Description for THROMBOLYSIS_DRUG_DOSE
+
+- canonical: THROMBOLYSIS_APPLICATION_DEPARTMENT
+  synonyms: [ThrombolysisApplicationDepartment]
+  description: Description for THROMBOLYSIS_APPLICATION_DEPARTMENT
+  
+- canonical: POST_RECANALIZATION_FINDINGS
+  synonyms: [PostRecanalizationFindings]
+  description: Description for POST_RECANALIZATION_FINDINGS
+
+- canonical: POST_RECANALIZATION_FINDING_TYPE
+  synonyms: [PostRecanalizationFindingType]
+  description: Description for POST_RECANALIZATION_FINDING_TYPE
+
+- canonical: HEMORRHAGIC_TRANSFORMATION
+  synonyms: [HemorrhagicTransformation]
+  description: Description for HEMORRHAGIC_TRANSFORMATION
+
+- canonical: TIA_CLINICAL_SYMPTOMS
+  synonyms: [TiaClinicalSymptoms]
+  description: Description for TIA_CLINICAL_SYMPTOMS
+
+- canonical: TIA_SYMPTOMS_DURATION
+  synonyms: [TiaSymptomsDuration]
+  description: Description for TIA_SYMPTOMS_DURATION
+
+- canonical: BLEEDING_SOURCE_FOUND
+  synonyms: [BleedingSourceFound]
+  description: Description for BLEEDING_SOURCE_FOUND
+
+- canonical: ICH_BLEEDING_VOLUME
+  synonyms: [IchBleedingVolume]
+  description: Description for ICH_BLEEDING_VOLUME
+
+- canonical: ICH_SCORE
+  synonyms: [IchScore]
+  description: Description for ICH_SCORE
+
+- canonical: ICH_TREATMENT
+  synonyms: [IchTreatment]
+  description: Description for ICH_TREATMENT
+
+- canonical: ICH_TREATMENT_TYPE
+  synonyms: [IchTreatmentType]
+  description: Description for ICH_TREATMENT_TYPE
+
+- canonical: ICH_TREATMENT_TYPE_EXTENDED
+  synonyms: [IchTreatmentTypeExtended]
+  description: Description for ICH_TREATMENT_TYPE_EXTENDED
+
+- canonical: BLEEDING_REASON_FOUND
+  synonyms: [BleedingReasonFound]
+  description: Description for BLEEDING_REASON_FOUND
+
+- canonical: BLEEDING_REASON_TYPE
+  synonyms: [BleedingReasonType]
+  description: Description for BLEEDING_REASON_TYPE
+
+- canonical: BLEEDING_ANTIDOTE_TO_ANTICOAGULANTS
+  synonyms: [BleedingAntidoteToAnticoagulants]
+  description: Description for BLEEDING_ANTIDOTE_TO_ANTICOAGULANTS
+
+- canonical: ANTICOAGULANT_REVERSAL
+  synonyms: [AnticoagulantReversal]
+  description: Description for ANTICOAGULANT_REVERSAL
+
+- canonical: ANTICOAGULANT_REVERSAL_GIVEN
+  synonyms: [AnticoagulantReversalGiven]
+  description: Description for ANTICOAGULANT_REVERSAL_GIVEN
+
+- canonical: INTRAVENTICULAR_HEMORRHAGE
+  synonyms: [IntraventicularHemorrhage]
+  description: Description for INTRAVENTICULAR_HEMORRHAGE
+
+- canonical: INFRATENTORIAL_HEMORRHAGE
+  synonyms: [InfratentorialHemorrhage]
+  description: Description for INFRATENTORIAL_HEMORRHAGE
+
+- canonical: SAH_TREATMENT
+  synonyms: [SahTreatment]
+  description: Description for SAH_TREATMENT
+
+- canonical: SAH_TREATMENT_TYPE
+  synonyms: [SahTreatmentType]
+  description: Description for SAH_TREATMENT_TYPE
+
+- canonical: NIMODIPINE
+  synonyms: [Nimodipine]
+  description: Description for NIMODIPINE
+
+- canonical: HUNT_HESS_SCORE
+  synonyms: [HuntHessScore]
+  description: Description for HUNT_HESS_SCORE
+
+- canonical: CVT_TREATMENT
+  synonyms: [CvtTreatment]
+  description: Description for CVT_TREATMENT
+
+- canonical: CVT_TREATMENT_TYPE
+  synonyms: [CvtTreatmentType]
+  description: Description for CVT_TREATMENT_TYPE
+
+- canonical: POST_ACUTE_CARE
+  synonyms: [PostAcuteCare]
+  description: Description for POST_ACUTE_CARE
+
+- canonical: CRANIECTOMY
+  synonyms: [Craniectomy]
+  description: Description for CRANIECTOMY
+
+- canonical: CRANIECTOMY_AGE_GT60
+  synonyms: [CraniectomyAgeGt60]
+  description: Description for CRANIECTOMY_AGE_GT60
+
+- canonical: CAROTID_ARTERIES_IMAGING
+  synonyms: [CarotidArteriesImaging]
+  description: Description for CAROTID_ARTERIES_IMAGING
+
+- canonical: CAROTID_STENOSIS
+  synonyms: [CarotidStenosis]
+  description: Description for CAROTID_STENOSIS
+
+- canonical: CAROTID_STENOSIS_LEVEL
+  synonyms: [CarotidStenosisLevel]
+  description: Description for CAROTID_STENOSIS_LEVEL
+
+- canonical: CAROTID_ENDARTERECTOMY
+  synonyms: [CarotidEndarterectomy]
+  description: Description for CAROTID_ENDARTERECTOMY
+
+- canonical: CAROTID_ENDARTERECTOMY_STENOSIS_GT70
+  synonyms: [CarotidEndarterectomyStenosisGt70]
+  description: Description for CAROTID_ENDARTERECTOMY_STENOSIS_GT70
+
+- canonical: ATRIAL_FIBRILATION_FLUTTER
+  synonyms: [AtrialFibrilationFlutter]
+  description: Description for ATRIAL_FIBRILATION_FLUTTER
+
+- canonical: STROKE_ETIOLOGY_KNOWN_AIS
+  synonyms: [StrokeEtiologyKnownAis]
+  description: Description for STROKE_ETIOLOGY_KNOWN_AIS
+
+- canonical: STROKE_ETIOLOGY_TYPE_AIS
+  synonyms: [StrokeEtiologyTypeAis]
+  description: Description for STROKE_ETIOLOGY_TYPE_AIS
+
+- canonical: STROKE_ETIOLOGY_KNOWN_AIS_TIA
+  synonyms: [StrokeEtiologyKnownAisTia]
+  description: Description for STROKE_ETIOLOGY_KNOWN_AIS_TIA
+
+- canonical: STROKE_ETIOLOGY_TYPE_AIS_TIA
+  synonyms: [StrokeEtiologyTypeAisTia]
+  description: Description for STROKE_ETIOLOGY_TYPE_AIS_TIA
+
+- canonical: VTE_INTERVENTION_AIS
+  synonyms: [VteInterventionAis]
+  description: Description for VTE_INTERVENTION_AIS
+
+- canonical: VTE_INTERVENTION_ICH
+  synonyms: [VteInterventionIch]
+  description: Description for VTE_INTERVENTION_ICH
+
+- canonical: VTE_INTERVENTION_TYPE_AIS
+  synonyms: [VteInterventionTypeAis]
+  description: Description for VTE_INTERVENTION_TYPE_AIS
+
+- canonical: VTE_INTERVENTION_TYPE_ICH
+  synonyms: [VteInterventionTypeIch]
+  description: Description for VTE_INTERVENTION_TYPE_ICH
+
+- canonical: POST_STROKE_COMPLICATIONS
+  synonyms: [PostStrokeComplications]
+  description: Description for POST_STROKE_COMPLICATIONS
+
+- canonical: POST_STROKE_COMPLICATIONS_TYPE
+  synonyms: [PostStrokeComplicationsType]
+  description: Description for POST_STROKE_COMPLICATIONS_TYPE
+
+- canonical: DAY_1_TEMPERATURE_CHECKS
+  synonyms: [Day_1TemperatureChecks]
+  description: Description for DAY_1_TEMPERATURE_CHECKS
+
+- canonical: DAY_2_TEMPERATURE_CHECKS
+  synonyms: [Day_2TemperatureChecks]
+  description: Description for DAY_2_TEMPERATURE_CHECKS
+
+- canonical: DAY_3_TEMPERATURE_CHECKS
+  synonyms: [Day_3TemperatureChecks]
+  description: Description for DAY_3_TEMPERATURE_CHECKS
+
+- canonical: PARACETAMOL_ON_FEVER
+  synonyms: [ParacetamolOnFever]
+  description: Description for PARACETAMOL_ON_FEVER
+
+- canonical: DAY_1_HYPERGLYCEMIA_CHECKS
+  synonyms: [Day_1HyperglycemiaChecks]
+  description: Description for DAY_1_HYPERGLYCEMIA_CHECKS
+
+- canonical: DAY_2_HYPERGLYCEMIA_CHECKS
+  synonyms: [Day_2HyperglycemiaChecks]
+  description: Description for DAY_2_HYPERGLYCEMIA_CHECKS
+
+- canonical: DAY_3_HYPERGLYCEMIA_CHECKS
+  synonyms: [Day_3HyperglycemiaChecks]
+  description: Description for DAY_3_HYPERGLYCEMIA_CHECKS
+
+- canonical: INSULIN_ON_HYPERGLYCEMIA
+  synonyms: [InsulinOnHyperglycemia]
+  description: Description for INSULIN_ON_HYPERGLYCEMIA
+
+- canonical: SWALLOWING_SCREENING
+  synonyms: [SwallowingScreening]
+  description: Description for SWALLOWING_SCREENING
+
+- canonical: SWALLOWING_SCREENING_TYPE
+  synonyms: [SwallowingScreeningType]
+  description: Description for SWALLOWING_SCREENING_TYPE
+
+- canonical: SWALLOWING_SCREENING_PERFORMER
+  synonyms: [SwallowingScreeningPerformer]
+  description: Description for SWALLOWING_SCREENING_PERFORMER
+
+- canonical: PHYSIOTHERAPY
+  synonyms: [Physiotherapy]
+  description: Description for PHYSIOTHERAPY
+
+- canonical: OCCUPATIONAL_THERAPY
+  synonyms: [OccupationalTherapy]
+  description: Description for OCCUPATIONAL_THERAPY
+
+- canonical: SPEECH_THERAPY
+  synonyms: [SpeechTherapy]
+  description: Description for SPEECH_THERAPY

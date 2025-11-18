@@ -1,471 +1,1653 @@
 - canonical: AA_DTN_LE60
-  synonyms: [AaDtnLe60]
-  description: Description for AA_DTN_LE60
+  synonyms: ['thrombolysis ≤60 minutes', 'door-to-needle ≤60 minutes']
+  description: 'Thrombolysis treatment with a Door-To-Needle time less than or equal to 60 minutes (Angels Awards Metric).'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: AA_DTN_LE45
-  synonyms: [AaDtnLe45]
-  description: Description for AA_DTN_LE45
+  synonyms: ['thrombolysis ≤45 minutes', 'door-to-needle ≤45 minutes']
+  description: 'Thrombolysis treatment with a Door-To-Needle time less than or equal to 45 minutes (Angels Awards Metric).'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: AA_DTG_LE120
-  synonyms: [AaDtgLe120]
-  description: Description for AA_DTG_LE120
+  synonyms: ['thrombectomy ≤120 minutes', 'door-to-groin ≤120 minutes']
+  description: 'Thrombectomy treatment with a Door-To-Groin time less than or equal to 120 minutes (Angels Awards Metric).'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: AA_DTG_LE90
-  synonyms: [AaDtgLe90]
-  description: Description for AA_DTG_LE90
+  synonyms: ['thrombectomy ≤90 minutes', 'door-to-groin ≤90 minutes']
+  description: 'Thrombectomy treatment with a Door-To-Groin time less than or equal to 90 minutes (Angels Awards Metric).'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: AA_RECANALIZATION
-  synonyms: [AaRecanalization]
-  description: Description for AA_RECANALIZATION
+  synonyms: ['recanalization (awards metric)']
+  description: 'Undergoing recanalization treatment (thrombolysis or/and thrombectomy) for ischemic stroke cases (Angels Awards Metric).'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: AA_IMAGING
-  synonyms: [AaImaging]
-  description: Description for AA_IMAGING
+  synonyms: ['imaging at first hospital (awards metric)']
+  description: 'Undergoing CT/MR imaging at the first hospital (Angels Awards Metric).'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: AA_SWALLOWING_SCREENING
-  synonyms: [AaSwallowingScreening]
-  description: Description for AA_SWALLOWING_SCREENING
+  synonyms: ['swallowing screening (awards metric)']
+  description: 'Undergoing swallowing screening (Angels Awards Metric).'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: AA_ANTICOAGULANTS
-  synonyms: [AaAnticoagulants]
-  description: Description for AA_ANTICOAGULANTS
+  synonyms: ['anticoagulants at discharge (awards metric)']
+  description: 'Prescription of anticoagulants upon discharge for cases with Atrial fibrillation (Angels Awards Metric).'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: AA_ANTITHROMBOTICS
-  synonyms: [AaAntithrombotics]
-  description: Description for AA_ANTITHROMBOTICS
+  synonyms: ['antithrombotics at discharge (awards metric)']
+  description: 'Prescription of antithrombotics upon discharge for cases without Atrial fibrillation (Angels Awards Metric).'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: AA_STROKE_UNIT
-  synonyms: [AaStrokeUnit]
-  description: Description for AA_STROKE_UNIT
+  synonyms: ['stroke unit or intensive care (awards metric)']
+  description: 'Hospitalization in a dedicated stroke unit or intensive care unit (Angels Awards Metric).'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: AGE
-  synonyms: [Age, patient age, years, age of patient]
-  description: Description for AGE
+  synonyms: ['age at stroke onset', 'age']
+  description: 'Age at stroke onset.'
+  data_type: Numeric
+  Numeric:
+    unit: years
+    range_min: 0
+    range_max: 120
+    default_buckets: 12
 
 - canonical: WAKEUP_STROKE
-  synonyms: [WakeupStroke]
-  description: Description for WAKEUP_STROKE
+  synonyms: ['wakeup stroke', 'stroke during sleep']
+  description: 'Stroke onset during sleep.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: INHOSPITAL_STROKE
-  synonyms: [InhospitalStroke]
-  description: Description for INHOSPITAL_STROKE
+  synonyms: ['in-hospital stroke', 'stroke during hospitalization']
+  description: 'Stroke onset during hospitalization in treating hospital.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: ARRIVAL_MODE
-  synonyms: [ArrivalMode]
-  description: Description for ARRIVAL_MODE
+  synonyms: ['arrival mode', 'arrival pathway']
+  description: 'Types of arrival pathways to the treating hospital.'
+  data_type: Enum
+  Enum:
+    - key: ems_from_home_scene
+      synonyms: ['ems from home or scene']
+    - key: private_transportation_from_home_scene
+      synonyms: ['private transport from home or scene']
+    - key: stroke_center
+      synonyms: ['stroke center']
+    - key: another_hospital
+      synonyms: ['another hospital']
+    - key: ems_from_gp
+      synonyms: ['ems from general practitioner']
+    - key: private_transportation_from_gp
+      synonyms: ['private transport from general practitioner']
 
 - canonical: EMS_PRENOTIFICATION
-  synonyms: [EmsPrenotification]
-  description: Description for EMS_PRENOTIFICATION
+  synonyms: ['ems prenotification', 'ems pre-alert']
+  description: 'Prenotification of the treating hospital about stroke case arrival by EMS or ambulance.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: ADMISSION_DEPARTMENT
-  synonyms: [AdmissionDepartment]
-  description: Description for ADMISSION_DEPARTMENT
+  synonyms: ['admission department']
+  description: 'Types of departments under which patient was addmited in the reporting hospital.'
+  data_type: Enum
+  Enum:
+    - key: neurology
+      synonyms: ['neurology']
+    - key: neurosurgery
+      synonyms: ['neurosurgery']
+    - key: critical_care_icu
+      synonyms: ['critical care or intensive care']
+    - key: internal_medicine
+      synonyms: ['internal medicine']
+    - key: other
+      synonyms: ['other']
 
 - canonical: FIRST_CONTACT_PLACE
-  synonyms: [FirstContactPlace]
-  description: Description for FIRST_CONTACT_PLACE
+  synonyms: ['first contact place']
+  description: 'Types of first contact places between stroke patient and medical personal.'
+  data_type: Enum
+  Enum:
+    - key: radiology
+      synonyms: ['radiology']
+    - key: emergency
+      synonyms: ['emergency department']
+    - key: outpatient_clinic
+      synonyms: ['outpatient clinic']
+    - key: other
+      synonyms: ['other']
 
 - canonical: HOSPITALIZED_IN
-  synonyms: [HospitalizedIn]
-  description: Description for HOSPITALIZED_IN
+  synonyms: ['monitoring intensity first day', 'first-day bed type']
+  description: 'Types of monitoring intensity first day in the treating hospital.'
+  data_type: Enum
+  Enum:
+    - key: icu_stroke_unit
+      synonyms: ['icu or stroke unit']
+    - key: monitored_bed
+      synonyms: ['monitored bed']
+    - key: standard_bed
+      synonyms: ['standard bed']
 
 - canonical: SEX
-  synonyms: [Sex]
-  description: Description for SEX
+  synonyms: ['biological sex', 'sex']
+  description: 'Types of biological sex.'
+  data_type: Enum
+  Enum:
+    - key: male
+      synonyms: ['male']
+    - key: female
+      synonyms: ['female']
+    - key: unknown_other
+      synonyms: ['unknown or other']
 
 - canonical: RISK_FACTORS_TYPE
-  synonyms: [RiskFactorsType]
-  description: Description for RISK_FACTORS_TYPE
+  synonyms: ['risk factors type', 'previous medical risk factors']
+  description: 'Types of risk factor in previoues medical history.'
+  data_type: Enum
+  Enum:
+    - key: risk_hypertension
+      synonyms: ['risk hypertension', 'history of hypertension']
+    - key: risk_diabetes
+      synonyms: ['risk diabetes', 'history of diabetes']
+    - key: risk_hyperlipidemia
+      synonyms: ['risk hyperlipidemia', 'history of hyperlipidemia']
+    - key: risk_atrial_fibrillation
+      synonyms: ['risk atrial fibrillation', 'history of atrial fibrillation']
+    - key: risk_congestive_heart_failure
+      synonyms: ['risk heart failure', 'history of congestive heart failure']
+    - key: risk_smoker
+      synonyms: ['risk smoker', 'smoking history']
+    - key: risk_vte
+      synonyms: ['risk vte', 'history of venous thromboembolism']
+    - key: risk_previous_stroke
+      synonyms: ['risk previous stroke', 'history of stroke']
+    - key: risk_coronary_artery_disease_or_myocardial_infarction
+      synonyms: ['risk coronary artery disease or myocardial infarction']
+    - key: risk_hiv
+      synonyms: ['risk hiv', 'history of hiv']
+    - key: before_onset_contraception
+      synonyms: ['contraception before onset']
+    - key: risk_covid
+      synonyms: ['risk covid', 'history of covid-19']
 
 - canonical: BEFORE_ONSET_MEDICATION
-  synonyms: [BeforeOnsetMedication]
-  description: Description for BEFORE_ONSET_MEDICATION
+  synonyms: ['medication before onset']
+  description: 'Types of medication taken before the stroke onset.'
+  data_type: Enum
+  Enum:
+    - key: before_onset_antidiabetics
+      synonyms: ['antidiabetics before onset']
+    - key: before_onset_antihypertensives
+      synonyms: ['antihypertensives before onset']
+    - key: before_onset_any_antiplatelet
+      synonyms: ['antiplatelets before onset']
+    - key: before_onset_any_anticoagulant
+      synonyms: ['anticoagulants before onset']
+    - key: before_onset_statin
+      synonyms: ['statin before onset']
+    - key: before_onset_other
+      synonyms: ['other medication before onset']
 
 - canonical: BEFORE_ONSET_MEDICATION_AIS_TIA
-  synonyms: [BeforeOnsetMedicationAisTia]
-  description: Description for BEFORE_ONSET_MEDICATION_AIS_TIA
+  synonyms: ['medication before onset in ais or tia']
+  description: 'Types of medication taken before the onset of acute and transient ischemic strokes.'
+  data_type: Enum
+  Enum:
+    - key: before_onset_antidiabetics
+      synonyms: ['antidiabetics before onset']
+    - key: before_onset_antihypertensives
+      synonyms: ['antihypertensives before onset']
+    - key: before_onset_any_antiplatelet
+      synonyms: ['antiplatelets before onset']
+    - key: before_onset_any_anticoagulant
+      synonyms: ['anticoagulants before onset']
+    - key: before_onset_statin
+      synonyms: ['statin before onset']
+    - key: before_onset_other
+      synonyms: ['other medication before onset']
 
 - canonical: BEFORE_ONSET_MEDICATION_ICH
-  synonyms: [BeforeOnsetMedicationIch]
-  description: Description for BEFORE_ONSET_MEDICATION_ICH
+  synonyms: ['medication before onset in ich']
+  description: 'Types of medication taken before the onset of intracerebral hemorrhagic strokes.'
+  data_type: Enum
+  Enum:
+    - key: before_onset_antidiabetics
+      synonyms: ['antidiabetics before onset']
+    - key: before_onset_antihypertensives
+      synonyms: ['antihypertensives before onset']
+    - key: before_onset_any_antiplatelet
+      synonyms: ['antiplatelets before onset']
+    - key: before_onset_any_anticoagulant
+      synonyms: ['anticoagulants before onset']
+    - key: before_onset_statin
+      synonyms: ['statin before onset']
+    - key: before_onset_other
+      synonyms: ['other medication before onset']
 
 - canonical: BEFORE_ONSET_ANTIPLATELET_TYPE
-  synonyms: [BeforeOnsetAntiplateletType]
-  description: Description for BEFORE_ONSET_ANTIPLATELET_TYPE
+  synonyms: ['antiplatelet type before onset']
+  description: 'Types of antiplatelets taken before the stroke onset.'
+  data_type: Enum
+  Enum:
+    - key: before_onset_asa
+      synonyms: ['aspirin before onset']
+    - key: before_onset_cilostazol
+      synonyms: ['cilostazol before onset']
+    - key: before_onset_clopidogrel
+      synonyms: ['clopidogrel before onset']
+    - key: before_onset_ticagrelor
+      synonyms: ['ticagrelor before onset']
+    - key: before_onset_ticlopidine
+      synonyms: ['ticlopidine before onset']
+    - key: before_onset_prasugrel
+      synonyms: ['prasugrel before onset']
+    - key: before_onset_dipyridamole
+      synonyms: ['dipyridamole before onset']
+    - key: before_onset_other_antiplatelet
+      synonyms: ['other antiplatelet before onset']
 
 - canonical: BEFORE_ONSET_ANTICOAGULANT_TYPE
-  synonyms: [BeforeOnsetAnticoagulantType]
-  description: Description for BEFORE_ONSET_ANTICOAGULANT_TYPE
+  synonyms: ['anticoagulant type before onset']
+  description: 'Types of anticoagulants taken before the stroke onset.'
+  data_type: Enum
+  Enum:
+    - key: before_onset_warfarin
+      synonyms: ['warfarin before onset']
+    - key: before_onset_dabigatran
+      synonyms: ['dabigatran before onset']
+    - key: before_onset_rivaroxaban
+      synonyms: ['rivaroxaban before onset']
+    - key: before_onset_apixaban
+      synonyms: ['apixaban before onset']
+    - key: before_onset_edoxaban
+      synonyms: ['edoxaban before onset']
+    - key: before_onset_heparin
+      synonyms: ['heparin before onset']
+    - key: before_onset_other_anticoagulant
+      synonyms: ['other anticoagulant before onset']
 
 - canonical: ADMISSION_NIHSS
-  synonyms: [AdmissionNihss, stroke severity, nihss, initial nihss, admission score]
-  description: Description for ADMISSION_NIHSS
+  synonyms: ['admission nihss', 'nihss at admission']
+  description: 'NIH Stroke Scale scores taken during admission.'
+  data_type: Numeric
+  Numeric:
+    unit: score
+    range_min: 0
+    range_max: 42
+    default_buckets: 14
 
 - canonical: PRESTROKE_MRS
-  synonyms: [PrestrokeMrs]
-  description: Description for PRESTROKE_MRS
+  synonyms: ['pre-stroke mrs', 'mrs before stroke']
+  description: 'Modified Rankin Scale score prior to stroke onset.'
+  data_type: Numeric
+  Numeric:
+    unit: score
+    range_min: 0
+    range_max: 6
+    default_buckets: 6
 
 - canonical: GLUCOSE
-  synonyms: [Glucose]
-  description: Description for GLUCOSE
+  synonyms: ['initial blood glucose', 'initial glucose']
+  description: 'Initial values of blood glucose level in mg/dl, initial measurement.'
+  data_type: Numeric
+  Numeric:
+    unit: mg/dl
+    range_min: 0
+    range_max: 500
+    default_buckets: 25
 
 - canonical: CHOLESTEROL
-  synonyms: [Cholesterol]
-  description: Description for CHOLESTEROL
+  synonyms: ['initial ldl cholesterol', 'initial cholesterol']
+  description: 'Initial values of LDL cholesterol level in mg/dl, initial measurement.'
+  data_type: Numeric
+  Numeric:
+    unit: mg/dl
+    range_min: 0
+    range_max: 500
+    default_buckets: 25
 
 - canonical: SYSTOLIC_PRESSURE
-  synonyms: [SystolicPressure]
-  description: Description for SYSTOLIC_PRESSURE
+  synonyms: ['initial systolic blood pressure', 'systolic pressure']
+  description: 'Initial values of systolic blood pressure in mmHg, initial measurement.'
+  data_type: Numeric
+  Numeric:
+    unit: mmHg
+    range_min: 0
+    range_max: 300
+    default_buckets: 10
 
 - canonical: DIASTOLIC_PRESSURE
-  synonyms: [DiastolicPressure]
-  description: Description for DIASTOLIC_PRESSURE
+  synonyms: ['initial diastolic blood pressure', 'diastolic pressure']
+  description: 'Initial values of diastolic blood pressure in mmHg, initial measurement.'
+  data_type: Numeric
+  Numeric:
+    unit: mmHg
+    range_min: 0
+    range_max: 300
+    default_buckets: 10
 
 - canonical: INR_MODE
-  synonyms: [InrMode]
-  description: Description for INR_MODE
+  synonyms: ['inr measurement mode', 'inr device type']
+  description: 'Types of devices for performaning of international normalised ratio (INR) or not done.'
+  data_type: Enum
+  Enum:
+    - key: lab
+      synonyms: ['laboratory']
+    - key: point_of_care_device
+      synonyms: ['point-of-care device']
+    - key: not_done
+      synonyms: ['not done']
 
 - canonical: IMAGING_DONE
-  synonyms: [ImagingDone]
-  description: Description for IMAGING_DONE
+  synonyms: ['brain imaging done', 'ct or mr imaging']
+  description: 'Undergoing CT/MR imaging.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
+    - key: elsewhere
+      synonyms: ['performed elsewhere']
 
 - canonical: IMAGING_TYPE
-  synonyms: [ImagingType]
-  description: Description for IMAGING_TYPE
+  synonyms: ['brain imaging type']
+  description: 'Types of performed brain imaging.'
+  data_type: Enum
+  Enum:
+    - key: ct
+      synonyms: ['ct']
+    - key: ct_cta
+      synonyms: ['ct with cta']
+    - key: ct_cta_perfusion
+      synonyms: ['ct with cta and perfusion']
+    - key: mr_dwi_flair
+      synonyms: ['mr dwi or flair']
+    - key: mr_dwi_flair_mra
+      synonyms: ['mr dwi or flair with mra']
+    - key: mr_dwi_flair_mra_perfusion
+      synonyms: ['mr dwi or flair with mra and perfusion']
 
 - canonical: OCCLUSION_FOUND
-  synonyms: [OcclusionFound]
-  description: Description for OCCLUSION_FOUND
+  synonyms: ['occlusion found on cta or mra']
+  description: 'Detection of occlusion on CTA/MRA.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: OCCLUSION_SITE
-  synonyms: [OcclusionSite]
-  description: Description for OCCLUSION_SITE
+  synonyms: ['occlusion site']
+  description: 'Sites of detected occlusions on CTA/MRA.'
+  data_type: Enum
+  Enum:
+    - key: occlusion_mca_m1
+      synonyms: ['mca m1 occlusion']
+    - key: occlusion_mca_m2
+      synonyms: ['mca m2 occlusion']
+    - key: occlusion_mca_m3
+      synonyms: ['mca m3 occlusion']
+    - key: occlusion_aca
+      synonyms: ['aca occlusion']
+    - key: occlusion_pca_p1
+      synonyms: ['pca p1 occlusion']
+    - key: occlusion_pca_p2
+      synonyms: ['pca p2 occlusion']
+    - key: occlusion_cae
+      synonyms: ['carotid external occlusion']
+    - key: occlusion_cai
+      synonyms: ['carotid internal occlusion']
 
 - canonical: OLD_INFARCTS_SEEN
-  synonyms: [OldInfarctsSeen]
-  description: Description for OLD_INFARCTS_SEEN
+  synonyms: ['old infarcts seen']
+  description: 'Visibility of old brain infarctions on performed brain imaging.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: OLD_INFARCTS_TYPE
-  synonyms: [OldInfarctsType]
-  description: Description for OLD_INFARCTS_TYPE
+  synonyms: ['old infarcts type']
+  description: 'Types of old brain infarctions visible on brain images.'
+  data_type: Enum
+  Enum:
+    - key: old_infarcts_cortical
+      synonyms: ['old cortical infarcts']
+    - key: old_infarcts_subcortical
+      synonyms: ['old subcortical infarcts']
+    - key: old_infarcts_brainstem
+      synonyms: ['old brainstem infarcts']
 
 - canonical: PERFUSION_DEFICIT_TYPE
-  synonyms: [PerfusionDeficitType]
-  description: Description for PERFUSION_DEFICIT_TYPE
+  synonyms: ['perfusion deficit territory']
+  description: 'Territories with detected perfusion deficit.'
+  data_type: Enum
+  Enum:
+    - key: perfusion_deficit_medial
+      synonyms: ['medial perfusion deficit']
+    - key: perfusion_deficit_anterior
+      synonyms: ['anterior perfusion deficit']
+    - key: perfusion_deficit_posterior
+      synonyms: ['posterior perfusion deficit']
+    - key: perfusion_deficit_carotid
+      synonyms: ['carotid territory perfusion deficit']
+    - key: perfusion_deficit_bilateral_stenosis
+      synonyms: ['bilateral stenosis perfusion deficit']
 
 - canonical: PERFUSION_CORE
-  synonyms: [PerfusionCore]
-  description: Description for PERFUSION_CORE
+  synonyms: ['perfusion core volume']
+  description: 'Volume of perfusion deficit core in ml.'
+  data_type: Numeric
+  Numeric:
+    unit: ml
+    range_min: 0
+    range_max: 300
+    default_buckets: 15
 
 - canonical: HYPOPERFUSION
-  synonyms: [Hypoperfusion]
-  description: Description for HYPOPERFUSION
+  synonyms: ['hypoperfusion volume']
+  description: 'Volume of hypoperfusion in ml.'
+  data_type: Numeric
+  Numeric:
+    unit: ml
+    range_min: 0
+    range_max: 300
+    default_buckets: 15
 
-- canonical: stroke subtype
-  synonyms: [StrokeType, type of stroke, stroke classification]
-  description: Description for stroke subtype
+- canonical: STROKE_TYPE
+  synonyms: ['stroke type', 'stroke diagnosis']
+  description: 'Types of stroke diagnoses.'
+  data_type: Enum
+  Enum:
+    - key: ischemic
+      synonyms: ['ischemic stroke']
+    - key: intracerebral_hemorrhage
+      synonyms: ['intracerebral hemorrhage']
+    - key: transient_ischemic
+      synonyms: ['transient ischemic attack']
+    - key: subarachnoid_hemorrhage
+      synonyms: ['subarachnoid hemorrhage']
+    - key: cerebral_venous_thrombosis
+      synonyms: ['cerebral venous thrombosis']
+    - key: stroke_mimics
+      synonyms: ['stroke mimics']
+    - key: undetermined
+      synonyms: ['undetermined stroke']
 
 - canonical: STROKE_MIMICS_DIAGNOSIS
-  synonyms: [StrokeMimicsDiagnosis]
-  description: Description for STROKE_MIMICS_DIAGNOSIS
+  synonyms: ['stroke mimics diagnosis']
+  description: 'Types of diagnosis for stroke mimics.'
+  data_type: Enum
+  Enum:
+    - key: migraine
+      synonyms: ['migraine']
+    - key: seizure
+      synonyms: ['seizure']
+    - key: delirium
+      synonyms: ['delirium']
+    - key: imbalance
+      synonyms: ['imbalance']
+    - key: functional_disorder
+      synonyms: ['functional disorder']
+    - key: other
+      synonyms: ['other']
 
 - canonical: THROMBOLYSIS
-  synonyms: [Thrombolysis]
-  description: Description for THROMBOLYSIS
+  synonyms: ['intravenous thrombolysis', 'ivt']
+  description: 'Undergoing intravenous thrombolysis.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: THROMBECTOMY
-  synonyms: [Thrombectomy]
-  description: Description for THROMBECTOMY
+  synonyms: ['mechanical thrombectomy', 'mt']
+  description: 'Undergoing mechanical thrombectomy.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
+
+- canonical: THROMBECTOMY_ONLY
+  synonyms: ['thrombectomy only']
+  description: 'Undergoing only mechanical thrombectomy.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: THROMBOLYSIS_ONLY
-  synonyms: [ThrombolysisOnly]
-  description: Description for THROMBOLYSIS_ONLY
+  synonyms: ['thrombolysis only']
+  description: 'Undergoing only intravenous thrombolysis.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: THROMBOLYSIS_AND_THROMBECTOMY
-  synonyms: [ThrombolysisAndThrombectomy]
-  description: Description for THROMBOLYSIS_AND_THROMBECTOMY
+  synonyms: ['thrombolysis and thrombectomy']
+  description: 'Undergoing both mechanical thrombectomy and intravenous thrombolysis.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: RECANALIZATION
-  synonyms: [Recanalization]
-  description: Description for RECANALIZATION
+  synonyms: ['recanalization therapy']
+  description: 'Undergoing recanalization therapy (mechanical thrombectomy or/and intravenous thrombolysis).'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: DTN
-  synonyms: [Dtn, door to needle, door to needle time, time to thrombolysis, time until thrombolytic treatment, time to iv tpa, time to treatment, treatment delay]
-  description: Description for DTN
+  synonyms:
+    - 'DTN'
+    - 'door to needle'
+    - 'door to needle time'
+    - 'time to thrombolysis'
+    - 'time until thrombolytic treatment'
+    - 'time to iv tpa'
+    - 'time to treatment'
+    - 'treatment delay'
+  description: 'Door-To-Needle time in minutes.'
+  data_type: Numeric
+  Numeric:
+    unit: minutes
+    range_min: 0
+    range_max: 1440
+    default_buckets: 24
 
 - canonical: DTG_PRIMARY
-  synonyms: [DtgPrimary]
-  description: Description for DTG_PRIMARY
+  synonyms: ['primary door to groin', 'primary dtg']
+  description: 'Door-To-Groin time in minutes of primary treating hospital.'
+  data_type: Numeric
+  Numeric:
+    unit: minutes
+    range_min: 0
+    range_max: 1440
+    default_buckets: 24
 
 - canonical: DTG_SECONDARY
-  synonyms: [DtgSecondary]
-  description: Description for DTG_SECONDARY
+  synonyms: ['secondary door to groin', 'secondary dtg']
+  description: 'Door-To-Groin time in minutes of secondary treating hospital.'
+  data_type: Numeric
+  Numeric:
+    unit: minutes
+    range_min: 0
+    range_max: 1440
+    default_buckets: 24
 
 - canonical: DIDO
-  synonyms: [Dido, door in door out, transfer delay, time before transfer, time spent before transfer, time at initial hospital, duration at referring hospital, initial hospital stay time, primary site delay, door-to-door time]
-  description: Description for DIDO
+  synonyms: ['door in door out', 'dido']
+  description: 'Door-In-Door-Out time when patient is transfered for treatment.'
+  data_type: Numeric
+  Numeric:
+    unit: minutes
+    range_min: 0
+    range_max: 1440
+    default_buckets: 24
 
 - canonical: DOOR_TO_REPERFUSION
-  synonyms: [DoorToReperfusion]
-  description: Description for DOOR_TO_REPERFUSION
+  synonyms: ['door to reperfusion time']
+  description: 'Door-To-Reperfusion time in minute.'
+  data_type: Numeric
+  Numeric:
+    unit: minutes
+    range_min: 0
+    range_max: 1440
+    default_buckets: 24
 
 - canonical: MTICI_SCORE
-  synonyms: [MticiScore]
-  description: Description for MTICI_SCORE
+  synonyms: ['mtici score']
+  description: 'Values of mTICI (Modified treatment in cerebral infarction) score after undergoing mechanical thrombectomy.'
+  data_type: Enum
+  Enum:
+    - key: zero
+      synonyms: ['0']
+    - key: one
+      synonyms: ['1']
+    - key: two_a
+      synonyms: ['2a']
+    - key: two_b
+      synonyms: ['2b']
+    - key: two_c
+      synonyms: ['2c']
+    - key: three
+      synonyms: ['3']
+    - key: occlusion_not_corfirmed
+      synonyms: ['occlusion not confirmed']
 
 - canonical: NO_THROMBOLYSIS_REASON
-  synonyms: [NoThrombolysisReason]
-  description: Description for NO_THROMBOLYSIS_REASON
+  synonyms: ['reason for no thrombolysis']
+  description: 'Types of reasons for not administrating intravenous thrombolysis.'
+  data_type: Enum
+  Enum:
+    - key: done_elsewhere
+      synonyms: ['done elsewhere']
+    - key: time_window
+      synonyms: ['time window exceeded']
+    - key: mild_deficit
+      synonyms: ['mild deficit']
+    - key: consent
+      synonyms: ['no consent']
+    - key: only_mt
+      synonyms: ['mechanical thrombectomy only']
+    - key: cost_of_treatment
+      synonyms: ['cost of treatment']
+    - key: transferred_elsewhere
+      synonyms: ['transferred elsewhere']
+    - key: not_available
+      synonyms: ['treatment not available']
+    - key: other
+      synonyms: ['other reason']
 
 - canonical: NO_THROMBECTOMY_REASON
-  synonyms: [NoThrombectomyReason]
-  description: Description for NO_THROMBECTOMY_REASON
+  synonyms: ['reason for no thrombectomy']
+  description: 'Types of reasons for not performing mechanical thrombectomy.'
+  data_type: Enum
+  Enum:
+    - key: done_elsewhere
+      synonyms: ['done elsewhere']
+    - key: time_window
+      synonyms: ['time window exceeded']
+    - key: mild_deficit
+      synonyms: ['mild deficit']
+    - key: no_large_vessel_occlusion
+      synonyms: ['no large vessel occlusion']
+    - key: disability
+      synonyms: ['disability']
+    - key: consent
+      synonyms: ['no consent']
+    - key: cost_of_treatment
+      synonyms: ['cost of treatment']
+    - key: transferred_elsewhere
+      synonyms: ['transferred elsewhere']
+    - key: not_available
+      synonyms: ['treatment not available']
+    - key: technically_not_possible
+      synonyms: ['technically not possible']
+    - key: no_angiography
+      synonyms: ['no angiography']
+    - key: transferer_elsewhere_to_perform_ivt
+      synonyms: ['transferred elsewhere to perform ivt']
+    - key: other
+      synonyms: ['other reason']
 
 - canonical: MT_COMPLICATIONS_TYPE
-  synonyms: [MtComplicationsType]
-  description: Description for MT_COMPLICATIONS_TYPE
+  synonyms: ['thrombectomy complications type']
+  description: 'Types of occuring mechanical thrombectomy complications.'
+  data_type: Enum
+  Enum:
+    - key: mt_complications_perforation
+      synonyms: ['perforation']
+    - key: mt_complications_dissection
+      synonyms: ['dissection']
+    - key: mt_complications_embolization
+      synonyms: ['embolization']
+    - key: mt_complications_hematoma
+      synonyms: ['hematoma']
+    - key: mt_complications_other
+      synonyms: ['other complication']
 
 - canonical: MT_COMPLICATIONS
-  synonyms: [MtComplications]
-  description: Description for MT_COMPLICATIONS
+  synonyms: ['thrombectomy complications', 'mt complications present']
+  description: 'Occurence of mechanical thrombectomy complications.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: THROMBOLYSIS_DRUGS
-  synonyms: [ThrombolysisDrugs]
-  description: Description for THROMBOLYSIS_DRUGS
+  synonyms: ['thrombolysis drugs', 'ivt drugs']
+  description: 'Thrombolytic drug types.'
+  data_type: Enum
+  Enum:
+    - key: alteplase
+      synonyms: ['alteplase']
+    - key: tenecteplase
+      synonyms: ['tenecteplase']
+    - key: streptokinase
+      synonyms: ['streptokinase']
+    - key: staphylokinase
+      synonyms: ['staphylokinase']
 
 - canonical: THROMBOLYSIS_DRUG_DOSE
-  synonyms: [ThrombolysisDrugDose]
-  description: Description for THROMBOLYSIS_DRUG_DOSE
+  synonyms: ['thrombolysis drug dose', 'ivt dose']
+  description: 'Dose values of trombolytic drug.'
+  data_type: Numeric
+  Numeric:
+    unit: mg
+    range_min: 0
+    range_max: 200
+    default_buckets: 20
 
 - canonical: THROMBOLYSIS_APPLICATION_DEPARTMENT
-  synonyms: [ThrombolysisApplicationDepartment]
-  description: Description for THROMBOLYSIS_APPLICATION_DEPARTMENT
-  
+  synonyms: ['thrombolysis application department']
+  description: 'Department types when trombolytic drug was administered.'
+  data_type: Enum
+  Enum:
+    - key: radiology
+      synonyms: ['radiology']
+    - key: stroke_unit_or_icu
+      synonyms: ['stroke unit or intensive care']
+    - key: emergency
+      synonyms: ['emergency department']
+    - key: other
+      synonyms: ['other']
+
 - canonical: POST_RECANALIZATION_FINDINGS
-  synonyms: [PostRecanalizationFindings]
-  description: Description for POST_RECANALIZATION_FINDINGS
+  synonyms: ['post-recanalization findings present']
+  description: 'Detection of selected finding (brain infarct, remote brain bleeding, hemorrhagic transformation) on CT/MR performed after recanalization.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: POST_RECANALIZATION_FINDING_TYPE
-  synonyms: [PostRecanalizationFindingType]
-  description: Description for POST_RECANALIZATION_FINDING_TYPE
+  synonyms: ['post-recanalization finding type']
+  description: 'Types of findings detected on CT/MR performed after recanalization.'
+  data_type: Enum
+  Enum:
+    - key: post_treatment_brain_infarct
+      synonyms: ['post-treatment brain infarct']
+    - key: post_treatment_remote_bleeding
+      synonyms: ['post-treatment remote bleeding']
+    - key: post_treatment_hemorrhagic_transformation
+      synonyms: ['post-treatment hemorrhagic transformation']
 
 - canonical: HEMORRHAGIC_TRANSFORMATION
-  synonyms: [HemorrhagicTransformation]
-  description: Description for HEMORRHAGIC_TRANSFORMATION
+  synonyms: ['hemorrhagic transformation type']
+  description: 'Types of found hemorrhagic transformation detected on CT/MR performed after recanalization.'
+  data_type: Enum
+  Enum:
+    - key: hi_type_1
+      synonyms: ['hi type 1']
+    - key: hi_type_2
+      synonyms: ['hi type 2']
+    - key: ph_type_1
+      synonyms: ['ph type 1']
+    - key: ph_type_2
+      synonyms: ['ph type 2']
 
 - canonical: TIA_CLINICAL_SYMPTOMS
-  synonyms: [TiaClinicalSymptoms]
-  description: Description for TIA_CLINICAL_SYMPTOMS
+  synonyms: ['tia clinical symptoms']
+  description: 'Types of clinacal symptoms of transient ischemic attack.'
+  data_type: Enum
+  Enum:
+    - key: weakness
+      synonyms: ['weakness']
+    - key: speech_disturbance
+      synonyms: ['speech disturbance']
+    - key: other
+      synonyms: ['other']
 
 - canonical: TIA_SYMPTOMS_DURATION
-  synonyms: [TiaSymptomsDuration]
-  description: Description for TIA_SYMPTOMS_DURATION
+  synonyms: ['tia symptoms duration']
+  description: 'Duration (value intervals) of clinical symptons of transient ischemic attack.'
+  data_type: Enum
+  Enum:
+    - key: lt_10_minutes
+      synonyms: ['less than 10 minutes']
+    - key: ten_to_59_minutes
+      synonyms: ['10 to 59 minutes']
+    - key: gte_60_minutes
+      synonyms: ['60 minutes or more']
 
 - canonical: BLEEDING_SOURCE_FOUND
-  synonyms: [BleedingSourceFound]
-  description: Description for BLEEDING_SOURCE_FOUND
+  synonyms: ['bleeding source found']
+  description: 'Finding of location of bleeding into brain tissue.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: ICH_BLEEDING_VOLUME
-  synonyms: [IchBleedingVolume]
-  description: Description for ICH_BLEEDING_VOLUME
+  synonyms: ['ich bleeding volume']
+  description: 'Amount of blood in ml accumalted in the brain tissue as result of intracerebral hemorrhage.'
+  data_type: Numeric
+  Numeric:
+    unit: ml
+    range_min: 0
+    range_max: 300
+    default_buckets: 15
 
 - canonical: ICH_SCORE
-  synonyms: [IchScore]
-  description: Description for ICH_SCORE
+  synonyms: ['ich score']
+  description: 'Values of predictive ICH score calculated for intracerebral hemorrhage patients.'
+  data_type: Numeric
+  Numeric:
+    unit: score
+    range_min: 0
+    range_max: 10
+    default_buckets: 10
 
 - canonical: ICH_TREATMENT
-  synonyms: [IchTreatment]
-  description: Description for ICH_TREATMENT
+  synonyms: ['ich treatment performed']
+  description: 'Perfomance of any intracerebral hemorrhage treatment.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: ICH_TREATMENT_TYPE
-  synonyms: [IchTreatmentType]
-  description: Description for ICH_TREATMENT_TYPE
-
-- canonical: ICH_TREATMENT_TYPE_EXTENDED
-  synonyms: [IchTreatmentTypeExtended]
-  description: Description for ICH_TREATMENT_TYPE_EXTENDED
+  synonyms: ['ich treatment type']
+  description: 'Types of performed intracerebral hemorrhage treatment.'
+  data_type: Enum
+  Enum:
+    - key: ich_treatment_hematoma_evacuation
+      synonyms: ['hematoma evacuation']
+    - key: ich_treatment_ventricular_drainage
+      synonyms: ['ventricular drainage']
+    - key: ich_treatment_craniectomy
+      synonyms: ['craniectomy']
 
 - canonical: BLEEDING_REASON_FOUND
-  synonyms: [BleedingReasonFound]
-  description: Description for BLEEDING_REASON_FOUND
+  synonyms: ['bleeding reason found']
+  description: 'Identification of bleeding reason.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: BLEEDING_REASON_TYPE
-  synonyms: [BleedingReasonType]
-  description: Description for BLEEDING_REASON_TYPE
+  synonyms: ['bleeding reason type']
+  description: 'Types of identified bleeding reasons.'
+  data_type: Enum
+  Enum:
+    - key: bleeding_reason_hypertension
+      synonyms: ['hypertension as bleeding reason']
+    - key: bleeding_reason_aneurysm
+      synonyms: ['aneurysm as bleeding reason']
+    - key: bleeding_reason_malformation
+      synonyms: ['malformation as bleeding reason']
+    - key: bleeding_reason_anticoagulant
+      synonyms: ['anticoagulant-related bleeding']
+    - key: bleeding_reason_angiopathy
+      synonyms: ['angiopathy as bleeding reason']
+    - key: bleeding_reason_other
+      synonyms: ['other bleeding reason']
 
 - canonical: BLEEDING_ANTIDOTE_TO_ANTICOAGULANTS
-  synonyms: [BleedingAntidoteToAnticoagulants]
-  description: Description for BLEEDING_ANTIDOTE_TO_ANTICOAGULANTS
+  synonyms: ['antidote to anticoagulants']
+  description: 'Types of antidotes usd to block anticoagulation medications.'
+  data_type: Enum
+  Enum:
+    - key: andexanete
+      synonyms: ['andexanet']
+    - key: idarucizumab
+      synonyms: ['idarucizumab']
+    - key: frozen_plasma
+      synonyms: ['frozen plasma']
+    - key: prothrombin
+      synonyms: ['prothrombin complex']
+    - key: other
+      synonyms: ['other antidote']
+    - key: none
+      synonyms: ['no antidote']
 
-- canonical: ANTICOAGULANT_REVERSAL
-  synonyms: [AnticoagulantReversal]
-  description: Description for ANTICOAGULANT_REVERSAL
-
-- canonical: ANTICOAGULANT_REVERSAL_GIVEN
-  synonyms: [AnticoagulantReversalGiven]
-  description: Description for ANTICOAGULANT_REVERSAL_GIVEN
-
-- canonical: INTRAVENTICULAR_HEMORRHAGE
-  synonyms: [IntraventicularHemorrhage]
-  description: Description for INTRAVENTICULAR_HEMORRHAGE
+- canonical: INTRAVENTRICULAR_HEMORRHAGE
+  synonyms: ['intraventricular hemorrhage']
+  description: 'Discovery of intraventricular hemorrhage (IVH) among intracerebral hemorrhage patients.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: INFRATENTORIAL_HEMORRHAGE
-  synonyms: [InfratentorialHemorrhage]
-  description: Description for INFRATENTORIAL_HEMORRHAGE
+  synonyms: ['infratentorial hemorrhage']
+  description: 'Discovery of infratentorial hemorrhage among intracerebral hemorrhage patients.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: SAH_TREATMENT
-  synonyms: [SahTreatment]
-  description: Description for SAH_TREATMENT
+  synonyms: ['sah treatment performed']
+  description: 'Perfomance of any subarachnoid hemorrhage treatment.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: SAH_TREATMENT_TYPE
-  synonyms: [SahTreatmentType]
-  description: Description for SAH_TREATMENT_TYPE
+  synonyms: ['sah treatment type']
+  description: 'Types of performed subarachnoid hemorrhage treatment.'
+  data_type: Enum
+  Enum:
+    - key: sah_treatment_coiling
+      synonyms: ['coiling']
+    - key: sah_treatment_clipping
+      synonyms: ['clipping']
+    - key: sah_treatment_drainage
+      synonyms: ['drainage']
+    - key: sah_treatment_craniectomy
+      synonyms: ['craniectomy']
+    - key: sah_treatment_other
+      synonyms: ['other sah treatment']
 
 - canonical: NIMODIPINE
-  synonyms: [Nimodipine]
-  description: Description for NIMODIPINE
+  synonyms: ['nimodipine given']
+  description: 'Administration of nimodipine to treat subarachnoid hemorrhage.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: HUNT_HESS_SCORE
-  synonyms: [HuntHessScore]
-  description: Description for HUNT_HESS_SCORE
+  synonyms: ['hunt-hess score']
+  description: 'Values of Hunt-Hess score used to asses severity of subarachnoid hemorrhage.'
+  data_type: Numeric
+  Numeric:
+    unit: score
+    range_min: 0
+    range_max: 5
+    default_buckets: 5
 
 - canonical: CVT_TREATMENT
-  synonyms: [CvtTreatment]
-  description: Description for CVT_TREATMENT
+  synonyms: ['cvt treatment performed']
+  description: 'Perfomance of any cerebral venous thrombosis treatment.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: CVT_TREATMENT_TYPE
-  synonyms: [CvtTreatmentType]
-  description: Description for CVT_TREATMENT_TYPE
+  synonyms: ['cvt treatment type']
+  description: 'Types of performed cerebral venous thrombosis treatment.'
+  data_type: Enum
+  Enum:
+    - key: cvt_treatment_anticoagulation
+      synonyms: ['anticoagulation for cvt']
+    - key: cvt_treatment_thrombectomy
+      synonyms: ['thrombectomy for cvt']
+    - key: cvt_treatment_thrombolysis
+      synonyms: ['thrombolysis for cvt']
+    - key: cvt_treatment_neurosurgery
+      synonyms: ['neurosurgery for cvt']
 
 - canonical: POST_ACUTE_CARE
-  synonyms: [PostAcuteCare]
-  description: Description for POST_ACUTE_CARE
+  synonyms: ['post-acute care in hospital']
+  description: 'Undergoing post-acute care in treating hospital.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: CRANIECTOMY
-  synonyms: [Craniectomy]
-  description: Description for CRANIECTOMY
+  synonyms: ['decompressive craniectomy performed']
+  description: 'Performing of decompresive craniectomy.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: CRANIECTOMY_AGE_GT60
-  synonyms: [CraniectomyAgeGt60]
-  description: Description for CRANIECTOMY_AGE_GT60
+  synonyms: ['decompressive craniectomy age ≥60']
+  description: 'Performing of decompresive craniectomy among patients that are 60 years old or older.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: CAROTID_ARTERIES_IMAGING
-  synonyms: [CarotidArteriesImaging]
-  description: Description for CAROTID_ARTERIES_IMAGING
+  synonyms: ['carotid arteries imaging performed']
+  description: 'Performing of carotid arteries imaging.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: CAROTID_STENOSIS
-  synonyms: [CarotidStenosis]
-  description: Description for CAROTID_STENOSIS
+  synonyms: ['carotid stenosis present']
+  description: 'Discovery of stenosis of carotid arteries.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: CAROTID_STENOSIS_LEVEL
-  synonyms: [CarotidStenosisLevel]
-  description: Description for CAROTID_STENOSIS_LEVEL
+  synonyms: ['carotid stenosis level']
+  description: 'Levels of discovered stenosis of carotid arteries.'
+  data_type: Enum
+  Enum:
+    - key: bellow_50
+      synonyms: ['below 50 percent']
+    - key: fifty_to_70
+      synonyms: ['50 to 70 percent']
+    - key: over_70
+      synonyms: ['over 70 percent']
+    - key: occlusion
+      synonyms: ['occlusion']
 
 - canonical: CAROTID_ENDARTERECTOMY
-  synonyms: [CarotidEndarterectomy]
-  description: Description for CAROTID_ENDARTERECTOMY
+  synonyms: ['carotid endarterectomy or stenting within two weeks']
+  description: 'Treatment of carotid stenosis using carotid endarterectomy or stenting within two weeks after stroke onset.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: CAROTID_ENDARTERECTOMY_STENOSIS_GT70
-  synonyms: [CarotidEndarterectomyStenosisGt70]
-  description: Description for CAROTID_ENDARTERECTOMY_STENOSIS_GT70
+  synonyms: ['carotid endarterectomy stenosis >70 percent']
+  description: 'Treatment of carotid stenosis (stenosis level above 70%) using carotid endarterectomy or stenting within two weeks after stroke onset.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: ATRIAL_FIBRILATION_FLUTTER
-  synonyms: [AtrialFibrilationFlutter]
-  description: Description for ATRIAL_FIBRILATION_FLUTTER
+  synonyms: ['atrial fibrillation or flutter status']
+  description: 'Detection of atrial fibrillation.'
+  data_type: Enum
+  Enum:
+    - key: known_af
+      synonyms: ['known atrial fibrillation']
+    - key: detected
+      synonyms: ['newly detected atrial fibrillation']
+    - key: no_af
+      synonyms: ['no atrial fibrillation']
+    - key: not_screened
+      synonyms: ['not screened for atrial fibrillation']
 
 - canonical: STROKE_ETIOLOGY_KNOWN_AIS
-  synonyms: [StrokeEtiologyKnownAis]
-  description: Description for STROKE_ETIOLOGY_KNOWN_AIS
+  synonyms: ['stroke etiology known (ais)']
+  description: 'Determination etiology of acute ischemic stroke.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: STROKE_ETIOLOGY_TYPE_AIS
-  synonyms: [StrokeEtiologyTypeAis]
-  description: Description for STROKE_ETIOLOGY_TYPE_AIS
+  synonyms: ['stroke etiology type (ais)']
+  description: 'Types of determined etiologies among acute ischemic stroke patients.'
+  data_type: Enum
+  Enum:
+    - key: stroke_etiology_la_atherosclerosis
+      synonyms: ['large artery atherosclerosis']
+    - key: stroke_etiology_cardioembolism
+      synonyms: ['cardioembolism']
+    - key: stroke_etiology_other
+      synonyms: ['other etiology']
+    - key: stroke_etiology_cryptogenic_stroke
+      synonyms: ['cryptogenic stroke']
+    - key: stroke_etiology_lacunar
+      synonyms: ['lacunar stroke']
 
 - canonical: STROKE_ETIOLOGY_KNOWN_AIS_TIA
-  synonyms: [StrokeEtiologyKnownAisTia]
-  description: Description for STROKE_ETIOLOGY_KNOWN_AIS_TIA
+  synonyms: ['stroke etiology known (ais or tia)']
+  description: 'Determination etiology of acute ischemic stroke or transient ischemic attack.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: STROKE_ETIOLOGY_TYPE_AIS_TIA
-  synonyms: [StrokeEtiologyTypeAisTia]
-  description: Description for STROKE_ETIOLOGY_TYPE_AIS_TIA
+  synonyms: ['stroke etiology type (ais or tia)']
+  description: 'Types of determined etiologies among acute ischemic stroke or transient ischemic attack patiens.'
+  data_type: Enum
+  Enum:
+    - key: stroke_etiology_la_atherosclerosis
+      synonyms: ['large artery atherosclerosis']
+    - key: stroke_etiology_cardioembolism
+      synonyms: ['cardioembolism']
+    - key: stroke_etiology_other
+      synonyms: ['other etiology']
+    - key: stroke_etiology_cryptogenic_stroke
+      synonyms: ['cryptogenic stroke']
+    - key: stroke_etiology_lacunar
+      synonyms: ['lacunar stroke']
 
 - canonical: VTE_INTERVENTION_AIS
-  synonyms: [VteInterventionAis]
-  description: Description for VTE_INTERVENTION_AIS
+  synonyms: ['vte prevention in ais']
+  description: 'Prevention of the venous thromboembolism (VTE) among acute ischemic stroke patients.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: VTE_INTERVENTION_ICH
-  synonyms: [VteInterventionIch]
-  description: Description for VTE_INTERVENTION_ICH
+  synonyms: ['vte prevention in ich']
+  description: 'Prevention of the venous thromboembolism (VTE) among intracerebral hemorrhage patients.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: VTE_INTERVENTION_TYPE_AIS
-  synonyms: [VteInterventionTypeAis]
-  description: Description for VTE_INTERVENTION_TYPE_AIS
+  synonyms: ['vte prevention type in ais']
+  description: 'Types of venous thromboembolism (VTE) preventions among acute ischemic stroke patients.'
+  data_type: Enum
+  Enum:
+    - key: vte_ufh
+      synonyms: ['unfractionated heparin for vte prevention']
+    - key: vte_lmwh
+      synonyms: ['low molecular weight heparin for vte prevention']
+    - key: vte_ipc
+      synonyms: ['intermittent pneumatic compression for vte prevention']
+    - key: vte_gcs
+      synonyms: ['graduated compression stockings for vte prevention']
+    - key: vte_warfarin
+      synonyms: ['warfarin for vte prevention']
+    - key: vte_vfp
+      synonyms: ['venous foot pump for vte prevention']
+    - key: vte_xa_inhibitor
+      synonyms: ['xa inhibitor for vte prevention']
+    - key: vte_other
+      synonyms: ['other vte prevention']
 
 - canonical: VTE_INTERVENTION_TYPE_ICH
-  synonyms: [VteInterventionTypeIch]
-  description: Description for VTE_INTERVENTION_TYPE_ICH
+  synonyms: ['vte prevention type in ich']
+  description: 'Types of venous thromboembolism (VTE) preventions among intracerebral hemorrhage patients.'
+  data_type: Enum
+  Enum:
+    - key: vte_ufh
+      synonyms: ['unfractionated heparin for vte prevention']
+    - key: vte_lmwh
+      synonyms: ['low molecular weight heparin for vte prevention']
+    - key: vte_ipc
+      synonyms: ['intermittent pneumatic compression for vte prevention']
+    - key: vte_gcs
+      synonyms: ['graduated compression stockings for vte prevention']
+    - key: vte_warfarin
+      synonyms: ['warfarin for vte prevention']
+    - key: vte_vfp
+      synonyms: ['venous foot pump for vte prevention']
+    - key: vte_xa_inhibitor
+      synonyms: ['xa inhibitor for vte prevention']
+    - key: vte_other
+      synonyms: ['other vte prevention']
 
 - canonical: POST_STROKE_COMPLICATIONS
-  synonyms: [PostStrokeComplications]
-  description: Description for POST_STROKE_COMPLICATIONS
+  synonyms: ['post-stroke complications present']
+  description: 'Occurence of any post-stroke complication.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: POST_STROKE_COMPLICATIONS_TYPE
-  synonyms: [PostStrokeComplicationsType]
-  description: Description for POST_STROKE_COMPLICATIONS_TYPE
+  synonyms: ['post-stroke complications type']
+  description: 'Types of observed post-stroke complications.'
+  data_type: Enum
+  Enum:
+    - key: post_stroke_pneumonia
+      synonyms: ['post-stroke pneumonia']
+    - key: post_stroke_dvt
+      synonyms: ['post-stroke deep vein thrombosis']
+    - key: post_stroke_pulmonary_embolism
+      synonyms: ['post-stroke pulmonary embolism']
+    - key: post_stroke_urinary_infection
+      synonyms: ['post-stroke urinary infection']
+    - key: post_stroke_pressure_sores
+      synonyms: ['post-stroke pressure sores']
+    - key: post_stroke_drip_site_sepsis
+      synonyms: ['post-stroke drip-site sepsis']
+    - key: post_stroke_recurrence_or_extension
+      synonyms: ['post-stroke recurrence or extension']
+    - key: post_stroke_other
+      synonyms: ['other post-stroke complication']
 
 - canonical: DAY_1_TEMPERATURE_CHECKS
-  synonyms: [Day_1TemperatureChecks]
-  description: Description for DAY_1_TEMPERATURE_CHECKS
+  synonyms: ['day 1 temperature checks']
+  description: 'Number of times temperature was checked on day 1 of post-acute care.'
+  data_type: Numeric
+  Numeric:
+    unit: count
+    range_min: 0
+    range_max: 24
+    default_buckets: 8
 
 - canonical: DAY_2_TEMPERATURE_CHECKS
-  synonyms: [Day_2TemperatureChecks]
-  description: Description for DAY_2_TEMPERATURE_CHECKS
+  synonyms: ['day 2 temperature checks']
+  description: 'Number of times temperature was checked on day 2 of post-acute care.'
+  data_type: Numeric
+  Numeric:
+    unit: count
+    range_min: 0
+    range_max: 24
+    default_buckets: 8
 
 - canonical: DAY_3_TEMPERATURE_CHECKS
-  synonyms: [Day_3TemperatureChecks]
-  description: Description for DAY_3_TEMPERATURE_CHECKS
+  synonyms: ['day 3 temperature checks']
+  description: 'Number of times temperature was checked on day 2 of post-acute care.'
+  data_type: Numeric
+  Numeric:
+    unit: count
+    range_min: 0
+    range_max: 24
+    default_buckets: 8
 
 - canonical: PARACETAMOL_ON_FEVER
-  synonyms: [ParacetamolOnFever]
-  description: Description for PARACETAMOL_ON_FEVER
+  synonyms: ['paracetamol on fever']
+  description: 'Paracetamol administration on developed fever (≥ 37.5⁰C).'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: DAY_1_HYPERGLYCEMIA_CHECKS
-  synonyms: [Day_1HyperglycemiaChecks]
-  description: Description for DAY_1_HYPERGLYCEMIA_CHECKS
+  synonyms: ['day 1 hyperglycemia checks']
+  description: 'Number of times blood sugar was checked on day 1 of post-acute care.'
+  data_type: Numeric
+  Numeric:
+    unit: count
+    range_min: 0
+    range_max: 24
+    default_buckets: 8
 
 - canonical: DAY_2_HYPERGLYCEMIA_CHECKS
-  synonyms: [Day_2HyperglycemiaChecks]
-  description: Description for DAY_2_HYPERGLYCEMIA_CHECKS
+  synonyms: ['day 2 hyperglycemia checks']
+  description: 'Number of times blood sugar was checked on day 1 of post-acute care.'
+  data_type: Numeric
+  Numeric:
+    unit: count
+    range_min: 0
+    range_max: 24
+    default_buckets: 8
 
 - canonical: DAY_3_HYPERGLYCEMIA_CHECKS
-  synonyms: [Day_3HyperglycemiaChecks]
-  description: Description for DAY_3_HYPERGLYCEMIA_CHECKS
+  synonyms: ['day 3 hyperglycemia checks']
+  description: 'Number of times blood sugar was checked on day 1 of post-acute care.'
+  data_type: Numeric
+  Numeric:
+    unit: count
+    range_min: 0
+    range_max: 24
+    default_buckets: 8
 
 - canonical: INSULIN_ON_HYPERGLYCEMIA
-  synonyms: [InsulinOnHyperglycemia]
-  description: Description for INSULIN_ON_HYPERGLYCEMIA
+  synonyms: ['insulin on hyperglycemia']
+  description: 'Insulin administration on the first elevated blood sugar (>=10 mmol/L (180 mg/dl)).'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
 
 - canonical: SWALLOWING_SCREENING
-  synonyms: [SwallowingScreening]
-  description: Description for SWALLOWING_SCREENING
+  synonyms: ['swallowing screening performed']
+  description: 'Performance of swallowing screening.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
+    - key: not_applicable
+      synonyms: ['not applicable']
 
 - canonical: SWALLOWING_SCREENING_TYPE
-  synonyms: [SwallowingScreeningType]
-  description: Description for SWALLOWING_SCREENING_TYPE
+  synonyms: ['swallowing screening type']
+  description: 'Types of performed swallowing screening.'
+  data_type: Enum
+  Enum:
+    - key: guss
+      synonyms: ['guss']
+    - key: assist
+      synonyms: ['assist']
+    - key: water_test
+      synonyms: ['water test']
+    - key: other
+      synonyms: ['other']
 
 - canonical: SWALLOWING_SCREENING_PERFORMER
-  synonyms: [SwallowingScreeningPerformer]
-  description: Description for SWALLOWING_SCREENING_PERFORMER
+  synonyms: ['swallowing screening performer']
+  description: 'Types of specialists perfoming swallowing screening.'
+  data_type: Enum
+  Enum:
+    - key: nurse
+      synonyms: ['nurse']
+    - key: physician
+      synonyms: ['physician']
+    - key: speech_therapist
+      synonyms: ['speech therapist']
+    - key: other
+      synonyms: ['other']
 
 - canonical: PHYSIOTHERAPY
-  synonyms: [Physiotherapy]
-  description: Description for PHYSIOTHERAPY
+  synonyms: ['physiotherapy received']
+  description: 'Recieving physiotherapy.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
+    - key: not_required
+      synonyms: ['not required']
 
 - canonical: OCCUPATIONAL_THERAPY
-  synonyms: [OccupationalTherapy]
-  description: Description for OCCUPATIONAL_THERAPY
+  synonyms: ['occupational therapy received']
+  description: 'Recieving occupational therapy (ergotherapy).'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
+    - key: not_required
+      synonyms: ['not required']
 
 - canonical: SPEECH_THERAPY
-  synonyms: [SpeechTherapy]
-  description: Description for SPEECH_THERAPY
+  synonyms: ['speech therapy received']
+  description: 'Recieving speech therapy.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
+    - key: not_required
+      synonyms: ['not required']
+
+- canonical: DISCHARGE_DESTINATION
+  synonyms: ['discharge destination']
+  description: 'Types of discharge destinations.'
+  data_type: Enum
+  Enum:
+    - key: home
+      synonyms: ['home']
+    - key: same_hospital
+      synonyms: ['same hospital']
+    - key: another_hospital
+      synonyms: ['another hospital']
+    - key: social_care
+      synonyms: ['social care facility']
+    - key: dead
+      synonyms: ['dead']
+
+- canonical: DISCHARGE_MEDICATIONS
+  synonyms: ['medications at discharge']
+  description: 'Types of medication prescribed on discharge.'
+  data_type: Enum
+  Enum:
+    - key: discharge_antidiabetics
+      synonyms: ['antidiabetics at discharge']
+    - key: discharge_antihypertensives
+      synonyms: ['antihypertensives at discharge']
+    - key: discharge_statin
+      synonyms: ['statin at discharge']
+    - key: discharge_any_anticoagulant
+      synonyms: ['anticoagulants at discharge']
+    - key: discharge_any_antiplatelet
+      synonyms: ['antiplatelets at discharge']
+    - key: discharge_other
+      synonyms: ['other medications at discharge']
+
+- canonical: DISCHARGE_ANTICOAGULANTS_AFIB
+  synonyms: ['anticoagulants at discharge in atrial fibrillation']
+  description: 'Prescription of anticoagulants on discharge for patients with atrial fibrallation.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
+
+- canonical: DISCHARGE_ANTICOAGULANT_TYPE_AFIB
+  synonyms: ['anticoagulant type at discharge in atrial fibrillation']
+  description: 'Types of prescribed anticoagulants on discharge for patients with atrial fibrillation.'
+  data_type: Enum
+  Enum:
+    - key: discharge_warfarin
+      synonyms: ['warfarin at discharge']
+    - key: discharge_dabigatran
+      synonyms: ['dabigatran at discharge']
+    - key: discharge_rivaroxaban
+      synonyms: ['rivaroxaban at discharge']
+    - key: discharge_apixaban
+      synonyms: ['apixaban at discharge']
+    - key: discharge_edoxaban
+      synonyms: ['edoxaban at discharge']
+    - key: discharge_heparin
+      synonyms: ['heparin at discharge']
+    - key: discharge_other_anticoagulant
+      synonyms: ['other anticoagulant at discharge']
+
+- canonical: DISCHARGE_ANTIPLATELETS_NO_AFIB
+  synonyms: ['antiplatelets at discharge without atrial fibrillation']
+  description: 'Prescription of antiplatelets on discharge for patients without atrial fibrallation.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
+
+- canonical: DISCHARGE_ANTIPLATELET_TYPE_NO_AFIB
+  synonyms: ['antiplatelet type at discharge without atrial fibrillation']
+  description: 'Types of prescribed antiplatelets on discharge for patients with atrial fibrillation.'
+  data_type: Enum
+  Enum:
+    - key: discharge_asa
+      synonyms: ['aspirin at discharge']
+    - key: discharge_cilostazol
+      synonyms: ['cilostazol at discharge']
+    - key: discharge_clopidogrel
+      synonyms: ['clopidogrel at discharge']
+    - key: discharge_ticagrelor
+      synonyms: ['ticagrelor at discharge']
+    - key: discharge_ticlopidine
+      synonyms: ['ticlopidine at discharge']
+    - key: discharge_prasugrel
+      synonyms: ['prasugrel at discharge']
+    - key: discharge_dipyridamole
+      synonyms: ['dipyridamole at discharge']
+    - key: discharge_other_antiplatelet
+      synonyms: ['other antiplatelet at discharge']
+
+- canonical: DISCHARGE_MRS
+  synonyms: ['discharge mrs']
+  description: 'Modified Rankin Scale score taken on dicharge.'
+  data_type: Numeric
+  Numeric:
+    unit: score
+    range_min: 0
+    range_max: 6
+    default_buckets: 6
+
+- canonical: SMOKING_CESSATION
+  synonyms: ['smoking cessation recommended']
+  description: 'Recommendation of smoking cessation on discharge.'
+  data_type: Enum
+  Enum:
+    - key: 'yes'
+      synonyms: ['yes']
+    - key: 'no'
+      synonyms: ['no']
+
+- canonical: STROKE_MANAGEMENT_APPOINTMENT
+  synonyms: ['stroke management appointment']
+  description: 'Recommendation on discharge to see cerebrovascular expert for stroke management.'
+  data_type: Enum
+  Enum:
+    - key: scheduled
+      synonyms: ['scheduled']
+    - key: not_scheduled
+      synonyms: ['not scheduled']
+    - key: not_recommended
+      synonyms: ['not recommended']
+
+- canonical: THREE_MONTH_MRS
+  synonyms: ['three-month mrs', '3-month mrs']
+  description: 'Modified Rankin Scale score taken three month after stroke onset.'
+  data_type: Numeric
+  Numeric:
+    unit: score
+    range_min: 0
+    range_max: 6
+    default_buckets: 6
+
+- canonical: HOSPITAL_STAY
+  synonyms: ['length of hospital stay']
+  description: 'Lenght of hospitalization.'
+  data_type: Numeric
+  Numeric:
+    unit: days
+    range_min: 0
+    range_max: 365
+    default_buckets: 20
+
+- canonical: DISCHARGE_NIHSS
+  synonyms: ['discharge nihss']
+  description: 'NIH Stroke Scale scores taken during admission.'
+  data_type: Numeric
+  Numeric:
+    unit: score
+    range_min: 0
+    range_max: 42
+    default_buckets: 14
+
+- canonical: DTI
+  synonyms: ['DTI', 'door to imaging', 'door to imaging time']
+  description: 'Door-To-Imaging time in minutes.'
+  data_type: Numeric
+  Numeric:
+    unit: minutes
+    range_min: 0
+    range_max: 1440
+    default_buckets: 24
+
+- canonical: ONSET_TO_DOOR
+  synonyms: ['onset to door', 'time from onset to door']
+  description: 'Time from stroke onset to the first door of treating hospital.'
+  data_type: Numeric
+  Numeric:
+    unit: minutes
+    range_min: 0
+    range_max: 1440
+    default_buckets: 24

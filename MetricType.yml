@@ -628,7 +628,6 @@
 
 - canonical: DTN
   synonyms:
-    - 'DTN'
     - 'door to needle'
     - 'door to needle time'
     - 'time to thrombolysis'
@@ -665,7 +664,7 @@
     default_buckets: 24
 
 - canonical: DIDO
-  synonyms: ['door in door out', 'dido']
+  synonyms: ['door in door out']
   description: 'Door-In-Door-Out time when patient is transfered for treatment.'
   data_type: Numeric
   Numeric:
@@ -895,7 +894,7 @@
       synonyms: ['no']
 
 - canonical: ICH_BLEEDING_VOLUME
-  synonyms: ['ich bleeding volume']
+  synonyms: ['intracerebral hemorrhage bleeding volume', 'ich bleeding volume']
   description: 'Amount of blood in ml accumalted in the brain tissue as result of intracerebral hemorrhage.'
   data_type: Numeric
   Numeric:
@@ -905,7 +904,7 @@
     default_buckets: 15
 
 - canonical: ICH_SCORE
-  synonyms: ['ich score']
+  synonyms: ['intracerebral hemorrhage score', 'ich score']
   description: 'Values of predictive ICH score calculated for intracerebral hemorrhage patients.'
   data_type: Numeric
   Numeric:
@@ -915,7 +914,7 @@
     default_buckets: 10
 
 - canonical: ICH_TREATMENT
-  synonyms: ['ich treatment performed']
+  synonyms: ['intracerebral hemorrhage treatment performed', 'ich treatment performed']
   description: 'Perfomance of any intracerebral hemorrhage treatment.'
   data_type: Enum
   Enum:
@@ -925,7 +924,7 @@
       synonyms: ['no']
 
 - canonical: ICH_TREATMENT_TYPE
-  synonyms: ['ich treatment type']
+  synonyms: ['intracerebral hemorrhage treatment type', 'ich treatment type']
   description: 'Types of performed intracerebral hemorrhage treatment.'
   data_type: Enum
   Enum:
@@ -1003,7 +1002,7 @@
       synonyms: ['no']
 
 - canonical: SAH_TREATMENT
-  synonyms: ['sah treatment performed']
+  synonyms: ['subarachnoid hemorrhage treatment performed', 'sah treatment performed']
   description: 'Perfomance of any subarachnoid hemorrhage treatment.'
   data_type: Enum
   Enum:
@@ -1013,7 +1012,7 @@
       synonyms: ['no']
 
 - canonical: SAH_TREATMENT_TYPE
-  synonyms: ['sah treatment type']
+  synonyms: ['subarachnoid hemorrhage treatment type', 'sah treatment type']
   description: 'Types of performed subarachnoid hemorrhage treatment.'
   data_type: Enum
   Enum:
@@ -1049,7 +1048,7 @@
     default_buckets: 5
 
 - canonical: CVT_TREATMENT
-  synonyms: ['cvt treatment performed']
+  synonyms: ['cerebral venous thrombosis treatment performed', 'cvt treatment performed']
   description: 'Perfomance of any cerebral venous thrombosis treatment.'
   data_type: Enum
   Enum:
@@ -1059,7 +1058,7 @@
       synonyms: ['no']
 
 - canonical: CVT_TREATMENT_TYPE
-  synonyms: ['cvt treatment type']
+  synonyms: ['cerebral venous thrombosis treatment type', 'cvt treatment type']
   description: 'Types of performed cerebral venous thrombosis treatment.'
   data_type: Enum
   Enum:
@@ -1223,7 +1222,7 @@
       synonyms: ['lacunar stroke']
 
 - canonical: VTE_INTERVENTION_AIS
-  synonyms: ['vte prevention in ais']
+  synonyms: ['venous thromboembolism prevention in acute ischemic stroke', 'vte prevention in ais']
   description: 'Prevention of the venous thromboembolism (VTE) among acute ischemic stroke patients.'
   data_type: Enum
   Enum:
@@ -1233,7 +1232,7 @@
       synonyms: ['no']
 
 - canonical: VTE_INTERVENTION_ICH
-  synonyms: ['vte prevention in ich']
+  synonyms: ['venous thromboembolism prevention in intracerebral hemorrhage', 'vte prevention in ich']
   description: 'Prevention of the venous thromboembolism (VTE) among intracerebral hemorrhage patients.'
   data_type: Enum
   Enum:
@@ -1243,7 +1242,7 @@
       synonyms: ['no']
 
 - canonical: VTE_INTERVENTION_TYPE_AIS
-  synonyms: ['vte prevention type in ais']
+  synonyms: ['venous thromboembolism prevention type in acute ischemic stroke', 'vte prevention type in ais']
   description: 'Types of venous thromboembolism (VTE) preventions among acute ischemic stroke patients.'
   data_type: Enum
   Enum:
@@ -1265,7 +1264,7 @@
       synonyms: ['other vte prevention']
 
 - canonical: VTE_INTERVENTION_TYPE_ICH
-  synonyms: ['vte prevention type in ich']
+  synonyms: ['venous thromboembolism prevention type in intracerebral hemorrhage', 'vte prevention type in ich']
   description: 'Types of venous thromboembolism (VTE) preventions among intracerebral hemorrhage patients.'
   data_type: Enum
   Enum:
@@ -1571,7 +1570,7 @@
       synonyms: ['other antiplatelet at discharge']
 
 - canonical: DISCHARGE_MRS
-  synonyms: ['discharge mrs']
+  synonyms: ['discharge Modified Rankin Scale','discharge mrs']
   description: 'Modified Rankin Scale score taken on dicharge.'
   data_type: Numeric
   Numeric:
@@ -1603,7 +1602,7 @@
       synonyms: ['not recommended']
 
 - canonical: THREE_MONTH_MRS
-  synonyms: ['three-month mrs', '3-month mrs']
+  synonyms: ['three-month Modified Rankin Scale', 'three-month mrs', '3-month mrs']
   description: 'Modified Rankin Scale score taken three month after stroke onset.'
   data_type: Numeric
   Numeric:
@@ -1623,7 +1622,7 @@
     default_buckets: 20
 
 - canonical: DISCHARGE_NIHSS
-  synonyms: ['discharge nihss']
+  synonyms: ['discharge NIH Stroke Scale', 'discharge NIHSS']
   description: 'NIH Stroke Scale scores taken during admission.'
   data_type: Numeric
   Numeric:
@@ -1633,7 +1632,7 @@
     default_buckets: 14
 
 - canonical: DTI
-  synonyms: ['DTI', 'door to imaging', 'door to imaging time']
+  synonyms: ['door to imaging', 'door to imaging time']
   description: 'Door-To-Imaging time in minutes.'
   data_type: Numeric
   Numeric:

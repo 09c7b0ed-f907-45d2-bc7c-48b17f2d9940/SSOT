@@ -1,9 +1,9 @@
 - canonical: GE
-  synonyms: ["≥", "=>", ">=", "greater than or equal", "at least", "no less than"]
+  synonyms: ["GTE", "≥", "=>", ">=", "greater than or equal", "at least", "no less than"]
   description: Description for GE
 
 - canonical: LE
-  synonyms: ["≤", "<=", "=<", "less than or equal", "at most", "no more than"]
+  synonyms: ["LTE", "≤", "<=", "=<", "less than or equal", "at most", "no more than"]
   description: Description for LE
 
 - canonical: LT

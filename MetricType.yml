@@ -1,106 +1,150 @@
 - canonical: AA_DTN_LE60
-  synonyms: ['thrombolysis ≤60 minutes', 'door-to-needle ≤60 minutes']
-  description: 'Thrombolysis treatment with a Door-To-Needle time less than or equal to 60 minutes (Angels Awards Metric).'
+  synonyms: ["thrombolysis ≤60 minutes", "door-to-needle ≤60 minutes"]
+  descriptions:
+    en: "Thrombolysis treatment with a Door-To-Needle time less than or equal to 60 minutes (Angels Awards Metric)."
+    es: "Tratamiento trombolítico con un tiempo puerta-aguja menor o igual a 60 minutos (métrica de los premios Angels)."
+    el: "Θρομβολυτική θεραπεία με χρόνο door-to-needle μικρότερο ή ίσο με 60 λεπτά (δείκτης βραβείων Angels)."
+    cs: "Trombolytická léčba s door-to-needle časem kratším nebo rovným 60 minutám (indikátor Angels Awards)."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: AA_DTN_LE45
-  synonyms: ['thrombolysis ≤45 minutes', 'door-to-needle ≤45 minutes']
-  description: 'Thrombolysis treatment with a Door-To-Needle time less than or equal to 45 minutes (Angels Awards Metric).'
+  synonyms: ["thrombolysis ≤45 minutes", "door-to-needle ≤45 minutes"]
+  descriptions:
+    en: "Thrombolysis treatment with a Door-To-Needle time less than or equal to 45 minutes (Angels Awards Metric)."
+    es: "Tratamiento trombolítico con un tiempo puerta-aguja menor o igual a 45 minutos (métrica de los premios Angels)."
+    el: "Θρομβολυτική θεραπεία με χρόνο door-to-needle μικρότερο ή ίσο με 45 λεπτά (δείκτης βραβείων Angels)."
+    cs: "Trombolytická léčba s door-to-needle časem kratším nebo rovným 45 minutám (indikátor Angels Awards)."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: AA_DTG_LE120
-  synonyms: ['thrombectomy ≤120 minutes', 'door-to-groin ≤120 minutes']
-  description: 'Thrombectomy treatment with a Door-To-Groin time less than or equal to 120 minutes (Angels Awards Metric).'
+  synonyms: ["thrombectomy ≤120 minutes", "door-to-groin ≤120 minutes"]
+  descriptions:
+    en: "Thrombectomy treatment with a Door-To-Groin time less than or equal to 120 minutes (Angels Awards Metric)."
+    es: "Tratamiento con trombectomía con un tiempo puerta-ingle menor o igual a 120 minutos (métrica de los premios Angels)."
+    el: "Θεραπεία θρομβεκτομής με χρόνο door-to-groin μικρότερο ή ίσο με 120 λεπτά (δείκτης βραβείων Angels)."
+    cs: "Trombektomická léčba s door-to-groin časem kratším nebo rovným 120 minutám (indikátor Angels Awards)."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: AA_DTG_LE90
-  synonyms: ['thrombectomy ≤90 minutes', 'door-to-groin ≤90 minutes']
-  description: 'Thrombectomy treatment with a Door-To-Groin time less than or equal to 90 minutes (Angels Awards Metric).'
+  synonyms: ["thrombectomy ≤90 minutes", "door-to-groin ≤90 minutes"]
+  descriptions:
+    en: "Thrombectomy treatment with a Door-To-Groin time less than or equal to 90 minutes (Angels Awards Metric)."
+    es: "Tratamiento con trombectomía con un tiempo puerta-ingle menor o igual a 90 minutos (métrica de los premios Angels)."
+    el: "Θεραπεία θρομβεκτομής με χρόνο door-to-groin μικρότερο ή ίσο με 90 λεπτά (δείκτης βραβείων Angels)."
+    cs: "Trombektomická léčba s door-to-groin časem kratším nebo rovným 90 minutám (indikátor Angels Awards)."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: AA_RECANALIZATION
-  synonyms: ['recanalization (awards metric)']
-  description: 'Undergoing recanalization treatment (thrombolysis or/and thrombectomy) for ischemic stroke cases (Angels Awards Metric).'
+  synonyms: ["recanalization (awards metric)"]
+  descriptions:
+    en: "Undergoing recanalization treatment (thrombolysis and/or thrombectomy) for ischemic stroke cases (Angels Awards Metric)."
+    es: "Sometimiento a tratamiento de recanalización (trombolisis y/o trombectomía) en casos de ictus isquémico (métrica de los premios Angels)."
+    el: "Υποβολή σε θεραπεία επανακαναλοποίησης (θρομβόλυση και/ή θρομβεκτομή) σε περιστατικά ισχαιμικού εγκεφαλικού (δείκτης βραβείων Angels)."
+    cs: "Podstoupení rekanalizační léčby (trombolýza a/nebo trombektomie) u případů ischemické cévní mozkové příhody (indikátor Angels Awards)."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: AA_IMAGING
-  synonyms: ['imaging at first hospital (awards metric)']
-  description: 'Undergoing CT/MR imaging at the first hospital (Angels Awards Metric).'
+  synonyms: ["imaging at first hospital (awards metric)"]
+  descriptions:
+    en: "Undergoing CT/MR imaging at the first hospital (Angels Awards Metric)."
+    es: "Realización de tomografía computarizada o resonancia magnética en el primer hospital (métrica de los premios Angels)."
+    el: "Διενέργεια απεικόνισης με CT/MR στο πρώτο νοσοκομείο (δείκτης βραβείων Angels)."
+    cs: "Podstoupení CT/MR vyšetření v první nemocnici (indikátor Angels Awards)."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: AA_SWALLOWING_SCREENING
-  synonyms: ['swallowing screening (awards metric)']
-  description: 'Undergoing swallowing screening (Angels Awards Metric).'
+  synonyms: ["swallowing screening (awards metric)"]
+  descriptions:
+    en: "Undergoing swallowing screening (Angels Awards Metric)."
+    es: "Realización de cribado de la deglución (métrica de los premios Angels)."
+    el: "Διενέργεια ελέγχου κατάποσης (δείκτης βραβείων Angels)."
+    cs: "Podstoupení screeningu polykání (indikátor Angels Awards)."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: AA_ANTICOAGULANTS
-  synonyms: ['anticoagulants at discharge (awards metric)']
-  description: 'Prescription of anticoagulants upon discharge for cases with Atrial fibrillation (Angels Awards Metric).'
+  synonyms: ["anticoagulants at discharge (awards metric)"]
+  descriptions:
+    en: "Prescription of anticoagulants upon discharge for cases with atrial fibrillation (Angels Awards Metric)."
+    es: "Prescripción de anticoagulantes al alta en casos con fibrilación auricular (métrica de los premios Angels)."
+    el: "Χορήγηση αντιπηκτικών κατά το εξιτήριο σε ασθενείς με κολπική μαρμαρυγή (δείκτης βραβείων Angels)."
+    cs: "Předepsání antikoagulancií při propuštění u pacientů s fibrilací síní (indikátor Angels Awards)."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: AA_ANTITHROMBOTICS
-  synonyms: ['antithrombotics at discharge (awards metric)']
-  description: 'Prescription of antithrombotics upon discharge for cases without Atrial fibrillation (Angels Awards Metric).'
+  synonyms: ["antithrombotics at discharge (awards metric)"]
+  descriptions:
+    en: "Prescription of antithrombotics upon discharge for cases without atrial fibrillation (Angels Awards Metric)."
+    es: "Prescripción de antiagregantes/antitrombóticos al alta en casos sin fibrilación auricular (métrica de los premios Angels)."
+    el: "Χορήγηση αντιθρομβωτικών κατά το εξιτήριο σε ασθενείς χωρίς κολπική μαρμαρυγή (δείκτης βραβείων Angels)."
+    cs: "Předepsání antitrombotik při propuštění u pacientů bez fibrilace síní (indikátor Angels Awards)."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: AA_STROKE_UNIT
-  synonyms: ['stroke unit or intensive care (awards metric)']
-  description: 'Hospitalization in a dedicated stroke unit or intensive care unit (Angels Awards Metric).'
+  synonyms: ["stroke unit or intensive care (awards metric)"]
+  descriptions:
+    en: "Hospitalization in a dedicated stroke unit or intensive care unit (Angels Awards Metric)."
+    es: "Hospitalización en una unidad de ictus dedicada o en una unidad de cuidados intensivos (métrica de los premios Angels)."
+    el: "Νοσηλεία σε εξειδικευμένη μονάδα αγγειακών εγκεφαλικών επεισοδίων ή σε μονάδα εντατικής θεραπείας (δείκτης βραβείων Angels)."
+    cs: "Hospitalizace na specializované iktové jednotce nebo jednotce intenzivní péče (indikátor Angels Awards)."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: AGE
-  synonyms: ['age at stroke onset', 'age']
-  description: 'Age at stroke onset.'
+  synonyms: ["age at stroke onset", "age"]
+  descriptions:
+    en: "Age at stroke onset."
+    es: "Edad en el momento del inicio del ictus."
+    el: "Ηλικία κατά την έναρξη του εγκεφαλικού επεισοδίου."
+    cs: "Věk v době vzniku cévní mozkové příhody."
   data_type: Numeric
   Numeric:
     unit: years
@@ -109,236 +153,296 @@
     default_buckets: 12
 
 - canonical: WAKEUP_STROKE
-  synonyms: ['wakeup stroke', 'stroke during sleep']
-  description: 'Stroke onset during sleep.'
+  synonyms: ["wakeup stroke", "stroke during sleep"]
+  descriptions:
+    en: "Stroke onset during sleep."
+    es: "Inicio del ictus durante el sueño."
+    el: "Έναρξη του εγκεφαλικού επεισοδίου κατά τη διάρκεια του ύπνου."
+    cs: "Vznik cévní mozkové příhody během spánku."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: INHOSPITAL_STROKE
-  synonyms: ['in-hospital stroke', 'stroke during hospitalization']
-  description: 'Stroke onset during hospitalization in treating hospital.'
+  synonyms: ["in-hospital stroke", "stroke during hospitalization"]
+  descriptions:
+    en: "Stroke onset during hospitalization in the treating hospital."
+    es: "Inicio del ictus durante la hospitalización en el hospital tratante."
+    el: "Έναρξη εγκεφαλικού επεισοδίου κατά τη νοσηλεία στο θεράπον νοσοκομείο."
+    cs: "Vznik cévní mozkové příhody během hospitalizace v léčící nemocnici."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: ARRIVAL_MODE
-  synonyms: ['arrival mode', 'arrival pathway']
-  description: 'Types of arrival pathways to the treating hospital.'
+  synonyms: ["arrival mode", "arrival pathway"]
+  descriptions:
+    en: "Types of arrival pathways to the treating hospital."
+    es: "Tipos de vías de llegada al hospital tratante."
+    el: "Τύποι οδών άφιξης στο θεράπον νοσοκομείο."
+    cs: "Typy příjezdových cest do léčící nemocnice."
   data_type: Enum
   Enum:
     - key: ems_from_home_scene
-      synonyms: ['ems from home or scene']
+      synonyms: ["ems from home or scene"]
     - key: private_transportation_from_home_scene
-      synonyms: ['private transport from home or scene']
+      synonyms: ["private transport from home or scene"]
     - key: stroke_center
-      synonyms: ['stroke center']
+      synonyms: ["stroke center"]
     - key: another_hospital
-      synonyms: ['another hospital']
+      synonyms: ["another hospital"]
     - key: ems_from_gp
-      synonyms: ['ems from general practitioner']
+      synonyms: ["ems from general practitioner"]
     - key: private_transportation_from_gp
-      synonyms: ['private transport from general practitioner']
+      synonyms: ["private transport from general practitioner"]
 
 - canonical: EMS_PRENOTIFICATION
-  synonyms: ['ems prenotification', 'ems pre-alert']
-  description: 'Prenotification of the treating hospital about stroke case arrival by EMS or ambulance.'
+  synonyms: ["ems prenotification", "ems pre-alert"]
+  descriptions:
+    en: "Prenotification of the treating hospital about stroke case arrival by EMS or ambulance."
+    es: "Prenotificación al hospital tratante de la llegada de un caso de ictus por parte de los servicios de emergencias o de la ambulancia."
+    el: "Προειδοποίηση του θεράποντος νοσοκομείου για την άφιξη περιστατικού εγκεφαλικού από το ΕΚΑΒ ή ασθενοφόρο."
+    cs: "Předchozí upozornění léčící nemocnice na příjezd pacienta s iktem od ZZS nebo sanitky."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: ADMISSION_DEPARTMENT
-  synonyms: ['admission department']
-  description: 'Types of departments under which patient was addmited in the reporting hospital.'
+  synonyms: ["admission department"]
+  descriptions:
+    en: "Types of departments under which the patient was admitted in the reporting hospital."
+    es: "Tipos de servicios bajo los cuales se ingresó al paciente en el hospital que informa."
+    el: "Τύποι τμημάτων υπό τα οποία εισήχθη ο ασθενής στο νοσοκομείο αναφοράς."
+    cs: "Typy oddělení, na která byl pacient přijat v reportující nemocnici."
   data_type: Enum
   Enum:
     - key: neurology
-      synonyms: ['neurology']
+      synonyms: ["neurology"]
     - key: neurosurgery
-      synonyms: ['neurosurgery']
+      synonyms: ["neurosurgery"]
     - key: critical_care_icu
-      synonyms: ['critical care or intensive care']
+      synonyms: ["critical care or intensive care"]
     - key: internal_medicine
-      synonyms: ['internal medicine']
+      synonyms: ["internal medicine"]
     - key: other
-      synonyms: ['other']
+      synonyms: ["other"]
 
 - canonical: FIRST_CONTACT_PLACE
-  synonyms: ['first contact place']
-  description: 'Types of first contact places between stroke patient and medical personal.'
+  synonyms: ["first contact place"]
+  descriptions:
+    en: "Types of first contact places between stroke patient and medical personnel."
+    es: "Tipos de lugares de primer contacto entre el paciente con ictus y el personal sanitario."
+    el: "Τύποι χώρων πρώτης επαφής μεταξύ ασθενούς με εγκεφαλικό και ιατρικού προσωπικού."
+    cs: "Typy míst prvního kontaktu mezi pacientem s iktem a zdravotnickým personálem."
   data_type: Enum
   Enum:
     - key: radiology
-      synonyms: ['radiology']
+      synonyms: ["radiology"]
     - key: emergency
-      synonyms: ['emergency department']
+      synonyms: ["emergency department"]
     - key: outpatient_clinic
-      synonyms: ['outpatient clinic']
+      synonyms: ["outpatient clinic"]
     - key: other
-      synonyms: ['other']
+      synonyms: ["other"]
 
 - canonical: HOSPITALIZED_IN
-  synonyms: ['monitoring intensity first day', 'first-day bed type']
-  description: 'Types of monitoring intensity first day in the treating hospital.'
+  synonyms: ["monitoring intensity first day", "first-day bed type"]
+  descriptions:
+    en: "Types of monitoring intensity on the first day in the treating hospital."
+    es: "Tipos de intensidad de monitorización el primer día en el hospital tratante."
+    el: "Τύποι έντασης παρακολούθησης την πρώτη ημέρα στο θεράπον νοσοκομείο."
+    cs: "Typy intenzity monitorace během prvního dne v léčící nemocnici."
   data_type: Enum
   Enum:
     - key: icu_stroke_unit
-      synonyms: ['icu or stroke unit']
+      synonyms: ["icu or stroke unit"]
     - key: monitored_bed
-      synonyms: ['monitored bed']
+      synonyms: ["monitored bed"]
     - key: standard_bed
-      synonyms: ['standard bed']
+      synonyms: ["standard bed"]
 
 - canonical: SEX
-  synonyms: ['biological sex', 'sex']
-  description: 'Types of biological sex.'
+  synonyms: ["biological sex", "sex"]
+  descriptions:
+    en: "Types of biological sex."
+    es: "Tipos de sexo biológico."
+    el: "Τύποι βιολογικού φύλου."
+    cs: "Typy biologického pohlaví."
   data_type: Enum
   Enum:
     - key: male
-      synonyms: ['male']
+      synonyms: ["male"]
     - key: female
-      synonyms: ['female']
+      synonyms: ["female"]
     - key: unknown_other
-      synonyms: ['unknown or other']
+      synonyms: ["unknown or other"]
 
 - canonical: RISK_FACTORS_TYPE
-  synonyms: ['risk factors type', 'previous medical risk factors']
-  description: 'Types of risk factor in previoues medical history.'
+  synonyms: ["risk factors type", "previous medical risk factors"]
+  descriptions:
+    en: "Types of risk factors in previous medical history."
+    es: "Tipos de factores de riesgo en los antecedentes médicos."
+    el: "Τύποι παραγόντων κινδύνου στο ιατρικό ιστορικό."
+    cs: "Typy rizikových faktorů v předchozí anamnéze."
   data_type: Enum
   Enum:
     - key: risk_hypertension
-      synonyms: ['risk hypertension', 'history of hypertension']
+      synonyms: ["risk hypertension", "history of hypertension"]
     - key: risk_diabetes
-      synonyms: ['risk diabetes', 'history of diabetes']
+      synonyms: ["risk diabetes", "history of diabetes"]
     - key: risk_hyperlipidemia
-      synonyms: ['risk hyperlipidemia', 'history of hyperlipidemia']
+      synonyms: ["risk hyperlipidemia", "history of hyperlipidemia"]
     - key: risk_atrial_fibrillation
-      synonyms: ['risk atrial fibrillation', 'history of atrial fibrillation']
+      synonyms: ["risk atrial fibrillation", "history of atrial fibrillation"]
     - key: risk_congestive_heart_failure
-      synonyms: ['risk heart failure', 'history of congestive heart failure']
+      synonyms: ["risk heart failure", "history of congestive heart failure"]
     - key: risk_smoker
-      synonyms: ['risk smoker', 'smoking history']
+      synonyms: ["risk smoker", "smoking history"]
     - key: risk_vte
-      synonyms: ['risk vte', 'history of venous thromboembolism']
+      synonyms: ["risk vte", "history of venous thromboembolism"]
     - key: risk_previous_stroke
-      synonyms: ['risk previous stroke', 'history of stroke']
+      synonyms: ["risk previous stroke", "history of stroke"]
     - key: risk_coronary_artery_disease_or_myocardial_infarction
-      synonyms: ['risk coronary artery disease or myocardial infarction']
+      synonyms: ["risk coronary artery disease or myocardial infarction"]
     - key: risk_hiv
-      synonyms: ['risk hiv', 'history of hiv']
+      synonyms: ["risk hiv", "history of hiv"]
     - key: before_onset_contraception
-      synonyms: ['contraception before onset']
+      synonyms: ["contraception before onset"]
     - key: risk_covid
-      synonyms: ['risk covid', 'history of covid-19']
+      synonyms: ["risk covid", "history of covid-19"]
 
 - canonical: BEFORE_ONSET_MEDICATION
-  synonyms: ['medication before onset']
-  description: 'Types of medication taken before the stroke onset.'
+  synonyms: ["medication before onset"]
+  descriptions:
+    en: "Types of medication taken before the stroke onset."
+    es: "Tipos de medicación tomada antes del inicio del ictus."
+    el: "Τύποι φαρμακευτικής αγωγής που λαμβανόταν πριν από την έναρξη του εγκεφαλικού επεισοδίου."
+    cs: "Typy medikace užívané před vznikem cévní mozkové příhody."
   data_type: Enum
   Enum:
     - key: before_onset_antidiabetics
-      synonyms: ['antidiabetics before onset']
+      synonyms: ["antidiabetics before onset"]
     - key: before_onset_antihypertensives
-      synonyms: ['antihypertensives before onset']
+      synonyms: ["antihypertensives before onset"]
     - key: before_onset_any_antiplatelet
-      synonyms: ['antiplatelets before onset']
+      synonyms: ["antiplatelets before onset"]
     - key: before_onset_any_anticoagulant
-      synonyms: ['anticoagulants before onset']
+      synonyms: ["anticoagulants before onset"]
     - key: before_onset_statin
-      synonyms: ['statin before onset']
+      synonyms: ["statin before onset"]
     - key: before_onset_other
-      synonyms: ['other medication before onset']
+      synonyms: ["other medication before onset"]
 
 - canonical: BEFORE_ONSET_MEDICATION_AIS_TIA
-  synonyms: ['medication before onset in ais or tia']
-  description: 'Types of medication taken before the onset of acute and transient ischemic strokes.'
+  synonyms: ["medication before onset in ais or tia"]
+  descriptions:
+    en: "Types of medication taken before the onset of acute and transient ischemic strokes."
+    es: "Tipos de medicación tomada antes del inicio de ictus isquémicos agudos y ataques isquémicos transitorios."
+    el: "Τύποι φαρμάκων που λαμβάνονταν πριν από την έναρξη οξέων ισχαιμικών εγκεφαλικών και παροδικών ισχαιμικών επεισοδίων."
+    cs: "Typy medikace užívané před vznikem akutních ischemických iktů a tranzitorních ischemických atak."
   data_type: Enum
   Enum:
     - key: before_onset_antidiabetics
-      synonyms: ['antidiabetics before onset']
+      synonyms: ["antidiabetics before onset"]
     - key: before_onset_antihypertensives
-      synonyms: ['antihypertensives before onset']
+      synonyms: ["antihypertensives before onset"]
     - key: before_onset_any_antiplatelet
-      synonyms: ['antiplatelets before onset']
+      synonyms: ["antiplatelets before onset"]
     - key: before_onset_any_anticoagulant
-      synonyms: ['anticoagulants before onset']
+      synonyms: ["anticoagulants before onset"]
     - key: before_onset_statin
-      synonyms: ['statin before onset']
+      synonyms: ["statin before onset"]
     - key: before_onset_other
-      synonyms: ['other medication before onset']
+      synonyms: ["other medication before onset"]
 
 - canonical: BEFORE_ONSET_MEDICATION_ICH
-  synonyms: ['medication before onset in ich']
-  description: 'Types of medication taken before the onset of intracerebral hemorrhagic strokes.'
+  synonyms: ["medication before onset in ich"]
+  descriptions:
+    en: "Types of medication taken before the onset of intracerebral hemorrhagic strokes."
+    es: "Tipos de medicación tomada antes del inicio de ictus hemorrágicos intracerebrales."
+    el: "Τύποι φαρμάκων που λαμβάνονταν πριν από την έναρξη ενδοεγκεφαλικών αιμορραγικών εγκεφαλικών επεισοδίων."
+    cs: "Typy medikace užívané před vznikem intracerebrálních hemoragických iktů."
   data_type: Enum
   Enum:
     - key: before_onset_antidiabetics
-      synonyms: ['antidiabetics before onset']
+      synonyms: ["antidiabetics before onset"]
     - key: before_onset_antihypertensives
-      synonyms: ['antihypertensives before onset']
+      synonyms: ["antihypertensives before onset"]
     - key: before_onset_any_antiplatelet
-      synonyms: ['antiplatelets before onset']
+      synonyms: ["antiplatelets before onset"]
     - key: before_onset_any_anticoagulant
-      synonyms: ['anticoagulants before onset']
+      synonyms: ["anticoagulants before onset"]
     - key: before_onset_statin
-      synonyms: ['statin before onset']
+      synonyms: ["statin before onset"]
     - key: before_onset_other
-      synonyms: ['other medication before onset']
+      synonyms: ["other medication before onset"]
 
 - canonical: BEFORE_ONSET_ANTIPLATELET_TYPE
-  synonyms: ['antiplatelet type before onset']
-  description: 'Types of antiplatelets taken before the stroke onset.'
+  synonyms: ["antiplatelet type before onset"]
+  descriptions:
+    en: "Types of antiplatelets taken before the stroke onset."
+    es: "Tipos de antiagregantes plaquetarios tomados antes del inicio del ictus."
+    el: "Τύποι αντιαιμοπεταλιακών φαρμάκων που λαμβάνονταν πριν από την έναρξη του εγκεφαλικού επεισοδίου."
+    cs: "Typy antiagregační léčby užívané před vznikem cévní mozkové příhody."
   data_type: Enum
   Enum:
     - key: before_onset_asa
-      synonyms: ['aspirin before onset']
+      synonyms: ["aspirin before onset"]
     - key: before_onset_cilostazol
-      synonyms: ['cilostazol before onset']
+      synonyms: ["cilostazol before onset"]
     - key: before_onset_clopidogrel
-      synonyms: ['clopidogrel before onset']
+      synonyms: ["clopidogrel before onset"]
     - key: before_onset_ticagrelor
-      synonyms: ['ticagrelor before onset']
+      synonyms: ["ticagrelor before onset"]
     - key: before_onset_ticlopidine
-      synonyms: ['ticlopidine before onset']
+      synonyms: ["ticlopidine before onset"]
     - key: before_onset_prasugrel
-      synonyms: ['prasugrel before onset']
+      synonyms: ["prasugrel before onset"]
     - key: before_onset_dipyridamole
-      synonyms: ['dipyridamole before onset']
+      synonyms: ["dipyridamole before onset"]
     - key: before_onset_other_antiplatelet
-      synonyms: ['other antiplatelet before onset']
+      synonyms: ["other antiplatelet before onset"]
 
 - canonical: BEFORE_ONSET_ANTICOAGULANT_TYPE
-  synonyms: ['anticoagulant type before onset']
-  description: 'Types of anticoagulants taken before the stroke onset.'
+  synonyms: ["anticoagulant type before onset"]
+  descriptions:
+    en: "Types of anticoagulants taken before the stroke onset."
+    es: "Tipos de anticoagulantes tomados antes del inicio del ictus."
+    el: "Τύποι αντιπηκτικών φαρμάκων που λαμβάνονταν πριν από την έναρξη του εγκεφαλικού επεισοδίου."
+    cs: "Typy antikoagulační léčby užívané před vznikem cévní mozkové příhody."
   data_type: Enum
   Enum:
     - key: before_onset_warfarin
-      synonyms: ['warfarin before onset']
+      synonyms: ["warfarin before onset"]
     - key: before_onset_dabigatran
-      synonyms: ['dabigatran before onset']
+      synonyms: ["dabigatran before onset"]
     - key: before_onset_rivaroxaban
-      synonyms: ['rivaroxaban before onset']
+      synonyms: ["rivaroxaban before onset"]
     - key: before_onset_apixaban
-      synonyms: ['apixaban before onset']
+      synonyms: ["apixaban before onset"]
     - key: before_onset_edoxaban
-      synonyms: ['edoxaban before onset']
+      synonyms: ["edoxaban before onset"]
     - key: before_onset_heparin
-      synonyms: ['heparin before onset']
+      synonyms: ["heparin before onset"]
     - key: before_onset_other_anticoagulant
-      synonyms: ['other anticoagulant before onset']
+      synonyms: ["other anticoagulant before onset"]
 
 - canonical: ADMISSION_NIHSS
-  synonyms: ['admission nihss', 'nihss at admission']
-  description: 'NIH Stroke Scale scores taken during admission.'
+  synonyms: ["admission nihss", "nihss at admission"]
+  descriptions:
+    en: "NIH Stroke Scale scores taken during admission."
+    es: "Puntuaciones de la NIH Stroke Scale registradas durante el ingreso."
+    el: "Βαθμολογίες NIH Stroke Scale που λαμβάνονται κατά την εισαγωγή."
+    cs: "Hodnoty NIH Stroke Scale zaznamenané při přijetí."
   data_type: Numeric
   Numeric:
     unit: score
@@ -347,8 +451,12 @@
     default_buckets: 14
 
 - canonical: PRESTROKE_MRS
-  synonyms: ['pre-stroke mrs', 'mrs before stroke']
-  description: 'Modified Rankin Scale score prior to stroke onset.'
+  synonyms: ["pre-stroke mrs", "mrs before stroke"]
+  descriptions:
+    en: "Modified Rankin Scale score prior to stroke onset."
+    es: "Puntuación de la escala de Rankin modificada antes del inicio del ictus."
+    el: "Βαθμολογία στην τροποποιημένη κλίμακα Rankin πριν από την έναρξη του εγκεφαλικού επεισοδίου."
+    cs: "Skóre na škále Modified Rankin před vznikem cévní mozkové příhody."
   data_type: Numeric
   Numeric:
     unit: score
@@ -357,8 +465,12 @@
     default_buckets: 6
 
 - canonical: GLUCOSE
-  synonyms: ['initial blood glucose', 'initial glucose']
-  description: 'Initial values of blood glucose level in mg/dl, initial measurement.'
+  synonyms: ["initial blood glucose", "initial glucose"]
+  descriptions:
+    en: "Initial values of blood glucose level in mg/dl, initial measurement."
+    es: "Valores iniciales de glucemia en mg/dl, primera medición."
+    el: "Αρχικές τιμές γλυκόζης αίματος σε mg/dl, αρχική μέτρηση."
+    cs: "Výchozí hodnoty glykémie v mg/dl, počáteční měření."
   data_type: Numeric
   Numeric:
     unit: mg/dl
@@ -367,8 +479,12 @@
     default_buckets: 25
 
 - canonical: CHOLESTEROL
-  synonyms: ['initial ldl cholesterol', 'initial cholesterol']
-  description: 'Initial values of LDL cholesterol level in mg/dl, initial measurement.'
+  synonyms: ["initial ldl cholesterol", "initial cholesterol"]
+  descriptions:
+    en: "Initial values of LDL cholesterol level in mg/dl, initial measurement."
+    es: "Valores iniciales de colesterol LDL en mg/dl, primera medición."
+    el: "Αρχικές τιμές LDL χοληστερόλης σε mg/dl, αρχική μέτρηση."
+    cs: "Výchozí hodnoty LDL cholesterolu v mg/dl, počáteční měření."
   data_type: Numeric
   Numeric:
     unit: mg/dl
@@ -377,8 +493,12 @@
     default_buckets: 25
 
 - canonical: SYSTOLIC_PRESSURE
-  synonyms: ['initial systolic blood pressure', 'systolic pressure']
-  description: 'Initial values of systolic blood pressure in mmHg, initial measurement.'
+  synonyms: ["initial systolic blood pressure", "systolic pressure"]
+  descriptions:
+    en: "Initial values of systolic blood pressure in mmHg, initial measurement."
+    es: "Valores iniciales de presión arterial sistólica en mmHg, primera medición."
+    el: "Αρχικές τιμές συστολικής αρτηριακής πίεσης σε mmHg, αρχική μέτρηση."
+    cs: "Výchozí hodnoty systolického krevního tlaku v mmHg, počáteční měření."
   data_type: Numeric
   Numeric:
     unit: mmHg
@@ -387,8 +507,12 @@
     default_buckets: 10
 
 - canonical: DIASTOLIC_PRESSURE
-  synonyms: ['initial diastolic blood pressure', 'diastolic pressure']
-  description: 'Initial values of diastolic blood pressure in mmHg, initial measurement.'
+  synonyms: ["initial diastolic blood pressure", "diastolic pressure"]
+  descriptions:
+    en: "Initial values of diastolic blood pressure in mmHg, initial measurement."
+    es: "Valores iniciales de presión arterial diastólica en mmHg, primera medición."
+    el: "Αρχικές τιμές διαστολικής αρτηριακής πίεσης σε mmHg, αρχική μέτρηση."
+    cs: "Výchozí hodnoty diastolického krevního tlaku v mmHg, počáteční měření."
   data_type: Numeric
   Numeric:
     unit: mmHg
@@ -397,120 +521,156 @@
     default_buckets: 10
 
 - canonical: INR_MODE
-  synonyms: ['inr measurement mode', 'inr device type']
-  description: 'Types of devices for performaning of international normalised ratio (INR) or not done.'
+  synonyms: ["inr measurement mode", "inr device type"]
+  descriptions:
+    en: "Types of devices for performing international normalised ratio (INR) measurement or not done."
+    es: "Tipos de dispositivos utilizados para medir la razón normalizada internacional (INR) o no realizada."
+    el: "Τύποι συσκευών για τη μέτρηση του διεθνούς ομαλοποιημένου λόγου (INR) ή μη διενέργεια μέτρησης."
+    cs: "Typy zařízení pro měření mezinárodního normalizovaného poměru (INR) nebo údaj o neprovedení měření."
   data_type: Enum
   Enum:
     - key: lab
-      synonyms: ['laboratory']
+      synonyms: ["laboratory"]
     - key: point_of_care_device
-      synonyms: ['point-of-care device']
+      synonyms: ["point-of-care device"]
     - key: not_done
-      synonyms: ['not done']
+      synonyms: ["not done"]
 
 - canonical: IMAGING_DONE
-  synonyms: ['brain imaging done', 'ct or mr imaging']
-  description: 'Undergoing CT/MR imaging.'
+  synonyms: ["brain imaging done", "ct or mr imaging"]
+  descriptions:
+    en: "Undergoing CT/MR imaging."
+    es: "Realización de tomografía computarizada o resonancia magnética."
+    el: "Διενέργεια απεικόνισης με CT/MR."
+    cs: "Podstoupení CT/MR vyšetření."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
     - key: elsewhere
-      synonyms: ['performed elsewhere']
+      synonyms: ["performed elsewhere"]
 
 - canonical: IMAGING_TYPE
-  synonyms: ['brain imaging type']
-  description: 'Types of performed brain imaging.'
+  synonyms: ["brain imaging type"]
+  descriptions:
+    en: "Types of performed brain imaging."
+    es: "Tipos de estudios de neuroimagen realizados."
+    el: "Τύποι απεικόνισης εγκεφάλου που πραγματοποιήθηκαν."
+    cs: "Typy provedeného zobrazení mozku."
   data_type: Enum
   Enum:
     - key: ct
-      synonyms: ['ct']
+      synonyms: ["ct"]
     - key: ct_cta
-      synonyms: ['ct with cta']
+      synonyms: ["ct with cta"]
     - key: ct_cta_perfusion
-      synonyms: ['ct with cta and perfusion']
+      synonyms: ["ct with cta and perfusion"]
     - key: mr_dwi_flair
-      synonyms: ['mr dwi or flair']
+      synonyms: ["mr dwi or flair"]
     - key: mr_dwi_flair_mra
-      synonyms: ['mr dwi or flair with mra']
+      synonyms: ["mr dwi or flair with mra"]
     - key: mr_dwi_flair_mra_perfusion
-      synonyms: ['mr dwi or flair with mra and perfusion']
+      synonyms: ["mr dwi or flair with mra and perfusion"]
 
 - canonical: OCCLUSION_FOUND
-  synonyms: ['occlusion found on cta or mra']
-  description: 'Detection of occlusion on CTA/MRA.'
+  synonyms: ["occlusion found on cta or mra"]
+  descriptions:
+    en: "Detection of occlusion on CTA/MRA."
+    es: "Detección de oclusión en angio-TC (CTA) o angio-RM (MRA)."
+    el: "Ανίχνευση απόφραξης σε CTA/MRA."
+    cs: "Záchyt okluze na CTA/MRA."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: OCCLUSION_SITE
-  synonyms: ['occlusion site']
-  description: 'Sites of detected occlusions on CTA/MRA.'
+  synonyms: ["occlusion site"]
+  descriptions:
+    en: "Sites of detected occlusions on CTA/MRA."
+    es: "Localizaciones de las oclusiones detectadas en CTA/MRA."
+    el: "Εντοπισμοί των ανιχνευμένων αποφράξεων σε CTA/MRA."
+    cs: "Místa zjištěných okluzí na CTA/MRA."
   data_type: Enum
   Enum:
     - key: occlusion_mca_m1
-      synonyms: ['mca m1 occlusion']
+      synonyms: ["mca m1 occlusion"]
     - key: occlusion_mca_m2
-      synonyms: ['mca m2 occlusion']
+      synonyms: ["mca m2 occlusion"]
     - key: occlusion_mca_m3
-      synonyms: ['mca m3 occlusion']
+      synonyms: ["mca m3 occlusion"]
     - key: occlusion_aca
-      synonyms: ['aca occlusion']
+      synonyms: ["aca occlusion"]
     - key: occlusion_pca_p1
-      synonyms: ['pca p1 occlusion']
+      synonyms: ["pca p1 occlusion"]
     - key: occlusion_pca_p2
-      synonyms: ['pca p2 occlusion']
+      synonyms: ["pca p2 occlusion"]
     - key: occlusion_cae
-      synonyms: ['carotid external occlusion']
+      synonyms: ["carotid external occlusion"]
     - key: occlusion_cai
-      synonyms: ['carotid internal occlusion']
+      synonyms: ["carotid internal occlusion"]
 
 - canonical: OLD_INFARCTS_SEEN
-  synonyms: ['old infarcts seen']
-  description: 'Visibility of old brain infarctions on performed brain imaging.'
+  synonyms: ["old infarcts seen"]
+  descriptions:
+    en: "Visibility of old brain infarctions on performed brain imaging."
+    es: "Visualización de infartos cerebrales antiguos en la neuroimagen realizada."
+    el: "Ορατότητα παλαιών εγκεφαλικών εμφράκτων στην πραγματοποιηθείσα απεικόνιση εγκεφάλου."
+    cs: "Viditelnost starých mozkových infarktů na provedeném zobrazení mozku."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: OLD_INFARCTS_TYPE
-  synonyms: ['old infarcts type']
-  description: 'Types of old brain infarctions visible on brain images.'
+  synonyms: ["old infarcts type"]
+  descriptions:
+    en: "Types of old brain infarctions visible on brain images."
+    es: "Tipos de infartos cerebrales antiguos visibles en las imágenes cerebrales."
+    el: "Τύποι παλαιών εγκεφαλικών εμφράκτων που είναι ορατοί στις εγκεφαλικές εικόνες."
+    cs: "Typy starých mozkových infarktů viditelných na snímcích mozku."
   data_type: Enum
   Enum:
     - key: old_infarcts_cortical
-      synonyms: ['old cortical infarcts']
+      synonyms: ["old cortical infarcts"]
     - key: old_infarcts_subcortical
-      synonyms: ['old subcortical infarcts']
+      synonyms: ["old subcortical infarcts"]
     - key: old_infarcts_brainstem
-      synonyms: ['old brainstem infarcts']
+      synonyms: ["old brainstem infarcts"]
 
 - canonical: PERFUSION_DEFICIT_TYPE
-  synonyms: ['perfusion deficit territory']
-  description: 'Territories with detected perfusion deficit.'
+  synonyms: ["perfusion deficit territory"]
+  descriptions:
+    en: "Territories with detected perfusion deficit."
+    es: "Territorios con déficit de perfusión detectado."
+    el: "Αγγειακές περιοχές με ανιχνευμένο έλλειμμα αιμάτωσης."
+    cs: "Teritoria se zjištěným perfuzním deficitem."
   data_type: Enum
   Enum:
     - key: perfusion_deficit_medial
-      synonyms: ['medial perfusion deficit']
+      synonyms: ["medial perfusion deficit"]
     - key: perfusion_deficit_anterior
-      synonyms: ['anterior perfusion deficit']
+      synonyms: ["anterior perfusion deficit"]
     - key: perfusion_deficit_posterior
-      synonyms: ['posterior perfusion deficit']
+      synonyms: ["posterior perfusion deficit"]
     - key: perfusion_deficit_carotid
-      synonyms: ['carotid territory perfusion deficit']
+      synonyms: ["carotid territory perfusion deficit"]
     - key: perfusion_deficit_bilateral_stenosis
-      synonyms: ['bilateral stenosis perfusion deficit']
+      synonyms: ["bilateral stenosis perfusion deficit"]
 
 - canonical: PERFUSION_CORE
-  synonyms: ['perfusion core volume']
-  description: 'Volume of perfusion deficit core in ml.'
+  synonyms: ["perfusion core volume"]
+  descriptions:
+    en: "Volume of perfusion deficit core in ml."
+    es: "Volumen del núcleo del déficit de perfusión en ml."
+    el: "Όγκος του πυρήνα του perfusion deficit σε ml."
+    cs: "Objem jádra perfuzního deficitu v ml."
   data_type: Numeric
   Numeric:
     unit: ml
@@ -519,8 +679,12 @@
     default_buckets: 15
 
 - canonical: HYPOPERFUSION
-  synonyms: ['hypoperfusion volume']
-  description: 'Volume of hypoperfusion in ml.'
+  synonyms: ["hypoperfusion volume"]
+  descriptions:
+    en: "Volume of hypoperfusion in ml."
+    es: "Volumen de hipoperfusión en ml."
+    el: "Όγκος υποαιμάτωσης σε ml."
+    cs: "Objem hypoperfuze v ml."
   data_type: Numeric
   Numeric:
     unit: ml
@@ -529,113 +693,149 @@
     default_buckets: 15
 
 - canonical: STROKE_TYPE
-  synonyms: ['stroke type', 'stroke diagnosis']
-  description: 'Types of stroke diagnoses.'
+  synonyms: ["stroke type", "stroke diagnosis"]
+  descriptions:
+    en: "Types of stroke diagnoses."
+    es: "Tipos de diagnósticos de ictus."
+    el: "Τύποι διαγνώσεων εγκεφαλικού επεισοδίου."
+    cs: "Typy diagnóz cévní mozkové příhody."
   data_type: Enum
   Enum:
     - key: ischemic
-      synonyms: ['ischemic stroke']
+      synonyms: ["ischemic stroke"]
     - key: intracerebral_hemorrhage
-      synonyms: ['intracerebral hemorrhage']
+      synonyms: ["intracerebral hemorrhage"]
     - key: transient_ischemic
-      synonyms: ['transient ischemic attack']
+      synonyms: ["transient ischemic attack"]
     - key: subarachnoid_hemorrhage
-      synonyms: ['subarachnoid hemorrhage']
+      synonyms: ["subarachnoid hemorrhage"]
     - key: cerebral_venous_thrombosis
-      synonyms: ['cerebral venous thrombosis']
+      synonyms: ["cerebral venous thrombosis"]
     - key: stroke_mimics
-      synonyms: ['stroke mimics']
+      synonyms: ["stroke mimics"]
     - key: undetermined
-      synonyms: ['undetermined stroke']
+      synonyms: ["undetermined stroke"]
 
 - canonical: STROKE_MIMICS_DIAGNOSIS
-  synonyms: ['stroke mimics diagnosis']
-  description: 'Types of diagnosis for stroke mimics.'
+  synonyms: ["stroke mimics diagnosis"]
+  descriptions:
+    en: "Types of diagnosis for stroke mimics."
+    es: "Tipos de diagnósticos para cuadros que imitan un ictus."
+    el: "Τύποι διαγνώσεων για καταστάσεις που μιμούνται εγκεφαλικό επεισόδιο."
+    cs: "Typy diagnóz stavů napodobujících cévní mozkovou příhodu."
   data_type: Enum
   Enum:
     - key: migraine
-      synonyms: ['migraine']
+      synonyms: ["migraine"]
     - key: seizure
-      synonyms: ['seizure']
+      synonyms: ["seizure"]
     - key: delirium
-      synonyms: ['delirium']
+      synonyms: ["delirium"]
     - key: imbalance
-      synonyms: ['imbalance']
+      synonyms: ["imbalance"]
     - key: functional_disorder
-      synonyms: ['functional disorder']
+      synonyms: ["functional disorder"]
     - key: other
-      synonyms: ['other']
+      synonyms: ["other"]
 
 - canonical: THROMBOLYSIS
-  synonyms: ['intravenous thrombolysis', 'ivt']
-  description: 'Undergoing intravenous thrombolysis.'
+  synonyms: ["intravenous thrombolysis", "ivt"]
+  descriptions:
+    en: "Undergoing intravenous thrombolysis."
+    es: "Sometimiento a trombólisis intravenosa."
+    el: "Υποβολή σε ενδοφλέβια θρομβόλυση."
+    cs: "Podstoupení intravenózní trombolýzy."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: THROMBECTOMY
-  synonyms: ['mechanical thrombectomy', 'mt']
-  description: 'Undergoing mechanical thrombectomy.'
+  synonyms: ["mechanical thrombectomy", "mt"]
+  descriptions:
+    en: "Undergoing mechanical thrombectomy."
+    es: "Sometimiento a trombectomía mecánica."
+    el: "Υποβολή σε μηχανική θρομβεκτομή."
+    cs: "Podstoupení mechanické trombektomie."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: THROMBECTOMY_ONLY
-  synonyms: ['thrombectomy only']
-  description: 'Undergoing only mechanical thrombectomy.'
+  synonyms: ["thrombectomy only"]
+  descriptions:
+    en: "Undergoing only mechanical thrombectomy."
+    es: "Sometimiento únicamente a trombectomía mecánica."
+    el: "Υποβολή μόνο σε μηχανική θρομβεκτομή."
+    cs: "Podstoupení pouze mechanické trombektomie."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: THROMBOLYSIS_ONLY
-  synonyms: ['thrombolysis only']
-  description: 'Undergoing only intravenous thrombolysis.'
+  synonyms: ["thrombolysis only"]
+  descriptions:
+    en: "Undergoing only intravenous thrombolysis."
+    es: "Sometimiento únicamente a trombólisis intravenosa."
+    el: "Υποβολή μόνο σε ενδοφλέβια θρομβόλυση."
+    cs: "Podstoupení pouze intravenózní trombolýzy."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: THROMBOLYSIS_AND_THROMBECTOMY
-  synonyms: ['thrombolysis and thrombectomy']
-  description: 'Undergoing both mechanical thrombectomy and intravenous thrombolysis.'
+  synonyms: ["thrombolysis and thrombectomy"]
+  descriptions:
+    en: "Undergoing both mechanical thrombectomy and intravenous thrombolysis."
+    es: "Sometimiento tanto a trombectomía mecánica como a trombólisis intravenosa."
+    el: "Υποβολή τόσο σε μηχανική θρομβεκτομή όσο και σε ενδοφλέβια θρομβόλυση."
+    cs: "Podstoupení jak mechanické trombektomie, tak intravenózní trombolýzy."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: RECANALIZATION
-  synonyms: ['recanalization therapy']
-  description: 'Undergoing recanalization therapy (mechanical thrombectomy or/and intravenous thrombolysis).'
+  synonyms: ["recanalization therapy"]
+  descriptions:
+    en: "Undergoing recanalization therapy (mechanical thrombectomy and/or intravenous thrombolysis)."
+    es: "Sometimiento a terapia de recanalización (trombectomía mecánica y/o trombólisis intravenosa)."
+    el: "Υποβολή σε θεραπεία επανακαναλοποίησης (μηχανική θρομβεκτομή και/ή ενδοφλέβια θρομβόλυση)."
+    cs: "Podstoupení rekanalizační léčby (mechanická trombektomie a/nebo intravenózní trombolýza)."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: DTN
   synonyms:
-    - 'door to needle'
-    - 'door to needle time'
-    - 'time to thrombolysis'
-    - 'time until thrombolytic treatment'
-    - 'time to iv tpa'
-    - 'time to treatment'
-    - 'treatment delay'
-  description: 'Door-To-Needle time in minutes.'
+    - "door to needle"
+    - "door to needle time"
+    - "time to thrombolysis"
+    - "time until thrombolytic treatment"
+    - "time to iv tpa"
+    - "time to treatment"
+    - "treatment delay"
+  descriptions:
+    en: "Door-To-Needle time in minutes."
+    es: "Tiempo puerta-aguja en minutos."
+    el: "Χρόνος door-to-needle σε λεπτά."
+    cs: "Door-to-needle čas v minutách."
   data_type: Numeric
   Numeric:
     unit: minutes
@@ -644,8 +844,12 @@
     default_buckets: 24
 
 - canonical: DTG_PRIMARY
-  synonyms: ['primary door to groin', 'primary dtg']
-  description: 'Door-To-Groin time in minutes of primary treating hospital.'
+  synonyms: ["primary door to groin", "primary dtg"]
+  descriptions:
+    en: "Door-To-Groin time in minutes of primary treating hospital."
+    es: "Tiempo puerta-ingle en minutos en el hospital primario tratante."
+    el: "Χρόνος door-to-groin σε λεπτά στο πρωτογενές θεραπευτήριο νοσοκομείο."
+    cs: "Door-to-groin čas v minutách v primární léčící nemocnici."
   data_type: Numeric
   Numeric:
     unit: minutes
@@ -654,8 +858,12 @@
     default_buckets: 24
 
 - canonical: DTG_SECONDARY
-  synonyms: ['secondary door to groin', 'secondary dtg']
-  description: 'Door-To-Groin time in minutes of secondary treating hospital.'
+  synonyms: ["secondary door to groin", "secondary dtg"]
+  descriptions:
+    en: "Door-To-Groin time in minutes of secondary treating hospital."
+    es: "Tiempo puerta-ingle en minutos en el hospital secundario tratante."
+    el: "Χρόνος door-to-groin σε λεπτά στο δευτερογενές θεραπευτήριο νοσοκομείο."
+    cs: "Door-to-groin čas v minutách v sekundární léčící nemocnici."
   data_type: Numeric
   Numeric:
     unit: minutes
@@ -664,8 +872,12 @@
     default_buckets: 24
 
 - canonical: DIDO
-  synonyms: ['door in door out']
-  description: 'Door-In-Door-Out time when patient is transfered for treatment.'
+  synonyms: ["door in door out"]
+  descriptions:
+    en: "Door-In-Door-Out time when patient is transferred for treatment."
+    es: "Tiempo puerta-entrada/puerta-salida cuando el paciente es trasladado para tratamiento."
+    el: "Χρόνος door-in-door-out όταν ο ασθενής διακομίζεται για θεραπεία."
+    cs: "Door-in-door-out čas při překladu pacienta k další léčbě."
   data_type: Numeric
   Numeric:
     unit: minutes
@@ -674,8 +886,12 @@
     default_buckets: 24
 
 - canonical: DOOR_TO_REPERFUSION
-  synonyms: ['door to reperfusion time']
-  description: 'Door-To-Reperfusion time in minute.'
+  synonyms: ["door to reperfusion time"]
+  descriptions:
+    en: "Door-To-Reperfusion time in minutes."
+    es: "Tiempo puerta-reperfusión en minutos."
+    el: "Χρόνος door-to-reperfusion σε λεπτά."
+    cs: "Door-to-reperfusion čas v minutách."
   data_type: Numeric
   Numeric:
     unit: minutes
@@ -684,124 +900,152 @@
     default_buckets: 24
 
 - canonical: MTICI_SCORE
-  synonyms: ['mtici score']
-  description: 'Values of mTICI (Modified treatment in cerebral infarction) score after undergoing mechanical thrombectomy.'
+  synonyms: ["mtici score"]
+  descriptions:
+    en: "Values of mTICI (Modified treatment in cerebral infarction) score after undergoing mechanical thrombectomy."
+    es: "Valores de la puntuación mTICI (Modified Treatment in Cerebral Infarction) tras la trombectomía mecánica."
+    el: "Τιμές της βαθμολογίας mTICI (Modified Treatment in Cerebral Infarction) μετά από μηχανική θρομβεκτομή."
+    cs: "Hodnoty skóre mTICI (Modified Treatment in Cerebral Infarction) po provedení mechanické trombektomie."
   data_type: Enum
   Enum:
     - key: zero
-      synonyms: ['0']
+      synonyms: ["0"]
     - key: one
-      synonyms: ['1']
+      synonyms: ["1"]
     - key: two_a
-      synonyms: ['2a']
+      synonyms: ["2a"]
     - key: two_b
-      synonyms: ['2b']
+      synonyms: ["2b"]
     - key: two_c
-      synonyms: ['2c']
+      synonyms: ["2c"]
     - key: three
-      synonyms: ['3']
+      synonyms: ["3"]
     - key: occlusion_not_corfirmed
-      synonyms: ['occlusion not confirmed']
+      synonyms: ["occlusion not confirmed"]
 
 - canonical: NO_THROMBOLYSIS_REASON
-  synonyms: ['reason for no thrombolysis']
-  description: 'Types of reasons for not administrating intravenous thrombolysis.'
+  synonyms: ["reason for no thrombolysis"]
+  descriptions:
+    en: "Types of reasons for not administering intravenous thrombolysis."
+    es: "Tipos de motivos para no administrar trombólisis intravenosa."
+    el: "Τύποι λόγων για τους οποίους δεν χορηγήθηκε ενδοφλέβια θρομβόλυση."
+    cs: "Typy důvodů, proč nebyla podána intravenózní trombolýza."
   data_type: Enum
   Enum:
     - key: done_elsewhere
-      synonyms: ['done elsewhere']
+      synonyms: ["done elsewhere"]
     - key: time_window
-      synonyms: ['time window exceeded']
+      synonyms: ["time window exceeded"]
     - key: mild_deficit
-      synonyms: ['mild deficit']
+      synonyms: ["mild deficit"]
     - key: consent
-      synonyms: ['no consent']
+      synonyms: ["no consent"]
     - key: only_mt
-      synonyms: ['mechanical thrombectomy only']
+      synonyms: ["mechanical thrombectomy only"]
     - key: cost_of_treatment
-      synonyms: ['cost of treatment']
+      synonyms: ["cost of treatment"]
     - key: transferred_elsewhere
-      synonyms: ['transferred elsewhere']
+      synonyms: ["transferred elsewhere"]
     - key: not_available
-      synonyms: ['treatment not available']
+      synonyms: ["treatment not available"]
     - key: other
-      synonyms: ['other reason']
+      synonyms: ["other reason"]
 
 - canonical: NO_THROMBECTOMY_REASON
-  synonyms: ['reason for no thrombectomy']
-  description: 'Types of reasons for not performing mechanical thrombectomy.'
+  synonyms: ["reason for no thrombectomy"]
+  descriptions:
+    en: "Types of reasons for not performing mechanical thrombectomy."
+    es: "Tipos de motivos para no realizar trombectomía mecánica."
+    el: "Τύποι λόγων για τους οποίους δεν πραγματοποιήθηκε μηχανική θρομβεκτομή."
+    cs: "Typy důvodů, proč nebyla provedena mechanická trombektomie."
   data_type: Enum
   Enum:
     - key: done_elsewhere
-      synonyms: ['done elsewhere']
+      synonyms: ["done elsewhere"]
     - key: time_window
-      synonyms: ['time window exceeded']
+      synonyms: ["time window exceeded"]
     - key: mild_deficit
-      synonyms: ['mild deficit']
+      synonyms: ["mild deficit"]
     - key: no_large_vessel_occlusion
-      synonyms: ['no large vessel occlusion']
+      synonyms: ["no large vessel occlusion"]
     - key: disability
-      synonyms: ['disability']
+      synonyms: ["disability"]
     - key: consent
-      synonyms: ['no consent']
+      synonyms: ["no consent"]
     - key: cost_of_treatment
-      synonyms: ['cost of treatment']
+      synonyms: ["cost of treatment"]
     - key: transferred_elsewhere
-      synonyms: ['transferred elsewhere']
+      synonyms: ["transferred elsewhere"]
     - key: not_available
-      synonyms: ['treatment not available']
+      synonyms: ["treatment not available"]
     - key: technically_not_possible
-      synonyms: ['technically not possible']
+      synonyms: ["technically not possible"]
     - key: no_angiography
-      synonyms: ['no angiography']
+      synonyms: ["no angiography"]
     - key: transferer_elsewhere_to_perform_ivt
-      synonyms: ['transferred elsewhere to perform ivt']
+      synonyms: ["transferred elsewhere to perform ivt"]
     - key: other
-      synonyms: ['other reason']
+      synonyms: ["other reason"]
 
 - canonical: MT_COMPLICATIONS_TYPE
-  synonyms: ['thrombectomy complications type']
-  description: 'Types of occuring mechanical thrombectomy complications.'
+  synonyms: ["thrombectomy complications type"]
+  descriptions:
+    en: "Types of occurring mechanical thrombectomy complications."
+    es: "Tipos de complicaciones presentes de la trombectomía mecánica."
+    el: "Τύποι επιπλοκών που εμφανίστηκαν κατά τη μηχανική θρομβεκτομή."
+    cs: "Typy komplikací vzniklých při mechanické trombektomii."
   data_type: Enum
   Enum:
     - key: mt_complications_perforation
-      synonyms: ['perforation']
+      synonyms: ["perforation"]
     - key: mt_complications_dissection
-      synonyms: ['dissection']
+      synonyms: ["dissection"]
     - key: mt_complications_embolization
-      synonyms: ['embolization']
+      synonyms: ["embolization"]
     - key: mt_complications_hematoma
-      synonyms: ['hematoma']
+      synonyms: ["hematoma"]
     - key: mt_complications_other
-      synonyms: ['other complication']
+      synonyms: ["other complication"]
 
 - canonical: MT_COMPLICATIONS
-  synonyms: ['thrombectomy complications', 'mt complications present']
-  description: 'Occurence of mechanical thrombectomy complications.'
+  synonyms: ["thrombectomy complications", "mt complications present"]
+  descriptions:
+    en: "Occurrence of mechanical thrombectomy complications."
+    es: "Ocurrencia de complicaciones de la trombectomía mecánica."
+    el: "Εμφάνιση επιπλοκών από μηχανική θρομβεκτομή."
+    cs: "Výskyt komplikací mechanické trombektomie."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: THROMBOLYSIS_DRUGS
-  synonyms: ['thrombolysis drugs', 'ivt drugs']
-  description: 'Thrombolytic drug types.'
+  synonyms: ["thrombolysis drugs", "ivt drugs"]
+  descriptions:
+    en: "Thrombolytic drug types."
+    es: "Tipos de fármacos trombolíticos."
+    el: "Τύποι θρομβολυτικών φαρμάκων."
+    cs: "Typy trombolytických léčiv."
   data_type: Enum
   Enum:
     - key: alteplase
-      synonyms: ['alteplase']
+      synonyms: ["alteplase"]
     - key: tenecteplase
-      synonyms: ['tenecteplase']
+      synonyms: ["tenecteplase"]
     - key: streptokinase
-      synonyms: ['streptokinase']
+      synonyms: ["streptokinase"]
     - key: staphylokinase
-      synonyms: ['staphylokinase']
+      synonyms: ["staphylokinase"]
 
 - canonical: THROMBOLYSIS_DRUG_DOSE
-  synonyms: ['thrombolysis drug dose', 'ivt dose']
-  description: 'Dose values of trombolytic drug.'
+  synonyms: ["thrombolysis drug dose", "ivt dose"]
+  descriptions:
+    en: "Dose values of thrombolytic drug."
+    es: "Valores de la dosis del fármaco trombolítico."
+    el: "Δόση του θρομβολυτικού φαρμάκου."
+    cs: "Dávky trombolytického léčiva."
   data_type: Numeric
   Numeric:
     unit: mg
@@ -810,92 +1054,124 @@
     default_buckets: 20
 
 - canonical: THROMBOLYSIS_APPLICATION_DEPARTMENT
-  synonyms: ['thrombolysis application department']
-  description: 'Department types when trombolytic drug was administered.'
+  synonyms: ["thrombolysis application department"]
+  descriptions:
+    en: "Department types where the thrombolytic drug was administered."
+    es: "Tipos de servicios en los que se administró el fármaco trombolítico."
+    el: "Τύποι τμημάτων όπου χορηγήθηκε το θρομβολυτικό φάρμακο."
+    cs: "Typy oddělení, na nichž byl podán trombolytický lék."
   data_type: Enum
   Enum:
     - key: radiology
-      synonyms: ['radiology']
+      synonyms: ["radiology"]
     - key: stroke_unit_or_icu
-      synonyms: ['stroke unit or intensive care']
+      synonyms: ["stroke unit or intensive care"]
     - key: emergency
-      synonyms: ['emergency department']
+      synonyms: ["emergency department"]
     - key: other
-      synonyms: ['other']
+      synonyms: ["other"]
 
 - canonical: POST_RECANALIZATION_FINDINGS
-  synonyms: ['post-recanalization findings present']
-  description: 'Detection of selected finding (brain infarct, remote brain bleeding, hemorrhagic transformation) on CT/MR performed after recanalization.'
+  synonyms: ["post-recanalization findings present"]
+  descriptions:
+    en: "Detection of selected findings (brain infarct, remote brain bleeding, hemorrhagic transformation) on CT/MR performed after recanalization."
+    es: "Detección de hallazgos seleccionados (infarto cerebral, hemorragia cerebral a distancia, transformación hemorrágica) en la TC/RM realizada tras la recanalización."
+    el: "Ανίχνευση επιλεγμένων ευρημάτων (εγκεφαλικό έμφρακτο, απομακρυσμένη εγκεφαλική αιμορραγία, αιμορραγική μετατροπή) σε CT/MR που διενεργήθηκε μετά την επανακαναλοποίηση."
+    cs: "Záchyt vybraných nálezů (mozkový infarkt, vzdálené krvácení, hemoragická transformace) na CT/MR provedeném po rekanalizaci."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: POST_RECANALIZATION_FINDING_TYPE
-  synonyms: ['post-recanalization finding type']
-  description: 'Types of findings detected on CT/MR performed after recanalization.'
+  synonyms: ["post-recanalization finding type"]
+  descriptions:
+    en: "Types of findings detected on CT/MR performed after recanalization."
+    es: "Tipos de hallazgos detectados en la TC/RM realizada tras la recanalización."
+    el: "Τύποι ευρημάτων που ανιχνεύθηκαν σε CT/MR μετά την επανακαναλοποίηση."
+    cs: "Typy nálezů zjištěných na CT/MR po rekanalizaci."
   data_type: Enum
   Enum:
     - key: post_treatment_brain_infarct
-      synonyms: ['post-treatment brain infarct']
+      synonyms: ["post-treatment brain infarct"]
     - key: post_treatment_remote_bleeding
-      synonyms: ['post-treatment remote bleeding']
+      synonyms: ["post-treatment remote bleeding"]
     - key: post_treatment_hemorrhagic_transformation
-      synonyms: ['post-treatment hemorrhagic transformation']
+      synonyms: ["post-treatment hemorrhagic transformation"]
 
 - canonical: HEMORRHAGIC_TRANSFORMATION
-  synonyms: ['hemorrhagic transformation type']
-  description: 'Types of found hemorrhagic transformation detected on CT/MR performed after recanalization.'
+  synonyms: ["hemorrhagic transformation type"]
+  descriptions:
+    en: "Types of hemorrhagic transformation detected on CT/MR performed after recanalization."
+    es: "Tipos de transformación hemorrágica detectada en la TC/RM realizada tras la recanalización."
+    el: "Τύποι αιμορραγικής μετατροπής που ανιχνεύθηκαν σε CT/MR μετά την επανακαναλοποίηση."
+    cs: "Typy hemoragické transformace zjištěné na CT/MR po rekanalizaci."
   data_type: Enum
   Enum:
     - key: hi_type_1
-      synonyms: ['hi type 1']
+      synonyms: ["hi type 1"]
     - key: hi_type_2
-      synonyms: ['hi type 2']
+      synonyms: ["hi type 2"]
     - key: ph_type_1
-      synonyms: ['ph type 1']
+      synonyms: ["ph type 1"]
     - key: ph_type_2
-      synonyms: ['ph type 2']
+      synonyms: ["ph type 2"]
 
 - canonical: TIA_CLINICAL_SYMPTOMS
-  synonyms: ['tia clinical symptoms']
-  description: 'Types of clinacal symptoms of transient ischemic attack.'
+  synonyms: ["tia clinical symptoms"]
+  descriptions:
+    en: "Types of clinical symptoms of transient ischemic attack."
+    es: "Tipos de síntomas clínicos del ataque isquémico transitorio."
+    el: "Τύποι κλινικών συμπτωμάτων παροδικού ισχαιμικού επεισοδίου."
+    cs: "Typy klinických příznaků tranzitorní ischemické ataky."
   data_type: Enum
   Enum:
     - key: weakness
-      synonyms: ['weakness']
+      synonyms: ["weakness"]
     - key: speech_disturbance
-      synonyms: ['speech disturbance']
+      synonyms: ["speech disturbance"]
     - key: other
-      synonyms: ['other']
+      synonyms: ["other"]
 
 - canonical: TIA_SYMPTOMS_DURATION
-  synonyms: ['tia symptoms duration']
-  description: 'Duration (value intervals) of clinical symptons of transient ischemic attack.'
+  synonyms: ["tia symptoms duration"]
+  descriptions:
+    en: "Duration (value intervals) of clinical symptoms of transient ischemic attack."
+    es: "Duración (intervalos de valores) de los síntomas clínicos del ataque isquémico transitorio."
+    el: "Διάρκεια (διαστήματα τιμών) των κλινικών συμπτωμάτων του παροδικού ισχαιμικού επεισοδίου."
+    cs: "Délka trvání (intervaly hodnot) klinických příznaků tranzitorní ischemické ataky."
   data_type: Enum
   Enum:
     - key: lt_10_minutes
-      synonyms: ['less than 10 minutes']
+      synonyms: ["less than 10 minutes"]
     - key: ten_to_59_minutes
-      synonyms: ['10 to 59 minutes']
+      synonyms: ["10 to 59 minutes"]
     - key: gte_60_minutes
-      synonyms: ['60 minutes or more']
+      synonyms: ["60 minutes or more"]
 
 - canonical: BLEEDING_SOURCE_FOUND
-  synonyms: ['bleeding source found']
-  description: 'Finding of location of bleeding into brain tissue.'
+  synonyms: ["bleeding source found"]
+  descriptions:
+    en: "Finding of location of bleeding into brain tissue."
+    es: "Identificación de la localización de la hemorragia en el tejido cerebral."
+    el: "Εντοπισμός της θέσης της αιμορραγίας στον εγκεφαλικό ιστό."
+    cs: "Nález lokalizace krvácení do mozkové tkáně."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: ICH_BLEEDING_VOLUME
-  synonyms: ['intracerebral hemorrhage bleeding volume', 'ich bleeding volume']
-  description: 'Amount of blood in ml accumalted in the brain tissue as result of intracerebral hemorrhage.'
+  synonyms: ["intracerebral hemorrhage bleeding volume", "ich bleeding volume"]
+  descriptions:
+    en: "Amount of blood in ml accumulated in the brain tissue as a result of intracerebral hemorrhage."
+    es: "Cantidad de sangre en ml acumulada en el tejido cerebral como resultado de una hemorragia intracerebral."
+    el: "Ποσότητα αίματος σε ml που συσσωρεύτηκε στον εγκεφαλικό ιστό ως αποτέλεσμα ενδοεγκεφαλικής αιμορραγίας."
+    cs: "Množství krve v ml nahromaděné v mozkové tkáni v důsledku intracerebrálního krvácení."
   data_type: Numeric
   Numeric:
     unit: ml
@@ -904,8 +1180,12 @@
     default_buckets: 15
 
 - canonical: ICH_SCORE
-  synonyms: ['intracerebral hemorrhage score', 'ich score']
-  description: 'Values of predictive ICH score calculated for intracerebral hemorrhage patients.'
+  synonyms: ["intracerebral hemorrhage score", "ich score"]
+  descriptions:
+    en: "Values of predictive ICH score calculated for intracerebral hemorrhage patients."
+    es: "Valores de la puntuación predictiva de HIC calculada para pacientes con hemorragia intracerebral."
+    el: "Τιμές προγνωστικού ICH score υπολογισμένες για ασθενείς με ενδοεγκεφαλική αιμορραγία."
+    cs: "Hodnoty prediktivního skóre ICH vypočítaného u pacientů s intracerebrálním krvácením."
   data_type: Numeric
   Numeric:
     unit: score
@@ -914,132 +1194,178 @@
     default_buckets: 10
 
 - canonical: ICH_TREATMENT
-  synonyms: ['intracerebral hemorrhage treatment performed', 'ich treatment performed']
-  description: 'Perfomance of any intracerebral hemorrhage treatment.'
+  synonyms:
+    ["intracerebral hemorrhage treatment performed", "ich treatment performed"]
+  descriptions:
+    en: "Performance of any intracerebral hemorrhage treatment."
+    es: "Realización de cualquier tratamiento de la hemorragia intracerebral."
+    el: "Διενέργεια οποιασδήποτε θεραπείας ενδοεγκεφαλικής αιμορραγίας."
+    cs: "Provedení jakékoliv léčby intracerebrálního krvácení."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: ICH_TREATMENT_TYPE
-  synonyms: ['intracerebral hemorrhage treatment type', 'ich treatment type']
-  description: 'Types of performed intracerebral hemorrhage treatment.'
+  synonyms: ["intracerebral hemorrhage treatment type", "ich treatment type"]
+  descriptions:
+    en: "Types of performed intracerebral hemorrhage treatment."
+    es: "Tipos de tratamientos realizados para la hemorragia intracerebral."
+    el: "Τύποι θεραπειών που πραγματοποιήθηκαν για την ενδοεγκεφαλική αιμορραγία."
+    cs: "Typy provedené léčby intracerebrálního krvácení."
   data_type: Enum
   Enum:
     - key: ich_treatment_hematoma_evacuation
-      synonyms: ['hematoma evacuation']
+      synonyms: ["hematoma evacuation"]
     - key: ich_treatment_ventricular_drainage
-      synonyms: ['ventricular drainage']
+      synonyms: ["ventricular drainage"]
     - key: ich_treatment_craniectomy
-      synonyms: ['craniectomy']
+      synonyms: ["craniectomy"]
 
 - canonical: BLEEDING_REASON_FOUND
-  synonyms: ['bleeding reason found']
-  description: 'Identification of bleeding reason.'
+  synonyms: ["bleeding reason found"]
+  descriptions:
+    en: "Identification of bleeding reason."
+    es: "Identificación de la causa de la hemorragia."
+    el: "Αναγνώριση της αιτίας της αιμορραγίας."
+    cs: "Určení příčiny krvácení."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: BLEEDING_REASON_TYPE
-  synonyms: ['bleeding reason type']
-  description: 'Types of identified bleeding reasons.'
+  synonyms: ["bleeding reason type"]
+  descriptions:
+    en: "Types of identified bleeding reasons."
+    es: "Tipos de causas de hemorragia identificadas."
+    el: "Τύποι αναγνωρισμένων αιτιών αιμορραγίας."
+    cs: "Typy zjištěných příčin krvácení."
   data_type: Enum
   Enum:
     - key: bleeding_reason_hypertension
-      synonyms: ['hypertension as bleeding reason']
+      synonyms: ["hypertension as bleeding reason"]
     - key: bleeding_reason_aneurysm
-      synonyms: ['aneurysm as bleeding reason']
+      synonyms: ["aneurysm as bleeding reason"]
     - key: bleeding_reason_malformation
-      synonyms: ['malformation as bleeding reason']
+      synonyms: ["malformation as bleeding reason"]
     - key: bleeding_reason_anticoagulant
-      synonyms: ['anticoagulant-related bleeding']
+      synonyms: ["anticoagulant-related bleeding"]
     - key: bleeding_reason_angiopathy
-      synonyms: ['angiopathy as bleeding reason']
+      synonyms: ["angiopathy as bleeding reason"]
     - key: bleeding_reason_other
-      synonyms: ['other bleeding reason']
+      synonyms: ["other bleeding reason"]
 
 - canonical: BLEEDING_ANTIDOTE_TO_ANTICOAGULANTS
-  synonyms: ['antidote to anticoagulants']
-  description: 'Types of antidotes usd to block anticoagulation medications.'
+  synonyms: ["antidote to anticoagulants"]
+  descriptions:
+    en: "Types of antidotes used to block anticoagulation medications."
+    es: "Tipos de antídotos utilizados para neutralizar la medicación anticoagulante."
+    el: "Τύποι αντιδότων που χρησιμοποιούνται για την εξουδετέρωση της αντιπηκτικής αγωγής."
+    cs: "Typy antidot používaných k blokaci účinku antikoagulační medikace."
   data_type: Enum
   Enum:
     - key: andexanete
-      synonyms: ['andexanet']
+      synonyms: ["andexanet"]
     - key: idarucizumab
-      synonyms: ['idarucizumab']
+      synonyms: ["idarucizumab"]
     - key: frozen_plasma
-      synonyms: ['frozen plasma']
+      synonyms: ["frozen plasma"]
     - key: prothrombin
-      synonyms: ['prothrombin complex']
+      synonyms: ["prothrombin complex"]
     - key: other
-      synonyms: ['other antidote']
+      synonyms: ["other antidote"]
     - key: none
-      synonyms: ['no antidote']
+      synonyms: ["no antidote"]
 
 - canonical: INTRAVENTRICULAR_HEMORRHAGE
-  synonyms: ['intraventricular hemorrhage']
-  description: 'Discovery of intraventricular hemorrhage (IVH) among intracerebral hemorrhage patients.'
+  synonyms: ["intraventricular hemorrhage"]
+  descriptions:
+    en: "Discovery of intraventricular hemorrhage (IVH) among intracerebral hemorrhage patients."
+    es: "Detección de hemorragia intraventricular (HIV) entre los pacientes con hemorragia intracerebral."
+    el: "Διάγνωση ενδοκοιλιακής αιμορραγίας (IVH) μεταξύ ασθενών με ενδοεγκεφαλική αιμορραγία."
+    cs: "Záchyt intraventrikulárního krvácení (IVH) u pacientů s intracerebrálním krvácením."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: INFRATENTORIAL_HEMORRHAGE
-  synonyms: ['infratentorial hemorrhage']
-  description: 'Discovery of infratentorial hemorrhage among intracerebral hemorrhage patients.'
+  synonyms: ["infratentorial hemorrhage"]
+  descriptions:
+    en: "Discovery of infratentorial hemorrhage among intracerebral hemorrhage patients."
+    es: "Detección de hemorragia infratentorial entre los pacientes con hemorragia intracerebral."
+    el: "Διάγνωση υποtentoriώδους αιμορραγίας μεταξύ ασθενών με ενδοεγκεφαλική αιμορραγία."
+    cs: "Záchyt infratentoriálního krvácení u pacientů s intracerebrálním krvácením."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: SAH_TREATMENT
-  synonyms: ['subarachnoid hemorrhage treatment performed', 'sah treatment performed']
-  description: 'Perfomance of any subarachnoid hemorrhage treatment.'
+  synonyms:
+    ["subarachnoid hemorrhage treatment performed", "sah treatment performed"]
+  descriptions:
+    en: "Performance of any subarachnoid hemorrhage treatment."
+    es: "Realización de cualquier tratamiento de la hemorragia subaracnoidea."
+    el: "Διενέργεια οποιασδήποτε θεραπείας υπαραχνοειδούς αιμορραγίας."
+    cs: "Provedení jakékoliv léčby subarachnoidálního krvácení."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: SAH_TREATMENT_TYPE
-  synonyms: ['subarachnoid hemorrhage treatment type', 'sah treatment type']
-  description: 'Types of performed subarachnoid hemorrhage treatment.'
+  synonyms: ["subarachnoid hemorrhage treatment type", "sah treatment type"]
+  descriptions:
+    en: "Types of performed subarachnoid hemorrhage treatment."
+    es: "Tipos de tratamientos realizados para la hemorragia subaracnoidea."
+    el: "Τύποι θεραπειών που πραγματοποιήθηκαν για την υπαραχνοειδή αιμορραγία."
+    cs: "Typy provedené léčby subarachnoidálního krvácení."
   data_type: Enum
   Enum:
     - key: sah_treatment_coiling
-      synonyms: ['coiling']
+      synonyms: ["coiling"]
     - key: sah_treatment_clipping
-      synonyms: ['clipping']
+      synonyms: ["clipping"]
     - key: sah_treatment_drainage
-      synonyms: ['drainage']
+      synonyms: ["drainage"]
     - key: sah_treatment_craniectomy
-      synonyms: ['craniectomy']
+      synonyms: ["craniectomy"]
     - key: sah_treatment_other
-      synonyms: ['other sah treatment']
+      synonyms: ["other sah treatment"]
 
 - canonical: NIMODIPINE
-  synonyms: ['nimodipine given']
-  description: 'Administration of nimodipine to treat subarachnoid hemorrhage.'
+  synonyms: ["nimodipine given"]
+  descriptions:
+    en: "Administration of nimodipine to treat subarachnoid hemorrhage."
+    es: "Administración de nimodipino para tratar la hemorragia subaracnoidea."
+    el: "Χορήγηση νιμοδιπίνης για τη θεραπεία της υπαραχνοειδούς αιμορραγίας."
+    cs: "Podání nimodipinu k léčbě subarachnoidálního krvácení."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: HUNT_HESS_SCORE
-  synonyms: ['hunt-hess score']
-  description: 'Values of Hunt-Hess score used to asses severity of subarachnoid hemorrhage.'
+  synonyms: ["hunt-hess score"]
+  descriptions:
+    en: "Values of Hunt-Hess score used to assess severity of subarachnoid hemorrhage."
+    es: "Valores de la puntuación Hunt-Hess utilizados para valorar la gravedad de la hemorragia subaracnoidea."
+    el: "Τιμές της κλίμακας Hunt-Hess που χρησιμοποιούνται για την εκτίμηση της βαρύτητας της υπαραχνοειδούς αιμορραγίας."
+    cs: "Hodnoty skóre Hunt-Hess používané k posouzení závažnosti subarachnoidálního krvácení."
   data_type: Numeric
   Numeric:
     unit: score
@@ -1048,278 +1374,386 @@
     default_buckets: 5
 
 - canonical: CVT_TREATMENT
-  synonyms: ['cerebral venous thrombosis treatment performed', 'cvt treatment performed']
-  description: 'Perfomance of any cerebral venous thrombosis treatment.'
+  synonyms:
+    [
+      "cerebral venous thrombosis treatment performed",
+      "cvt treatment performed",
+    ]
+  descriptions:
+    en: "Performance of any cerebral venous thrombosis treatment."
+    es: "Realización de cualquier tratamiento de la trombosis venosa cerebral."
+    el: "Διενέργεια οποιασδήποτε θεραπείας φλεβικής θρόμβωσης εγκεφάλου."
+    cs: "Provedení jakékoliv léčby cerebrální žilní trombózy."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: CVT_TREATMENT_TYPE
-  synonyms: ['cerebral venous thrombosis treatment type', 'cvt treatment type']
-  description: 'Types of performed cerebral venous thrombosis treatment.'
+  synonyms: ["cerebral venous thrombosis treatment type", "cvt treatment type"]
+  descriptions:
+    en: "Types of performed cerebral venous thrombosis treatment."
+    es: "Tipos de tratamientos realizados para la trombosis venosa cerebral."
+    el: "Τύποι θεραπειών που πραγματοποιήθηκαν για τη φλεβική θρόμβωση εγκεφάλου."
+    cs: "Typy provedené léčby cerebrální žilní trombózy."
   data_type: Enum
   Enum:
     - key: cvt_treatment_anticoagulation
-      synonyms: ['anticoagulation for cvt']
+      synonyms: ["anticoagulation for cvt"]
     - key: cvt_treatment_thrombectomy
-      synonyms: ['thrombectomy for cvt']
+      synonyms: ["thrombectomy for cvt"]
     - key: cvt_treatment_thrombolysis
-      synonyms: ['thrombolysis for cvt']
+      synonyms: ["thrombolysis for cvt"]
     - key: cvt_treatment_neurosurgery
-      synonyms: ['neurosurgery for cvt']
+      synonyms: ["neurosurgery for cvt"]
 
 - canonical: POST_ACUTE_CARE
-  synonyms: ['post-acute care in hospital']
-  description: 'Undergoing post-acute care in treating hospital.'
+  synonyms: ["post-acute care in hospital"]
+  descriptions:
+    en: "Undergoing post-acute care in treating hospital."
+    es: "Recepción de cuidados posagudos en el hospital tratante."
+    el: "Λήψη μετα-οξείας φροντίδας στο θεράπον νοσοκομείο."
+    cs: "Podstoupení postakutní péče v léčící nemocnici."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: CRANIECTOMY
-  synonyms: ['decompressive craniectomy performed']
-  description: 'Performing of decompresive craniectomy.'
+  synonyms: ["decompressive craniectomy performed"]
+  descriptions:
+    en: "Performance of decompressive craniectomy."
+    es: "Realización de craniectomía descompresiva."
+    el: "Διενέργεια αποσυμπιεστικής κρανιεκτομής."
+    cs: "Provedení dekompresivní kraniektomie."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: CRANIECTOMY_AGE_GT60
-  synonyms: ['decompressive craniectomy age ≥60']
-  description: 'Performing of decompresive craniectomy among patients that are 60 years old or older.'
+  synonyms: ["decompressive craniectomy age ≥60"]
+  descriptions:
+    en: "Performance of decompressive craniectomy among patients who are 60 years old or older."
+    es: "Realización de craniectomía descompresiva en pacientes de 60 años o más."
+    el: "Διενέργεια αποσυμπιεστικής κρανιεκτομής σε ασθενείς ηλικίας 60 ετών ή άνω."
+    cs: "Provedení dekompresivní kraniektomie u pacientů ve věku 60 let a starších."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: CAROTID_ARTERIES_IMAGING
-  synonyms: ['carotid arteries imaging performed']
-  description: 'Performing of carotid arteries imaging.'
+  synonyms: ["carotid arteries imaging performed"]
+  descriptions:
+    en: "Performing of carotid arteries imaging."
+    es: "Realización de estudios de imagen de las arterias carótidas."
+    el: "Διενέργεια απεικόνισης των καρωτίδων."
+    cs: "Provedení zobrazovacího vyšetření karotid."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: CAROTID_STENOSIS
-  synonyms: ['carotid stenosis present']
-  description: 'Discovery of stenosis of carotid arteries.'
+  synonyms: ["carotid stenosis present"]
+  descriptions:
+    en: "Discovery of stenosis of carotid arteries."
+    es: "Detección de estenosis de las arterias carótidas."
+    el: "Διάγνωση στένωσης των καρωτιδικών αρτηριών."
+    cs: "Záchyt stenózy karotických tepen."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: CAROTID_STENOSIS_LEVEL
-  synonyms: ['carotid stenosis level']
-  description: 'Levels of discovered stenosis of carotid arteries.'
+  synonyms: ["carotid stenosis level"]
+  descriptions:
+    en: "Levels of discovered stenosis of carotid arteries."
+    es: "Grados de estenosis carotídea detectada."
+    el: "Βαθμοί στένωσης των καρωτιδικών αρτηριών που ανιχνεύθηκαν."
+    cs: "Stupně zjištěné stenózy karotických tepen."
   data_type: Enum
   Enum:
     - key: bellow_50
-      synonyms: ['below 50 percent']
+      synonyms: ["below 50 percent"]
     - key: fifty_to_70
-      synonyms: ['50 to 70 percent']
+      synonyms: ["50 to 70 percent"]
     - key: over_70
-      synonyms: ['over 70 percent']
+      synonyms: ["over 70 percent"]
     - key: occlusion
-      synonyms: ['occlusion']
+      synonyms: ["occlusion"]
 
 - canonical: CAROTID_ENDARTERECTOMY
-  synonyms: ['carotid endarterectomy or stenting within two weeks']
-  description: 'Treatment of carotid stenosis using carotid endarterectomy or stenting within two weeks after stroke onset.'
+  synonyms: ["carotid endarterectomy or stenting within two weeks"]
+  descriptions:
+    en: "Treatment of carotid stenosis using carotid endarterectomy or stenting within two weeks after stroke onset."
+    es: "Tratamiento de la estenosis carotídea mediante endarterectomía o colocación de stent dentro de las dos semanas posteriores al inicio del ictus."
+    el: "Θεραπεία καρωτιδικής στένωσης με καρωτιδική ενδαρτηρεκτομή ή τοποθέτηση stent εντός δύο εβδομάδων από την έναρξη του εγκεφαλικού επεισοδίου."
+    cs: "Léčba karotické stenózy karotickou endarterektomií nebo stentováním do dvou týdnů od vzniku iktu."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: CAROTID_ENDARTERECTOMY_STENOSIS_GT70
-  synonyms: ['carotid endarterectomy stenosis >70 percent']
-  description: 'Treatment of carotid stenosis (stenosis level above 70%) using carotid endarterectomy or stenting within two weeks after stroke onset.'
+  synonyms: ["carotid endarterectomy stenosis >70 percent"]
+  descriptions:
+    en: "Treatment of carotid stenosis (stenosis level above 70%) using carotid endarterectomy or stenting within two weeks after stroke onset."
+    es: "Tratamiento de la estenosis carotídea (grado de estenosis superior al 70 %) mediante endarterectomía o stent dentro de las dos semanas posteriores al inicio del ictus."
+    el: "Θεραπεία καρωτιδικής στένωσης (βαθμός στένωσης άνω του 70%) με ενδαρτηρεκτομή ή stent εντός δύο εβδομάδων από την έναρξη του εγκεφαλικού επεισοδίου."
+    cs: "Léčba karotické stenózy (stupeň stenózy nad 70 %) karotickou endarterektomií nebo stentem do dvou týdnů od vzniku iktu."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: ATRIAL_FIBRILATION_FLUTTER
-  synonyms: ['atrial fibrillation or flutter status']
-  description: 'Detection of atrial fibrillation.'
+  synonyms: ["atrial fibrillation or flutter status"]
+  descriptions:
+    en: "Detection of atrial fibrillation."
+    es: "Detección de fibrilación auricular."
+    el: "Διάγνωση κολπικής μαρμαρυγής."
+    cs: "Záchyt fibrilace síní."
   data_type: Enum
   Enum:
     - key: known_af
-      synonyms: ['known atrial fibrillation']
+      synonyms: ["known atrial fibrillation"]
     - key: detected
-      synonyms: ['newly detected atrial fibrillation']
+      synonyms: ["newly detected atrial fibrillation"]
     - key: no_af
-      synonyms: ['no atrial fibrillation']
+      synonyms: ["no atrial fibrillation"]
     - key: not_screened
-      synonyms: ['not screened for atrial fibrillation']
+      synonyms: ["not screened for atrial fibrillation"]
 
 - canonical: STROKE_ETIOLOGY_KNOWN_AIS
-  synonyms: ['stroke etiology known (ais)']
-  description: 'Determination etiology of acute ischemic stroke.'
+  synonyms: ["stroke etiology known (ais)"]
+  descriptions:
+    en: "Determination of etiology of acute ischemic stroke."
+    es: "Determinación de la etiología del ictus isquémico agudo."
+    el: "Καθορισμός της αιτιολογίας του οξέος ισχαιμικού εγκεφαλικού επεισοδίου."
+    cs: "Určení etiologie akutní ischemické cévní mozkové příhody."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: STROKE_ETIOLOGY_TYPE_AIS
-  synonyms: ['stroke etiology type (ais)']
-  description: 'Types of determined etiologies among acute ischemic stroke patients.'
+  synonyms: ["stroke etiology type (ais)"]
+  descriptions:
+    en: "Types of determined etiologies among acute ischemic stroke patients."
+    es: "Tipos de etiologías establecidas entre los pacientes con ictus isquémico agudo."
+    el: "Τύποι καθορισμένων αιτιολογιών μεταξύ ασθενών με οξύ ισχαιμικό εγκεφαλικό επεισόδιο."
+    cs: "Typy stanovených etiologií u pacientů s akutním ischemickým iktem."
   data_type: Enum
   Enum:
     - key: stroke_etiology_la_atherosclerosis
-      synonyms: ['large artery atherosclerosis']
+      synonyms: ["large artery atherosclerosis"]
     - key: stroke_etiology_cardioembolism
-      synonyms: ['cardioembolism']
+      synonyms: ["cardioembolism"]
     - key: stroke_etiology_other
-      synonyms: ['other etiology']
+      synonyms: ["other etiology"]
     - key: stroke_etiology_cryptogenic_stroke
-      synonyms: ['cryptogenic stroke']
+      synonyms: ["cryptogenic stroke"]
     - key: stroke_etiology_lacunar
-      synonyms: ['lacunar stroke']
+      synonyms: ["lacunar stroke"]
 
 - canonical: STROKE_ETIOLOGY_KNOWN_AIS_TIA
-  synonyms: ['stroke etiology known (ais or tia)']
-  description: 'Determination etiology of acute ischemic stroke or transient ischemic attack.'
+  synonyms: ["stroke etiology known (ais or tia)"]
+  descriptions:
+    en: "Determination of etiology of acute ischemic stroke or transient ischemic attack."
+    es: "Determinación de la etiología del ictus isquémico agudo o del ataque isquémico transitorio."
+    el: "Καθορισμός της αιτιολογίας οξέος ισχαιμικού εγκεφαλικού επεισοδίου ή παροδικού ισχαιμικού επεισοδίου."
+    cs: "Určení etiologie akutního ischemického iktu nebo tranzitorní ischemické ataky."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: STROKE_ETIOLOGY_TYPE_AIS_TIA
-  synonyms: ['stroke etiology type (ais or tia)']
-  description: 'Types of determined etiologies among acute ischemic stroke or transient ischemic attack patiens.'
+  synonyms: ["stroke etiology type (ais or tia)"]
+  descriptions:
+    en: "Types of determined etiologies among acute ischemic stroke or transient ischemic attack patients."
+    es: "Tipos de etiologías establecidas entre pacientes con ictus isquémico agudo o ataque isquémico transitorio."
+    el: "Τύποι καθορισμένων αιτιολογιών μεταξύ ασθενών με οξύ ισχαιμικό εγκεφαλικό επεισόδιο ή παροδικό ισχαιμικό επεισόδιο."
+    cs: "Typy stanovených etiologií u pacientů s akutním ischemickým iktem nebo tranzitorní ischemickou atakou."
   data_type: Enum
   Enum:
     - key: stroke_etiology_la_atherosclerosis
-      synonyms: ['large artery atherosclerosis']
+      synonyms: ["large artery atherosclerosis"]
     - key: stroke_etiology_cardioembolism
-      synonyms: ['cardioembolism']
+      synonyms: ["cardioembolism"]
     - key: stroke_etiology_other
-      synonyms: ['other etiology']
+      synonyms: ["other etiology"]
     - key: stroke_etiology_cryptogenic_stroke
-      synonyms: ['cryptogenic stroke']
+      synonyms: ["cryptogenic stroke"]
     - key: stroke_etiology_lacunar
-      synonyms: ['lacunar stroke']
+      synonyms: ["lacunar stroke"]
 
 - canonical: VTE_INTERVENTION_AIS
-  synonyms: ['venous thromboembolism prevention in acute ischemic stroke', 'vte prevention in ais']
-  description: 'Prevention of the venous thromboembolism (VTE) among acute ischemic stroke patients.'
+  synonyms:
+    [
+      "venous thromboembolism prevention in acute ischemic stroke",
+      "vte prevention in ais",
+    ]
+  descriptions:
+    en: "Prevention of venous thromboembolism (VTE) among acute ischemic stroke patients."
+    es: "Prevención del tromboembolismo venoso (TEV) en pacientes con ictus isquémico agudo."
+    el: "Πρόληψη φλεβικής θρομβοεμβολής (VTE) σε ασθενείς με οξύ ισχαιμικό εγκεφαλικό επεισόδιο."
+    cs: "Prevence žilní tromboembolie (VTE) u pacientů s akutním ischemickým iktem."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: VTE_INTERVENTION_ICH
-  synonyms: ['venous thromboembolism prevention in intracerebral hemorrhage', 'vte prevention in ich']
-  description: 'Prevention of the venous thromboembolism (VTE) among intracerebral hemorrhage patients.'
+  synonyms:
+    [
+      "venous thromboembolism prevention in intracerebral hemorrhage",
+      "vte prevention in ich",
+    ]
+  descriptions:
+    en: "Prevention of venous thromboembolism (VTE) among intracerebral hemorrhage patients."
+    es: "Prevención del tromboembolismo venoso (TEV) en pacientes con hemorragia intracerebral."
+    el: "Πρόληψη φλεβικής θρομβοεμβολής (VTE) σε ασθενείς με ενδοεγκεφαλική αιμορραγία."
+    cs: "Prevence žilní tromboembolie (VTE) u pacientů s intracerebrálním krvácením."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: VTE_INTERVENTION_TYPE_AIS
-  synonyms: ['venous thromboembolism prevention type in acute ischemic stroke', 'vte prevention type in ais']
-  description: 'Types of venous thromboembolism (VTE) preventions among acute ischemic stroke patients.'
+  synonyms:
+    [
+      "venous thromboembolism prevention type in acute ischemic stroke",
+      "vte prevention type in ais",
+    ]
+  descriptions:
+    en: "Types of venous thromboembolism (VTE) prevention among acute ischemic stroke patients."
+    es: "Tipos de medidas de prevención del tromboembolismo venoso (TEV) en pacientes con ictus isquémico agudo."
+    el: "Τύποι μέτρων πρόληψης φλεβικής θρομβοεμβολής (VTE) σε ασθενείς με οξύ ισχαιμικό εγκεφαλικό επεισόδιο."
+    cs: "Typy prevence žilní tromboembolie (VTE) u pacientů s akutním ischemickým iktem."
   data_type: Enum
   Enum:
     - key: vte_ufh
-      synonyms: ['unfractionated heparin for vte prevention']
+      synonyms: ["unfractionated heparin for vte prevention"]
     - key: vte_lmwh
-      synonyms: ['low molecular weight heparin for vte prevention']
+      synonyms: ["low molecular weight heparin for vte prevention"]
     - key: vte_ipc
-      synonyms: ['intermittent pneumatic compression for vte prevention']
+      synonyms: ["intermittent pneumatic compression for vte prevention"]
     - key: vte_gcs
-      synonyms: ['graduated compression stockings for vte prevention']
+      synonyms: ["graduated compression stockings for vte prevention"]
     - key: vte_warfarin
-      synonyms: ['warfarin for vte prevention']
+      synonyms: ["warfarin for vte prevention"]
     - key: vte_vfp
-      synonyms: ['venous foot pump for vte prevention']
+      synonyms: ["venous foot pump for vte prevention"]
     - key: vte_xa_inhibitor
-      synonyms: ['xa inhibitor for vte prevention']
+      synonyms: ["xa inhibitor for vte prevention"]
     - key: vte_other
-      synonyms: ['other vte prevention']
+      synonyms: ["other vte prevention"]
 
 - canonical: VTE_INTERVENTION_TYPE_ICH
-  synonyms: ['venous thromboembolism prevention type in intracerebral hemorrhage', 'vte prevention type in ich']
-  description: 'Types of venous thromboembolism (VTE) preventions among intracerebral hemorrhage patients.'
+  synonyms:
+    [
+      "venous thromboembolism prevention type in intracerebral hemorrhage",
+      "vte prevention type in ich",
+    ]
+  descriptions:
+    en: "Types of venous thromboembolism (VTE) prevention among intracerebral hemorrhage patients."
+    es: "Tipos de medidas de prevención del tromboembolismo venoso (TEV) en pacientes con hemorragia intracerebral."
+    el: "Τύποι μέτρων πρόληψης φλεβικής θρομβοεμβολής (VTE) σε ασθενείς με ενδοεγκεφαλική αιμορραγία."
+    cs: "Typy prevence žilní tromboembolie (VTE) u pacientů s intracerebrálním krvácením."
   data_type: Enum
   Enum:
     - key: vte_ufh
-      synonyms: ['unfractionated heparin for vte prevention']
+      synonyms: ["unfractionated heparin for vte prevention"]
     - key: vte_lmwh
-      synonyms: ['low molecular weight heparin for vte prevention']
+      synonyms: ["low molecular weight heparin for vte prevention"]
     - key: vte_ipc
-      synonyms: ['intermittent pneumatic compression for vte prevention']
+      synonyms: ["intermittent pneumatic compression for vte prevention"]
     - key: vte_gcs
-      synonyms: ['graduated compression stockings for vte prevention']
+      synonyms: ["graduated compression stockings for vte prevention"]
     - key: vte_warfarin
-      synonyms: ['warfarin for vte prevention']
+      synonyms: ["warfarin for vte prevention"]
     - key: vte_vfp
-      synonyms: ['venous foot pump for vte prevention']
+      synonyms: ["venous foot pump for vte prevention"]
     - key: vte_xa_inhibitor
-      synonyms: ['xa inhibitor for vte prevention']
+      synonyms: ["xa inhibitor for vte prevention"]
     - key: vte_other
-      synonyms: ['other vte prevention']
+      synonyms: ["other vte prevention"]
 
 - canonical: POST_STROKE_COMPLICATIONS
-  synonyms: ['post-stroke complications present']
-  description: 'Occurence of any post-stroke complication.'
+  synonyms: ["post-stroke complications present"]
+  descriptions:
+    en: "Occurrence of any post-stroke complication."
+    es: "Ocurrencia de cualquier complicación posterior al ictus."
+    el: "Εμφάνιση οποιασδήποτε επιπλοκής μετά το εγκεφαλικό επεισόδιο."
+    cs: "Výskyt jakékoliv komplikace po cévní mozkové příhodě."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: POST_STROKE_COMPLICATIONS_TYPE
-  synonyms: ['post-stroke complications type']
-  description: 'Types of observed post-stroke complications.'
+  synonyms: ["post-stroke complications type"]
+  descriptions:
+    en: "Types of observed post-stroke complications."
+    es: "Tipos de complicaciones observadas después del ictus."
+    el: "Τύποι επιπλοκών που παρατηρήθηκαν μετά το εγκεφαλικό επεισόδιο."
+    cs: "Typy pozorovaných komplikací po cévní mozkové příhodě."
   data_type: Enum
   Enum:
     - key: post_stroke_pneumonia
-      synonyms: ['post-stroke pneumonia']
+      synonyms: ["post-stroke pneumonia"]
     - key: post_stroke_dvt
-      synonyms: ['post-stroke deep vein thrombosis']
+      synonyms: ["post-stroke deep vein thrombosis"]
     - key: post_stroke_pulmonary_embolism
-      synonyms: ['post-stroke pulmonary embolism']
+      synonyms: ["post-stroke pulmonary embolism"]
     - key: post_stroke_urinary_infection
-      synonyms: ['post-stroke urinary infection']
+      synonyms: ["post-stroke urinary infection"]
     - key: post_stroke_pressure_sores
-      synonyms: ['post-stroke pressure sores']
+      synonyms: ["post-stroke pressure sores"]
     - key: post_stroke_drip_site_sepsis
-      synonyms: ['post-stroke drip-site sepsis']
+      synonyms: ["post-stroke drip-site sepsis"]
     - key: post_stroke_recurrence_or_extension
-      synonyms: ['post-stroke recurrence or extension']
+      synonyms: ["post-stroke recurrence or extension"]
     - key: post_stroke_other
-      synonyms: ['other post-stroke complication']
+      synonyms: ["other post-stroke complication"]
 
 - canonical: DAY_1_TEMPERATURE_CHECKS
-  synonyms: ['day 1 temperature checks']
-  description: 'Number of times temperature was checked on day 1 of post-acute care.'
+  synonyms: ["day 1 temperature checks"]
+  descriptions:
+    en: "Number of times temperature was checked on day 1 of post-acute care."
+    es: "Número de veces que se controló la temperatura el día 1 de la atención posaguda."
+    el: "Πόσες φορές μετρήθηκε η θερμοκρασία την 1η ημέρα της μετα-οξείας φροντίδας."
+    cs: "Počet měření tělesné teploty v 1. dni postakutní péče."
   data_type: Numeric
   Numeric:
     unit: count
@@ -1328,8 +1762,12 @@
     default_buckets: 8
 
 - canonical: DAY_2_TEMPERATURE_CHECKS
-  synonyms: ['day 2 temperature checks']
-  description: 'Number of times temperature was checked on day 2 of post-acute care.'
+  synonyms: ["day 2 temperature checks"]
+  descriptions:
+    en: "Number of times temperature was checked on day 2 of post-acute care."
+    es: "Número de veces que se controló la temperatura el día 2 de la atención posaguda."
+    el: "Πόσες φορές μετρήθηκε η θερμοκρασία τη 2η ημέρα της μετα-οξείας φροντίδας."
+    cs: "Počet měření tělesné teploty ve 2. dni postakutní péče."
   data_type: Numeric
   Numeric:
     unit: count
@@ -1338,8 +1776,12 @@
     default_buckets: 8
 
 - canonical: DAY_3_TEMPERATURE_CHECKS
-  synonyms: ['day 3 temperature checks']
-  description: 'Number of times temperature was checked on day 2 of post-acute care.'
+  synonyms: ["day 3 temperature checks"]
+  descriptions:
+    en: "Number of times temperature was checked on day 3 of post-acute care."
+    es: "Número de veces que se controló la temperatura el día 3 de la atención posaguda."
+    el: "Πόσες φορές μετρήθηκε η θερμοκρασία την 3η ημέρα της μετα-οξείας φροντίδας."
+    cs: "Počet měření tělesné teploty ve 3. dni postakutní péče."
   data_type: Numeric
   Numeric:
     unit: count
@@ -1348,18 +1790,26 @@
     default_buckets: 8
 
 - canonical: PARACETAMOL_ON_FEVER
-  synonyms: ['paracetamol on fever']
-  description: 'Paracetamol administration on developed fever (≥ 37.5⁰C).'
+  synonyms: ["paracetamol on fever"]
+  descriptions:
+    en: "Paracetamol administration on developed fever (≥ 37.5°C)."
+    es: "Administración de paracetamol ante la aparición de fiebre (≥ 37,5 °C)."
+    el: "Χορήγηση παρακεταμόλης σε περίπτωση ανάπτυξης πυρετού (≥ 37,5°C)."
+    cs: "Podání paracetamolu při vzniku horečky (≥ 37,5 °C)."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: DAY_1_HYPERGLYCEMIA_CHECKS
-  synonyms: ['day 1 hyperglycemia checks']
-  description: 'Number of times blood sugar was checked on day 1 of post-acute care.'
+  synonyms: ["day 1 hyperglycemia checks"]
+  descriptions:
+    en: "Number of times blood sugar was checked on day 1 of post-acute care."
+    es: "Número de veces que se controló la glucemia el día 1 de la atención posaguda."
+    el: "Πόσες φορές ελέγχθηκε το σάκχαρο αίματος την 1η ημέρα της μετα-οξείας φροντίδας."
+    cs: "Počet měření glykémie v 1. dni postakutní péče."
   data_type: Numeric
   Numeric:
     unit: count
@@ -1368,8 +1818,12 @@
     default_buckets: 8
 
 - canonical: DAY_2_HYPERGLYCEMIA_CHECKS
-  synonyms: ['day 2 hyperglycemia checks']
-  description: 'Number of times blood sugar was checked on day 1 of post-acute care.'
+  synonyms: ["day 2 hyperglycemia checks"]
+  descriptions:
+    en: "Number of times blood sugar was checked on day 2 of post-acute care."
+    es: "Número de veces que se controló la glucemia el día 2 de la atención posaguda."
+    el: "Πόσες φορές ελέγχθηκε το σάκχαρο αίματος τη 2η ημέρα της μετα-οξείας φροντίδας."
+    cs: "Počet měření glykémie ve 2. dni postakutní péče."
   data_type: Numeric
   Numeric:
     unit: count
@@ -1378,8 +1832,12 @@
     default_buckets: 8
 
 - canonical: DAY_3_HYPERGLYCEMIA_CHECKS
-  synonyms: ['day 3 hyperglycemia checks']
-  description: 'Number of times blood sugar was checked on day 1 of post-acute care.'
+  synonyms: ["day 3 hyperglycemia checks"]
+  descriptions:
+    en: "Number of times blood sugar was checked on day 3 of post-acute care."
+    es: "Número de veces que se controló la glucemia el día 3 de la atención posaguda."
+    el: "Πόσες φορές ελέγχθηκε το σάκχαρο αίματος την 3η ημέρα της μετα-οξείας φροντίδας."
+    cs: "Počet měření glykémie ve 3. dni postakutní péče."
   data_type: Numeric
   Numeric:
     unit: count
@@ -1388,190 +1846,246 @@
     default_buckets: 8
 
 - canonical: INSULIN_ON_HYPERGLYCEMIA
-  synonyms: ['insulin on hyperglycemia']
-  description: 'Insulin administration on the first elevated blood sugar (>=10 mmol/L (180 mg/dl)).'
+  synonyms: ["insulin on hyperglycemia"]
+  descriptions:
+    en: "Insulin administration on the first elevated blood sugar (≥ 10 mmol/L (180 mg/dl))."
+    es: "Administración de insulina ante la primera glucemia elevada (≥ 10 mmol/L; 180 mg/dl)."
+    el: "Χορήγηση ινσουλίνης στην πρώτη αυξημένη τιμή σακχάρου αίματος (≥ 10 mmol/L, 180 mg/dl)."
+    cs: "Podání inzulinu při prvním zvýšeném vyšetření glykémie (≥ 10 mmol/l; 180 mg/dl)."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: SWALLOWING_SCREENING
-  synonyms: ['swallowing screening performed']
-  description: 'Performance of swallowing screening.'
+  synonyms: ["swallowing screening performed"]
+  descriptions:
+    en: "Performance of swallowing screening."
+    es: "Realización de cribado de la deglución."
+    el: "Διενέργεια ελέγχου κατάποσης."
+    cs: "Provedení screeningu polykání."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
     - key: not_applicable
-      synonyms: ['not applicable']
+      synonyms: ["not applicable"]
 
 - canonical: SWALLOWING_SCREENING_TYPE
-  synonyms: ['swallowing screening type']
-  description: 'Types of performed swallowing screening.'
+  synonyms: ["swallowing screening type"]
+  descriptions:
+    en: "Types of performed swallowing screening."
+    es: "Tipos de cribado de la deglución realizados."
+    el: "Τύποι δοκιμασιών ελέγχου κατάποσης που πραγματοποιήθηκαν."
+    cs: "Typy provedených testů screeningu polykání."
   data_type: Enum
   Enum:
     - key: guss
-      synonyms: ['guss']
+      synonyms: ["guss"]
     - key: assist
-      synonyms: ['assist']
+      synonyms: ["assist"]
     - key: water_test
-      synonyms: ['water test']
+      synonyms: ["water test"]
     - key: other
-      synonyms: ['other']
+      synonyms: ["other"]
 
 - canonical: SWALLOWING_SCREENING_PERFORMER
-  synonyms: ['swallowing screening performer']
-  description: 'Types of specialists perfoming swallowing screening.'
+  synonyms: ["swallowing screening performer"]
+  descriptions:
+    en: "Types of specialists performing swallowing screening."
+    es: "Tipos de profesionales que realizan el cribado de la deglución."
+    el: "Τύποι επαγγελματιών υγείας που διενεργούν τον έλεγχο κατάποσης."
+    cs: "Typy specialistů, kteří provádějí screening polykání."
   data_type: Enum
   Enum:
     - key: nurse
-      synonyms: ['nurse']
+      synonyms: ["nurse"]
     - key: physician
-      synonyms: ['physician']
+      synonyms: ["physician"]
     - key: speech_therapist
-      synonyms: ['speech therapist']
+      synonyms: ["speech therapist"]
     - key: other
-      synonyms: ['other']
+      synonyms: ["other"]
 
 - canonical: PHYSIOTHERAPY
-  synonyms: ['physiotherapy received']
-  description: 'Recieving physiotherapy.'
+  synonyms: ["physiotherapy received"]
+  descriptions:
+    en: "Receiving physiotherapy."
+    es: "Recepción de fisioterapia."
+    el: "Λήψη φυσιοθεραπείας."
+    cs: "Zajištění fyzioterapie."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
     - key: not_required
-      synonyms: ['not required']
+      synonyms: ["not required"]
 
 - canonical: OCCUPATIONAL_THERAPY
-  synonyms: ['occupational therapy received']
-  description: 'Recieving occupational therapy (ergotherapy).'
+  synonyms: ["occupational therapy received"]
+  descriptions:
+    en: "Receiving occupational therapy (ergotherapy)."
+    es: "Recepción de terapia ocupacional (ergoterapia)."
+    el: "Λήψη εργοθεραπείας."
+    cs: "Zajištění ergoterapie (pracovní terapie)."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
     - key: not_required
-      synonyms: ['not required']
+      synonyms: ["not required"]
 
 - canonical: SPEECH_THERAPY
-  synonyms: ['speech therapy received']
-  description: 'Recieving speech therapy.'
+  synonyms: ["speech therapy received"]
+  descriptions:
+    en: "Receiving speech therapy."
+    es: "Recepción de logopedia/terapia del habla."
+    el: "Λήψη λογοθεραπείας."
+    cs: "Zajištění logopedické péče."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
     - key: not_required
-      synonyms: ['not required']
+      synonyms: ["not required"]
 
 - canonical: DISCHARGE_DESTINATION
-  synonyms: ['discharge destination']
-  description: 'Types of discharge destinations.'
+  synonyms: ["discharge destination"]
+  descriptions:
+    en: "Types of discharge destinations."
+    es: "Tipos de destinos al alta."
+    el: "Τύποι προορισμών κατά το εξιτήριο."
+    cs: "Typy cílových míst při propuštění."
   data_type: Enum
   Enum:
     - key: home
-      synonyms: ['home']
+      synonyms: ["home"]
     - key: same_hospital
-      synonyms: ['same hospital']
+      synonyms: ["same hospital"]
     - key: another_hospital
-      synonyms: ['another hospital']
+      synonyms: ["another hospital"]
     - key: social_care
-      synonyms: ['social care facility']
+      synonyms: ["social care facility"]
     - key: dead
-      synonyms: ['dead']
+      synonyms: ["dead"]
 
 - canonical: DISCHARGE_MEDICATIONS
-  synonyms: ['medications at discharge']
-  description: 'Types of medication prescribed on discharge.'
+  synonyms: ["medications at discharge"]
+  descriptions:
+    en: "Types of medication prescribed on discharge."
+    es: "Tipos de medicación prescrita al alta."
+    el: "Τύποι φαρμακευτικής αγωγής που συνταγογραφήθηκαν κατά το εξιτήριο."
+    cs: "Typy medikace předepsané při propuštění."
   data_type: Enum
   Enum:
     - key: discharge_antidiabetics
-      synonyms: ['antidiabetics at discharge']
+      synonyms: ["antidiabetics at discharge"]
     - key: discharge_antihypertensives
-      synonyms: ['antihypertensives at discharge']
+      synonyms: ["antihypertensives at discharge"]
     - key: discharge_statin
-      synonyms: ['statin at discharge']
+      synonyms: ["statin at discharge"]
     - key: discharge_any_anticoagulant
-      synonyms: ['anticoagulants at discharge']
+      synonyms: ["anticoagulants at discharge"]
     - key: discharge_any_antiplatelet
-      synonyms: ['antiplatelets at discharge']
+      synonyms: ["antiplatelets at discharge"]
     - key: discharge_other
-      synonyms: ['other medications at discharge']
+      synonyms: ["other medications at discharge"]
 
 - canonical: DISCHARGE_ANTICOAGULANTS_AFIB
-  synonyms: ['anticoagulants at discharge in atrial fibrillation']
-  description: 'Prescription of anticoagulants on discharge for patients with atrial fibrallation.'
+  synonyms: ["anticoagulants at discharge in atrial fibrillation"]
+  descriptions:
+    en: "Prescription of anticoagulants on discharge for patients with atrial fibrillation."
+    es: "Prescripción de anticoagulantes al alta en pacientes con fibrilación auricular."
+    el: "Χορήγηση αντιπηκτικών κατά το εξιτήριο σε ασθενείς με κολπική μαρμαρυγή."
+    cs: "Předepsání antikoagulancií při propuštění u pacientů s fibrilací síní."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: DISCHARGE_ANTICOAGULANT_TYPE_AFIB
-  synonyms: ['anticoagulant type at discharge in atrial fibrillation']
-  description: 'Types of prescribed anticoagulants on discharge for patients with atrial fibrillation.'
+  synonyms: ["anticoagulant type at discharge in atrial fibrillation"]
+  descriptions:
+    en: "Types of prescribed anticoagulants on discharge for patients with atrial fibrillation."
+    es: "Tipos de anticoagulantes prescritos al alta en pacientes con fibrilación auricular."
+    el: "Τύποι αντιπηκτικών που συνταγογραφήθηκαν κατά το εξιτήριο σε ασθενείς με κολπική μαρμαρυγή."
+    cs: "Typy antikoagulancií předepsaných při propuštění u pacientů s fibrilací síní."
   data_type: Enum
   Enum:
     - key: discharge_warfarin
-      synonyms: ['warfarin at discharge']
+      synonyms: ["warfarin at discharge"]
     - key: discharge_dabigatran
-      synonyms: ['dabigatran at discharge']
+      synonyms: ["dabigatran at discharge"]
     - key: discharge_rivaroxaban
-      synonyms: ['rivaroxaban at discharge']
+      synonyms: ["rivaroxaban at discharge"]
     - key: discharge_apixaban
-      synonyms: ['apixaban at discharge']
+      synonyms: ["apixaban at discharge"]
     - key: discharge_edoxaban
-      synonyms: ['edoxaban at discharge']
+      synonyms: ["edoxaban at discharge"]
     - key: discharge_heparin
-      synonyms: ['heparin at discharge']
+      synonyms: ["heparin at discharge"]
     - key: discharge_other_anticoagulant
-      synonyms: ['other anticoagulant at discharge']
+      synonyms: ["other anticoagulant at discharge"]
 
 - canonical: DISCHARGE_ANTIPLATELETS_NO_AFIB
-  synonyms: ['antiplatelets at discharge without atrial fibrillation']
-  description: 'Prescription of antiplatelets on discharge for patients without atrial fibrallation.'
+  synonyms: ["antiplatelets at discharge without atrial fibrillation"]
+  descriptions:
+    en: "Prescription of antiplatelets on discharge for patients without atrial fibrillation."
+    es: "Prescripción de antiagregantes plaquetarios al alta en pacientes sin fibrilación auricular."
+    el: "Χορήγηση αντιαιμοπεταλιακών φαρμάκων κατά το εξιτήριο σε ασθενείς χωρίς κολπική μαρμαρυγή."
+    cs: "Předepsání antiagregační léčby při propuštění u pacientů bez fibrilace síní."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: DISCHARGE_ANTIPLATELET_TYPE_NO_AFIB
-  synonyms: ['antiplatelet type at discharge without atrial fibrillation']
-  description: 'Types of prescribed antiplatelets on discharge for patients with atrial fibrillation.'
+  synonyms: ["antiplatelet type at discharge without atrial fibrillation"]
+  descriptions:
+    en: "Types of prescribed antiplatelets on discharge for patients without atrial fibrillation."
+    es: "Tipos de antiagregantes plaquetarios prescritos al alta en pacientes sin fibrilación auricular."
+    el: "Τύποι αντιαιμοπεταλιακών που συνταγογραφήθηκαν κατά το εξιτήριο σε ασθενείς χωρίς κολπική μαρμαρυγή."
+    cs: "Typy antiagregační léčby předepsané při propuštění u pacientů bez fibrilace síní."
   data_type: Enum
   Enum:
     - key: discharge_asa
-      synonyms: ['aspirin at discharge']
+      synonyms: ["aspirin at discharge"]
     - key: discharge_cilostazol
-      synonyms: ['cilostazol at discharge']
+      synonyms: ["cilostazol at discharge"]
     - key: discharge_clopidogrel
-      synonyms: ['clopidogrel at discharge']
+      synonyms: ["clopidogrel at discharge"]
     - key: discharge_ticagrelor
-      synonyms: ['ticagrelor at discharge']
+      synonyms: ["ticagrelor at discharge"]
     - key: discharge_ticlopidine
-      synonyms: ['ticlopidine at discharge']
+      synonyms: ["ticlopidine at discharge"]
     - key: discharge_prasugrel
-      synonyms: ['prasugrel at discharge']
+      synonyms: ["prasugrel at discharge"]
     - key: discharge_dipyridamole
-      synonyms: ['dipyridamole at discharge']
+      synonyms: ["dipyridamole at discharge"]
     - key: discharge_other_antiplatelet
-      synonyms: ['other antiplatelet at discharge']
+      synonyms: ["other antiplatelet at discharge"]
 
 - canonical: DISCHARGE_MRS
-  synonyms: ['discharge Modified Rankin Scale','discharge mrs']
-  description: 'Modified Rankin Scale score taken on dicharge.'
+  synonyms: ["discharge Modified Rankin Scale", "discharge mrs"]
+  descriptions:
+    en: "Modified Rankin Scale score taken on discharge."
+    es: "Puntuación de la escala de Rankin modificada registrada al alta."
+    el: "Βαθμολογία στην τροποποιημένη κλίμακα Rankin κατά το εξιτήριο."
+    cs: "Skóre na škále Modified Rankin zaznamenané při propuštění."
   data_type: Numeric
   Numeric:
     unit: score
@@ -1580,30 +2094,43 @@
     default_buckets: 6
 
 - canonical: SMOKING_CESSATION
-  synonyms: ['smoking cessation recommended']
-  description: 'Recommendation of smoking cessation on discharge.'
+  synonyms: ["smoking cessation recommended"]
+  descriptions:
+    en: "Recommendation of smoking cessation on discharge."
+    es: "Recomendación de abandono del tabaquismo al alta."
+    el: "Σύσταση διακοπής καπνίσματος κατά το εξιτήριο."
+    cs: "Doporučení zanechání kouření při propuštění."
   data_type: Enum
   Enum:
-    - key: 'yes'
-      synonyms: ['yes']
-    - key: 'no'
-      synonyms: ['no']
+    - key: "yes"
+      synonyms: ["yes"]
+    - key: "no"
+      synonyms: ["no"]
 
 - canonical: STROKE_MANAGEMENT_APPOINTMENT
-  synonyms: ['stroke management appointment']
-  description: 'Recommendation on discharge to see cerebrovascular expert for stroke management.'
+  synonyms: ["stroke management appointment"]
+  descriptions:
+    en: "Recommendation on discharge to see a cerebrovascular expert for stroke management."
+    es: "Recomendación al alta de acudir a un especialista en enfermedad cerebrovascular para el manejo del ictus."
+    el: "Σύσταση κατά το εξιτήριο για επίσκεψη σε ειδικό αγγειακών εγκεφαλικών επεισοδίων για τη διαχείριση του εγκεφαλικού."
+    cs: "Doporučení při propuštění k návštěvě cerebrovaskulárního specialisty kvůli další léčbě iktu."
   data_type: Enum
   Enum:
     - key: scheduled
-      synonyms: ['scheduled']
+      synonyms: ["scheduled"]
     - key: not_scheduled
-      synonyms: ['not scheduled']
+      synonyms: ["not scheduled"]
     - key: not_recommended
-      synonyms: ['not recommended']
+      synonyms: ["not recommended"]
 
 - canonical: THREE_MONTH_MRS
-  synonyms: ['three-month Modified Rankin Scale', 'three-month mrs', '3-month mrs']
-  description: 'Modified Rankin Scale score taken three month after stroke onset.'
+  synonyms:
+    ["three-month Modified Rankin Scale", "three-month mrs", "3-month mrs"]
+  descriptions:
+    en: "Modified Rankin Scale score taken three months after stroke onset."
+    es: "Puntuación de la escala de Rankin modificada registrada a los tres meses del inicio del ictus."
+    el: "Βαθμολογία στην τροποποιημένη κλίμακα Rankin τρεις μήνες μετά την έναρξη του εγκεφαλικού επεισοδίου."
+    cs: "Skóre na škále Modified Rankin zaznamenané tři měsíce po vzniku iktu."
   data_type: Numeric
   Numeric:
     unit: score
@@ -1612,8 +2139,12 @@
     default_buckets: 6
 
 - canonical: HOSPITAL_STAY
-  synonyms: ['length of hospital stay']
-  description: 'Lenght of hospitalization.'
+  synonyms: ["length of hospital stay"]
+  descriptions:
+    en: "Length of hospitalization."
+    es: "Duración de la estancia hospitalaria."
+    el: "Διάρκεια νοσηλείας στο νοσοκομείο."
+    cs: "Délka hospitalizace."
   data_type: Numeric
   Numeric:
     unit: days
@@ -1622,8 +2153,12 @@
     default_buckets: 20
 
 - canonical: DISCHARGE_NIHSS
-  synonyms: ['discharge NIH Stroke Scale', 'discharge NIHSS']
-  description: 'NIH Stroke Scale scores taken during admission.'
+  synonyms: ["discharge NIH Stroke Scale", "discharge NIHSS"]
+  descriptions:
+    en: "NIH Stroke Scale scores taken at discharge."
+    es: "Puntuaciones de la NIH Stroke Scale registradas al alta."
+    el: "Βαθμολογίες NIH Stroke Scale που λαμβάνονται κατά το εξιτήριο."
+    cs: "Hodnoty NIH Stroke Scale zaznamenané při propuštění."
   data_type: Numeric
   Numeric:
     unit: score
@@ -1632,8 +2167,12 @@
     default_buckets: 14
 
 - canonical: DTI
-  synonyms: ['door to imaging', 'door to imaging time']
-  description: 'Door-To-Imaging time in minutes.'
+  synonyms: ["door to imaging", "door to imaging time"]
+  descriptions:
+    en: "Door-To-Imaging time in minutes."
+    es: "Tiempo puerta-imagen en minutos."
+    el: "Χρόνος door-to-imaging σε λεπτά."
+    cs: "Door-to-imaging čas v minutách."
   data_type: Numeric
   Numeric:
     unit: minutes
@@ -1642,8 +2181,12 @@
     default_buckets: 24
 
 - canonical: ONSET_TO_DOOR
-  synonyms: ['onset to door', 'time from onset to door']
-  description: 'Time from stroke onset to the first door of treating hospital.'
+  synonyms: ["onset to door", "time from onset to door"]
+  descriptions:
+    en: "Time from stroke onset to the first door of treating hospital."
+    es: "Tiempo desde el inicio del ictus hasta la primera puerta del hospital tratante."
+    el: "Χρόνος από την έναρξη του εγκεφαλικού επεισοδίου έως την πρώτη πόρτα του θεράποντος νοσοκομείου."
+    cs: "Čas od začátku iktu k prvnímu dveřnímu kontaktu v léčící nemocnici."
   data_type: Numeric
   Numeric:
     unit: minutes
